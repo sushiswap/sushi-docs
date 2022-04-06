@@ -18,7 +18,7 @@ const config = {
 
 	presets: [
 		[
-			'classic',
+			'@docusaurus/preset-classic',
 			/** @type {import('@docusaurus/preset-classic').Options} */
 			({
 				docs: {
@@ -164,9 +164,9 @@ const config = {
 					},
 				],
 			},
-			// prism: {
-			// 	additionalLanguages: ['solidity'],
-			// },
+			prism: {
+				defaultMode: darkCodeTheme,
+			},
 			colorMode: {
 				defaultMode: 'dark',
 				disableSwitch: false,
