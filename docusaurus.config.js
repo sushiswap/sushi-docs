@@ -6,113 +6,173 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+	title: 'Sushiswap Docs',
+	tagline: 'Documentation & Important Links',
+	url: 'https://your-docusaurus-test-site.com',
+	baseUrl: '/',
+	onBrokenLinks: 'warn',
+	onBrokenMarkdownLinks: 'ignore',
+	favicon: 'img/favicon.ico',
+	organizationName: 'Sushiswap', // Usually your GitHub org/user name.
+	projectName: 'sushi-docs', // Usually your repo name.
 
-  presets: [
-    [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
-        docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        theme: {
-          customCss: require.resolve('./src/css/custom.css'),
-        },
-      }),
-    ],
-  ],
+	presets: [
+		[
+			'classic',
+			/** @type {import('@docusaurus/preset-classic').Options} */
+			({
+				docs: {
+					sidebarPath: require.resolve('./sidebars.js'),
+					// Please change this to your repo.
+					editUrl:
+						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+				},
+				blog: {
+					showReadingTime: true,
+					// Please change this to your repo.
+					editUrl:
+						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+				},
+				theme: {
+					customCss: require.resolve('./src/css/custom.css'),
+				},
+			}),
+		],
+	],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+	themeConfig:
+		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+		({
+			navbar: {
+				title: 'Sushiswap Docs',
+				logo: {
+					alt: 'Sushiswap Logo',
+					src: 'img/logo.svg',
+				},
+				items: [
+					{
+						type: 'docsVersionDropdown',
+						docsPluginId: 'default',
+						position: 'left',
+						dropdownActiveClassDisabled: true,
+						className: 'persistent',
+					},
+					{
+						to: '/protocol/reference/smart-contracts',
+						label: 'Contracts',
+						position: 'left',
+					},
+					{
+						to: '/sdk/introduction',
+						label: 'SDK',
+						position: 'left',
+					},
+					{
+						to: '/sdk/swap-widget',
+						label: 'Widgets',
+						position: 'left',
+					},
+					{
+						to: '/protocol/reference/smart-contracts',
+						label: 'Subgraph (API)',
+						position: 'left',
+					},
+					{
+						to: '/protocol/concepts/governance/overview',
+						label: 'Governance',
+						position: 'left',
+					},
+					{
+						to: 'https://sushiswap.com/whitepaper',
+						label: 'Whitepaper',
+						position: 'right',
+						className: 'persistent',
+					},
+					{
+						href: 'https://github.com/sushiswap',
+						label: 'Github',
+						position: 'right',
+						className: 'persistent',
+					},
+				],
+			},
+			footer: {
+				style: 'dark',
+				links: [
+					{
+						title: 'Github',
+						items: [
+							{
+								label: 'sushiswap-contracts',
+								href: 'https://github.com/sushiswap/sushiswap',
+							},
+							{
+								label: 'sushiswap-interface',
+								href: 'https://github.com/sushiswap/interface',
+							},
+							{
+								label: 'sushiswap-sdk',
+								href: 'https://github.com/sushiswap/sdk',
+							},
+							{
+								label: 'Deployment Addresses',
+								href: 'https://boringcrypto.github.io/DAOView/#/chefs',
+							},
+						],
+					},
+					{
+						title: 'Ecosystem',
+						items: [
+							{
+								label: 'Home',
+								href: 'https://www.sushi.com/',
+							},
+							{
+								label: 'App',
+								href: 'https://app.sushi.com/en/swap',
+							},
+							{
+								label: 'Analytics',
+								href: 'https://app.sushi.com/analytics/1/dashboard',
+							},
+							{
+								label: 'Token Lists',
+								href: 'https://app.sushi.com/analytics/1/tokens',
+							},
+						],
+					},
+					{
+						title: 'Community',
+						items: [
+							{
+								label: 'Governance',
+								href: 'https://forum.sushi.com/',
+							},
+							{
+								label: 'Discord',
+								href: 'https://discord.com/invite/NVPXN4e',
+							},
+							{
+								label: 'Twitter',
+								href: 'https://twitter.com/sushiswap',
+							},
+							{
+								label: 'Blog',
+								href: 'https://medium.com/sushiswap-org',
+							},
+						],
+					},
+				],
+			},
+			// prism: {
+			// 	additionalLanguages: ['solidity'],
+			// },
+			colorMode: {
+				defaultMode: 'dark',
+				disableSwitch: false,
+				respectPrefersColorScheme: true,
+			},
+		}),
 };
 
 module.exports = config;
