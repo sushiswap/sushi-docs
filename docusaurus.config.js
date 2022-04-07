@@ -50,13 +50,13 @@ const config = {
 					src: 'img/sushilogo.png',
 				},
 				items: [
-					{
-						type: 'docsVersionDropdown',
-						docsPluginId: 'default',
-						position: 'left',
-						dropdownActiveClassDisabled: true,
-						className: 'persistent',
-					},
+					// {
+					// 	type: 'docsVersionDropdown',
+					// 	docsPluginId: 'default',
+					// 	position: 'left',
+					// 	dropdownActiveClassDisabled: true,
+					// 	className: 'persistent',
+					// },
 					{
 						to: '/protocol/reference/smart-contracts',
 						label: 'Contracts',
