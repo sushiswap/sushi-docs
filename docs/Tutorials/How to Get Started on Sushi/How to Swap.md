@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # How to Swap
 
 SushiSwap makes cryptocurrency trading simple. Starting with a swap is the best way to get better acquainted with Sushi.com. Tokens ready? Let’s start swapping!
