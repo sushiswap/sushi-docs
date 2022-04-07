@@ -19,7 +19,7 @@ export const quickLinks = [
 		title: 'What is Sushiswap',
 		href: '#',
 		icon: InformationCircleIcon,
-		to: './protocol/intro',
+		to: './docs/intro',
 		text: `Learn about the core concepts of the Sushiswap Protocol. Swaps, Pools, Lending and more.`,
 	},
 	{
@@ -238,7 +238,7 @@ export default function Home() {
 							flexDirection: 'column',
 							alignItems: 'center',
 						}}>
-						<h1 style={{ fontWeight: '600' }}> Sushiswap Docs</h1>
+						<h1 style={{ fontWeight: '700' }}> Sushiswap Docs</h1>
 						<HideMedium>
 							<SearchBar />{' '}
 						</HideMedium>
