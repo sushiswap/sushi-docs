@@ -29,11 +29,8 @@
   --ifm-h5-font-size: 0.875rem;
   --ifm-h6-font-size: 0.85rem;
 
-  /* --ifm-table-border-color: var(--ifm-color-emphasis-100); */
-  /* --ifm-toc-border-color: none; */
   --ifm-toc-border-width: 1px;
 
-  /* --ifm-menu-color: var(--ifm-color-emphasis-900); */
   --ifm-menu-color-background-active: transparent;
   --ifm-menu-color-background-hover: transparent;
 
@@ -43,7 +40,6 @@
     0 2px 4px 0 rgba(0, 0, 0, 0.1);
 
   --ifm-global-spacing: 1.5rem;
-  /* --ifm-navbar-background-color: rgba(255, 0.2); */
 }
 
 html {
@@ -54,9 +50,6 @@ html[data-theme="dark"] {
   --ifm-color-primary: white;
   --ifm-color-primary-dark: #5a91ea;
 
-  /* --ifm-color-secondary: black; */
-
-  /* --ifm-background-color: #191b1f; */
   --ifm-navbar-background-color: #191b1f;
   --ifm-global-shadow-md: 0 5px 4px rgba(255, 255, 255, 0.448);
 
@@ -66,13 +59,10 @@ html[data-theme="dark"] {
       rgba(33, 114, 229, 0.1) 0%,
       rgba(33, 36, 41, 0) 100%);
 
-  /* any other colors you wish to overwrite */
 }
 
 html[data-theme="light"] {
   --ifm-color-primary: black;
-  /* --ifm-color-secondary: white; */
-  /* --ifm-background-color: #F1F1F2; */
 
   background-position: 0px -30vh;
   background-repeat: no-repeat;
@@ -80,7 +70,6 @@ html[data-theme="light"] {
       rgba(255, 0, 122, 0.1) 0%,
       rgba(255, 255, 255, 0) 100%);
 
-  /* any other colors you wish to overwrite */
 }
 
 .html {
@@ -92,7 +81,6 @@ html[data-theme="light"] {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* font-feature-settings: "ss01"on, "ss02"on, "cv01"on, "cv03"on; */
   font-weight: 400;
 }
 
@@ -150,18 +138,25 @@ h4 {
 }
 
 html[data-theme="dark"] .navbar {
-  /* background-color: none; */
   border-bottom: var(--ifm-toc-border-color) 1px solid;
 }
 
+html[data-theme="dark"] footer {
+  background-color: rgb(75, 75, 75);
+  border-top: var(--ifm-toc-border-color) .5px solid;
+}
+
 html[data-theme="light"] .navbar {
-  /* background-color: none; */
   border-bottom: var(--ifm-toc-border-color) 1px solid;
+}
+
+html[data-theme="light"] footer {
+  background-color: rgb(192, 192, 192);
+  border-top: var(--ifm-toc-border-color) .5px solid;
 }
 
 .container {
   padding: 0px;
-  /* margin: 4rem auto 0px; */
   max-width: 90% !important;
 }
 
@@ -201,10 +196,6 @@ html[data-theme="light"] .navbar {
 .menu__link {
   font-size: 16px;
   font-weight: 400;
-}
-
-html[data-theme="dark"] .navbar__logo {
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(337deg) brightness(112%) contrast(104%);
 }
 
 .docusaurus-highlight-code-line {

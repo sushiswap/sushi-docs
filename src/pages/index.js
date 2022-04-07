@@ -246,8 +246,8 @@ export default function Home() {
 					<StyledTitleImage
 						alt='Docusaurus themed image'
 						sources={{
-							light: useBaseUrl('/img/grow.png'),
-							dark: useBaseUrl('/img/grow2.png'),
+							light: useBaseUrl('/img/sushibg.jpg'),
+							dark: useBaseUrl('/img/sushibg.jpg'),
 						}}
 					/>
 					<Row>

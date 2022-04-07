@@ -47,7 +47,7 @@ const config = {
 				title: 'Sushiswap Docs',
 				logo: {
 					alt: 'Sushiswap Logo',
-					src: 'img/logo.svg',
+					src: 'img/sushilogo.png',
 				},
 				items: [
 					{
