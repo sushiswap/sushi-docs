@@ -1,4 +1,4 @@
-# How to create a Miso Auction
+# How to Create a Miso Auction
 
 _Please note that while the final form of the UI will continue to change, the primary functions, inputs and information can be expected to stay relatively similar. This page will be revised as we adapt our Auction pages._
 

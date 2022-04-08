@@ -26,7 +26,7 @@ export const quickLinks = [
 		title: 'Smart Contract Overview',
 		href: '#',
 		icon: BookOpenIcon,
-		to: './protocol/reference/smart-contracts',
+		to: './docs/Developers/Overview',
 		text: `Learn about the architecture of the Sushiswap Protocol smart contracts.`,
 	},
 	{
@@ -40,9 +40,9 @@ export const quickLinks = [
 
 export const Guides = [
 	{
-		title: 'SDK Quick Start',
-		text: 'Learn to interact with the Sushiswap Protocol',
-		to: './sdk/guides/thisguidename',
+		title: 'AMM Quick Start',
+		text: 'Learn to interact with the Sushiswap AMM',
+		to: './docs/Tutorials/How%20to%20Get%20Started%20on%20Sushi/How%20to%20Swap',
 	},
 	{
 		title: 'Kashi Quick Start',
@@ -50,19 +50,14 @@ export const Guides = [
 		to: './kashi/guides/thisguidename',
 	},
 	{
-		title: 'Shoyu Quick Start',
-		text: 'Learn to interact with the groundbreaking NFT platform Shoyu',
-		to: './shoyu/guides/thisguidename',
+		title: 'Furo Quick Start',
+		text: 'Learn to stream and vest tokens with Furo',
+		to: './furo/guides/thisguidename',
 	},
 	{
 		title: 'Subgraph Quick Start',
 		text: 'Learn to interact with the Sushiswap Protocol suite of subgraphs',
-		to: './subgraph/guides/thisguidename',
-	},
-	{
-		title: 'SDK Quick Start',
-		text: 'Learn to interact with the Sushiswap Protocol',
-		to: './sdk/guides/thisguidename',
+		to: './docs/Developers/API/Overview',
 	},
 ];
 

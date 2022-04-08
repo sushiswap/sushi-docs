@@ -50,7 +50,7 @@ const config = {
 					// 	className: 'persistent',
 					// },
 					{
-						to: '/protocol/reference/smart-contracts',
+						to: '/docs/Developers/Overview',
 						label: 'Contracts',
 						position: 'left',
 					},
@@ -60,23 +60,29 @@ const config = {
 						position: 'left',
 					},
 					{
-						to: '/sdk/swap-widget',
-						label: 'Widgets',
-						position: 'left',
-					},
-					{
-						to: '/protocol/reference/smart-contracts',
+						to: '/docs/Developers/API/Overview',
 						label: 'Subgraph (API)',
 						position: 'left',
 					},
 					{
-						to: '/protocol/concepts/governance/overview',
+						to: '/docs/Governance/Current%20Governance%20Model',
 						label: 'Governance',
+						position: 'left',
+					},
+					{
+						to: '/docs/Ecosystem/Overview',
+						label: 'Ecosystem',
 						position: 'left',
 					},
 					{
 						to: 'https://sushiswap.com/whitepaper',
 						label: 'Whitepaper',
+						position: 'right',
+						className: 'persistent',
+					},
+					{
+						to: '/docs/FAQ',
+						label: 'FAQ',
 						position: 'right',
 						className: 'persistent',
 					},
