@@ -81,7 +81,7 @@ const config = {
 						className: 'persistent',
 					},
 					{
-						to: '/docs/FAQ',
+						to: '/docs/FAQ/General%20FAQ',
 						label: 'FAQ',
 						position: 'right',
 						className: 'persistent',
