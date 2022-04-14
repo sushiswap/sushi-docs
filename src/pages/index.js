@@ -5,12 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import SearchBar from '@theme-original/SearchBar';
-import {
-	InformationCircleIcon,
-	QuestionMarkCircleIcon,
-	BookOpenIcon,
-	CodeIcon,
-} from '@heroicons/react/outline';
+import { InformationCircleIcon, CodeIcon } from '@heroicons/react/outline';
 
 import styled from '@emotion/styled';
 
@@ -23,18 +18,18 @@ export const quickLinks = [
 		text: `Learn about the core concepts of the Sushiswap Protocol. Swaps, Pools, Lending and more.`,
 	},
 	{
-		title: 'Smart Contract Overview',
+		title: 'Developers',
 		href: '#',
-		icon: BookOpenIcon,
+		icon: InformationCircleIcon,
 		to: './docs/Developers/Overview',
-		text: `Learn about the architecture of the Sushiswap Protocol smart contracts.`,
+		text: `Learn about the architecture of the Sushiswap smart contracts and how to build on top of the protocol.`,
 	},
 	{
-		title: 'V2 SDK',
+		title: 'Tutorials',
 		href: '#',
-		icon: QuestionMarkCircleIcon,
-		to: './sdk/intro',
-		text: `Learn about the Sushiswap SDK, designed to assist developers when interacting with the protocol.`,
+		icon: InformationCircleIcon,
+		to: './docs/Tutorials/Overview',
+		text: `Learn step by step how to use the Sushiswap suite of services and how to leverage them to your advantage.`,
 	},
 ];
 
@@ -48,11 +43,6 @@ export const Guides = [
 		title: 'Kashi Quick Start',
 		text: 'Learn to interact with the Sushiswap lending service Kashi',
 		to: './kashi/guides/thisguidename',
-	},
-	{
-		title: 'Furo Quick Start',
-		text: 'Learn to stream and vest tokens with Furo',
-		to: './furo/guides/thisguidename',
 	},
 	{
 		title: 'Subgraph Quick Start',

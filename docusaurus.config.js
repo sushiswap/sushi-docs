@@ -55,11 +55,6 @@ const config = {
 						position: 'left',
 					},
 					{
-						to: '/sdk/introduction',
-						label: 'SDK',
-						position: 'left',
-					},
-					{
 						to: '/docs/Developers/API/Overview',
 						label: 'Subgraph (API)',
 						position: 'left',
