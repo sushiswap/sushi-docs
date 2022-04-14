@@ -11,7 +11,9 @@ sidebar_position: 1
 ### Where can I check my staked SLP (SUSHI Liquidity Provider) tokens value?
 
 [https://zapper.fi/](https://zapper.fi/)
+
 [https://debank.com/](https://debank.com/)
+
 [https://apy.vision/](https://apy.vision/)
 
 ### What is impermanent loss (IL)?
