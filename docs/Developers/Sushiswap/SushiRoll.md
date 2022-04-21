@@ -32,9 +32,9 @@ Migrates existing Uniswap LP tokens to SushiSwap LP tokens and permits the move 
 | `amountAMin` | uint256 | minimum amount of Uniswap LP tokens to migrate            |
 | `amountBMin` | uint256 | minimum amount of SushiSwap LP tokens to migrate over to  |
 | `deadline`   | uint256 | current timestamp                                         |
-| `v`          | uint8   | ?                                                         |
-| `r`          | bytes32 | ?                                                         |
-| `s`          | bytes32 | ?                                                         |
+| `v`          | uint8   | recovery byte of the signature                            |
+| `r`          | bytes32 | half of the ECDSA signature pair                          |
+| `s`          | bytes32 | half of the ECDSA signature pair                          |
 
 ### migrate
 

@@ -41,7 +41,7 @@ Sets the bridge to use. Can only be called by the owner of the contract. !!
 function _convert(address token0, address token1) internal
 ```
 
-Internal function that converts tokens to SUSHI for xSUSHI holders. Called by `convert`. !!
+Internal function called by `convert`, which converts tokens to SUSHI for xSUSHI holders. !!
 
 #### Parameters
 
@@ -94,7 +94,7 @@ Allows batch conversion of tokens to SUSHI for xSUSHI holders. !!
     ) internal returns (uint256 sushiOut)
 ```
 
-Internal function that helps swap the given tokens into SUSHI. !!
+Private function that calculates and returns the amount of SUSHI to be given after conversion. !!
 
 #### Parameters
 
