@@ -2,6 +2,8 @@
 
 SushiRoll helps migrate your existing Uniswap LP tokens to SushiSwap LP tokens.
 
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiRoll.sol).
+
 ## Functions
 
 ### migrateWithPermit

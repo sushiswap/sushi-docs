@@ -1,6 +1,6 @@
 # SushiMakerKashi
 
-This contract handles "serving up" rewards for xSUSHI holders by trading tokens collected from Kashi fees for SUSHI.
+SushiMakerKashi handles "serving up" rewards for xSUSHI holders by trading tokens collected from Kashi fees for SUSHI.
 
 The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMakerKashi.sol).
 
