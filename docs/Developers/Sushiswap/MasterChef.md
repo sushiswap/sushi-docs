@@ -1,12 +1,14 @@
 # MasterChef
 
-Gives out a constant number of SUSHI per block, for liquidity providers that stake
+The MasterChef gives out a constant number of SUSHI per block, for liquidity providers that stake
 SLP tokens within contract.
 
 New ERC20s or pools are added/updated by the owner of the contract with allocation
 points that determines the number of SUSHI rewarded to each pool.
 
 MasterChef is the only contract with minting rights for the SUSHI token.
+
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MasterChefV2.sol).
 
 ## Functions
 
@@ -56,11 +58,11 @@ by the owner.
 
 #### Parameters:
 
-| Name          | Type    | Description                                       |
-| :------------ | :------ | :------------------------------------------------ |
-| `_pid`        | uint256 | id for individual pool                            |
-| `_allocPoint` | uint256 | number of allocation points assigned to pool      |
-| `_withUpdate` | bool    | bool to call massUpdatePools or not               |
+| Name          | Type    | Description                                  |
+| :------------ | :------ | :------------------------------------------- |
+| `_pid`        | uint256 | id for individual pool                       |
+| `_allocPoint` | uint256 | number of allocation points assigned to pool |
+| `_withUpdate` | bool    | bool to call massUpdatePools or not          |
 
 ### setMigrator
 
@@ -75,9 +77,9 @@ and can only be called by the owner.
 
 #### Parameters
 
-| Name          | Type          | Description                  |
-| :------------ | :------------ | :--------------------------- |
-| `_migrator`   | IMigratorChef | address of migrator contract |
+| Name        | Type          | Description                  |
+| :---------- | :------------ | :--------------------------- |
+| `_migrator` | IMigratorChef | address of migrator contract |
 
 ### migrate
 
@@ -96,7 +98,6 @@ that migrator contract is good.
 | :----- | :------ | :--------------------- |
 | `_pid` | uint256 | id for individual pool |
 
-
 ### getMultiplier
 
 ```solidity
@@ -106,7 +107,7 @@ function getMultiplier(
 ) public view returns (uint256)
 ```
 
-Polls and returns reward multiplier over a given _from to _to block.
+Polls and returns reward multiplier over a given \_from to \_to block.
 
 #### Parameters
 
@@ -157,9 +158,9 @@ pools that aren't as active to keep them up-to-date when updating allocation poi
 
 #### Parameters
 
-| Name    | Type    | Description            |
-| :------ | :------ | :--------------------- |
-| `_pid`  | uint256 | id for individual pool |
+| Name   | Type    | Description            |
+| :----- | :------ | :--------------------- |
+| `_pid` | uint256 | id for individual pool |
 
 ### deposit
 
@@ -210,9 +211,9 @@ To be only used for emergencies or problems with harvesting rewards.
 
 #### Parameters
 
-| Name      | Type    | Description                  |
-| :-------- | :------ | :--------------------------- |
-| `_pid`    | uint256 | id for individual pool       |
+| Name   | Type    | Description            |
+| :----- | :------ | :--------------------- |
+| `_pid` | uint256 | id for individual pool |
 
 ### safeSushiTransfer
 
