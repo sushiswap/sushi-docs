@@ -91,7 +91,7 @@ Sets the factory to be locked or unlocked.
 function setCurrentTemplateId(uint256 _templateType, uint256 _templateId) external
 ```
 
-Sets the current template ID for any type.
+Sets the current template ID for any type. Must have operator access.
 
 #### Parameters
 
