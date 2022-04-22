@@ -11,7 +11,7 @@ import styled from '@emotion/styled';
 
 export const quickLinks = [
 	{
-		title: 'What is Sushiswap',
+		title: 'What is SushiSwap',
 		href: '#',
 		icon: InformationCircleIcon,
 		to: './docs/intro',
@@ -211,8 +211,8 @@ export default function Home() {
 	const { siteConfig } = useDocusaurusContext();
 	return (
 		<Layout
-			title={`Sushiswap Docs`}
-			description='Official Documentation for the Sushiswap Protocol'>
+			title={`SushiSwap Docs`}
+			description='Official Documentation for the SushiSwap Protocol'>
 			<Container>
 				<DocsHeader>
 					<div
@@ -223,7 +223,7 @@ export default function Home() {
 							flexDirection: 'column',
 							alignItems: 'center',
 						}}>
-						<h1 style={{ fontWeight: '700' }}> Sushiswap Docs</h1>
+						<h1 style={{ fontWeight: '700' }}> SushiSwap Docs</h1>
 						<HideMedium>
 							<SearchBar />{' '}
 						</HideMedium>
@@ -270,7 +270,7 @@ export default function Home() {
 					<div>
 						<h2>Getting Started</h2>
 						<p>
-							Explore these docs to get started integrating the Sushiswap
+							Explore these docs to get started integrating the SushiSwap
 							Protocol in your dApp, smart contract or project.
 						</p>
 						<div>
@@ -301,7 +301,7 @@ export default function Home() {
 					<div>
 						<h2>Developer Links</h2>
 						<p>
-							The Sushiswap codebase is comprised of an ecosystem of open source
+							The SushiSwap codebase is comprised of an ecosystem of open source
 							components.
 						</p>
 						{github.map((action) => (

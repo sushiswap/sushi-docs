@@ -23,6 +23,7 @@ sidebar_position: 2
 [https://debank.com/ranking/dex](https://debank.com/ranking/dex)
 
 **Social Media:**
+
 [Medium](https://medium.com/sushiswap-org)
 
 [Twitter](https://twitter.com/sushiswap)
