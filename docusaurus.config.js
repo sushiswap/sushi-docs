@@ -3,14 +3,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Sushiswap Docs',
+	title: 'SushiSwap Docs',
 	tagline: 'Documentation & Important Links',
 	url: 'https://your-docusaurus-test-site.com',
 	baseUrl: '/',
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
-	organizationName: 'Sushiswap',
+	organizationName: 'SushiSwap',
 	projectName: 'sushi-docs',
 
 	presets: [
@@ -36,19 +36,12 @@ const config = {
 		/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
 		({
 			navbar: {
-				title: 'Sushiswap Docs',
+				title: 'SushiSwap Docs',
 				logo: {
 					alt: 'Sushiswap Logo',
 					src: 'img/sushilogo.png',
 				},
 				items: [
-					// {
-					// 	type: 'docsVersionDropdown',
-					// 	docsPluginId: 'default',
-					// 	position: 'left',
-					// 	dropdownActiveClassDisabled: true,
-					// 	className: 'persistent',
-					// },
 					{
 						to: '/docs/Developers/Overview',
 						label: 'Contracts',

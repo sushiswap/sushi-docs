@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Bentobox/Kashi FAQ
+# BentoBox/Kashi FAQ
 
 ### What are isolated risk markets?
 
