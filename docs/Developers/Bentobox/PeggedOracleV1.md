@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # PeggedOracleV1
 
 This is the contract for the oracle used for pegged prices that _don't change._

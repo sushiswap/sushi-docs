@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # KashiPairMediumRiskV2
 
 This contract contains one of the Kashi strategies used on top of BentoBox.

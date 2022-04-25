@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # BentoBox
 
 The BentoBox is a vault for tokens. The stored tokens can be flashloaned or used in strategies - the yield from this will go to the token depositors.
