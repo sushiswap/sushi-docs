@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # MISOMarket
 
 MISOMarket is a factory contract to help you conveniently deploy your own source code verified auctions.

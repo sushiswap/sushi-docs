@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # MISOTokenFactory
 
 MISOTokenFactory is a factory contract to deploy your very own, source code verified token contracts.

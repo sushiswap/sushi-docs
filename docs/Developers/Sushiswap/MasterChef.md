@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # MasterChef
 
 The MasterChef gives out a constant number of SUSHI per block, for liquidity providers that stake
@@ -35,7 +39,7 @@ Adds a new SLP/Token to be staked, and can only be called by the owner.
 
 Adding duplicate pools can cause problems with the rewards.
 
-#### Parameters:
+#### Parameters
 
 | Name          | Type    | Description                                  |
 | :------------ | :------ | :------------------------------------------- |
@@ -56,7 +60,7 @@ function set(
 Updates the allocation points assigned to an existing pool, and can only be called
 by the owner.
 
-#### Parameters:
+#### Parameters
 
 | Name          | Type    | Description                                  |
 | :------------ | :------ | :------------------------------------------- |
@@ -224,7 +228,7 @@ function safeSushiTransfer(
 ) internal
 ```
 
-Internal function to be used just in case of rounding error that causes pool to
+Internal function to be used in case of rounding error that causes pool to
 not have enough SUSHI.
 
 #### Parameters

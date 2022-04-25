@@ -1,3 +1,7 @@
+---
+sidebar_position: 8
+---
+
 # SushiToken
 
 This is the contract for the Sushi Token with governance.

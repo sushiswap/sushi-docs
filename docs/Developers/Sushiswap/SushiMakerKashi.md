@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # SushiMakerKashi
 
 SushiMakerKashi handles "serving up" rewards for xSUSHI holders by trading tokens collected from Kashi fees for SUSHI.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # SushiBar
 
 SushiBar is the coolest bar in town - you come in with some SUSHI, and you leave with more! The longer you stay, the more SUSHI you get :)

@@ -6,52 +6,428 @@ import TabItem from '@theme/TabItem';
 Below is a list of our core contracts and their addresses across _all_ of the chains you can find us on.
 
 <Tabs>
+
 <TabItem value='eth' label='Ethereum' default>
 
 ### Mainnet
 
-| Name              | Address                                      | Source Code |
-| :---------------- | :------------------------------------------- | :---------- |
-| `MasterChef`      | `0xc2EdaD668740f1aA35E4D8f227fB8E17dcA888Cd` |
-| `MasterChefV2`    | `0xef0881ec094552b2e128cf945ef17a6752b4ec5d` |
-| `MiniChefV2`      | ``                                           |
-| `SushiV2Factory`  | `0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac` |
-| `SushiSwapRouter` | `0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F` |
-| `BentoBoxV1`      | `0xF5BCE5077908a1b7370B9ae04AdC565EBd643966` |
-| `PeggedOracleV1`  | `0x6cbfbB38498Df0E1e7A4506593cDB02db9001564` |
+| Name                  | Address                                      | Source Code                                                                                             |
+| :-------------------- | :------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| `MasterChef`          | `0xc2EdaD668740f1aA35E4D8f227fB8E17dcA888Cd` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MasterChef.sol)                     |
+| `MasterChefV2`        | `0xef0881ec094552b2e128cf945ef17a6752b4ec5d` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MasterChefV2.sol)                   |
+| `MiniChefV2`          | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                     |
+| `SushiV2Factory`      | `0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)     |
+| `SushiSwapRouter`     | `0xd9e1cE17f2641f24aE83637ab66a2cca9C378B9F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol)    |
+| `BentoBoxV1`          | `0xF5BCE5077908a1b7370B9ae04AdC565EBd643966` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/bentobox/BentoBoxV1.sol)            |
+| `PeggedOracleV1`      | `0x6cbfbB38498Df0E1e7A4506593cDB02db9001564` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/bentobox/PeggedOracleV1.sol)        |
+| `KashiPairMediumRisk` | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/bentobox/KashiPairMediumRiskV1.sol) |
+| `Multicall2`          | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/Multicall2.sol)                     |
+| `SushiBar`            | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiBar.sol)                       |
+| `SushiMaker`          | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol)                     |
+| `SushiMakerKashi`     | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMakerKashi.sol)                |
+| `SushiRoll`           | ``                                           | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiRoll.sol)                      |
+| `SushiToken`          | `0x6B3595068778DD592e39A122f4f5a5cF09C90fE2` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiToken.sol)                     |
+
+### Testnets (Goerli / Kovan / Rinkeby / Ropsten)
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | `0x80C7DD17B01855a6D2347444a0FCC36136a314de` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MasterChef.sol)                  |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `SushiBar`        | `0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiBar.sol)                    |
+| `SushiMaker`      | `0x1b9d177CcdeA3c79B6c8F40761fc8Dc9d0500EAa` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMaker.sol)                  |
+| `SushiRoll`       | `0xCaAbdD9Cf4b61813D4a52f980d6BC1B713FE66F5` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiRoll.sol)                   |
+| `SushiToken`      | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiToken.sol)                  |
+
+</TabItem>
+
+<TabItem value='polygon' label='Polygon'>
+
+### Polygon
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                  |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
 | `Multicall2`      | ``                                           |
 | `SushiBar`        | ``                                           |
 | `SushiMaker`      | ``                                           |
 | `SushiMakerKashi` | ``                                           |
 | `SushiRoll`       | ``                                           |
-| `SushiToken`      | `0x6B3595068778DD592e39A122f4f5a5cF09C90fE2` |
+| `SushiToken`      | ``                                           |
 
-### Testnets (Rinkeby / Ropsten)
+### Testnet (Mumbai)
 
-| Name              | Address                                      | Source Code |
-| :---------------- | :------------------------------------------- | :---------- |
-| `MasterChef`      | `0x80C7DD17B01855a6D2347444a0FCC36136a314de` |
-| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` |
-| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` |
-| `SushiBar`        | `0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c` |
-| `SushiMaker`      | `0x1b9d177CcdeA3c79B6c8F40761fc8Dc9d0500EAa` |
-| `SushiRoll`       | `0xCaAbdD9Cf4b61813D4a52f980d6BC1B713FE66F5` |
-| `SushiToken`      | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` |
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
 
 </TabItem>
-	<TabItem value='polygon' label='Polygon'></TabItem>
-	<TabItem value='arbitrum' label='Arbitrum'></TabItem>
-	<TabItem value='avax' label='Avalanche'></TabItem>
-	<TabItem value='movr' label='Moonriver'></TabItem>
-	<TabItem value='ftm' label='Fantom'></TabItem>
-	<TabItem value='bsc' label='BSC'></TabItem>
-	<TabItem value='gnosis' label='Gnosis'></TabItem>
-	<TabItem value='harmony' label='Harmony'></TabItem>
-	<TabItem value='telos' label='Telos'></TabItem>
-	<TabItem value='celo' label='Celo'></TabItem>
-	<TabItem value='fuse' label='Fuse'></TabItem>
-	<TabItem value='okex' label='OKEx'></TabItem>
-	<TabItem value='palm' label='Palm'></TabItem>
-	<TabItem value='moonbeam' label='Moonbeam'></TabItem>
-	<TabItem value='heco' label='HECO'></TabItem>
+
+<TabItem value='arbitrum' label='Arbitrum'>
+
+### Arbitrum
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | `0xF4d73326C13a4Fc5FD7A064217e12780e9Bd62c3` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                  |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | `0x80C7DD17B01855a6D2347444a0FCC36136a314de` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/Multicall2.sol)                  |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='avax' label='Avalanche'>
+
+### Avalanche (Mainnet C-Chain)
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+### Testnet (Fuji)
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |                                                                                                      |
+| `MasterChefV2`    | ``                                           |                                                                                                      |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+
+</TabItem>
+
+<TabItem value='movr' label='Moonriver'>
+
+### Moonriver
+
+| Name                  | Address                                      | Source Code                                                                                          |
+| :-------------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`          | ``                                           |
+| `MasterChefV2`        | ``                                           |
+| `MiniChefV2`          | `0x3dB01570D97631f69bbb0ba39796865456Cf89A5` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                  |
+| `SushiV2Factory`      | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter`     | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `ComplexRewarderTime` | `0x1334c8e873E1cae8467156e2A81d1C8b566B2da1` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/mocks/ComplexRewarderTime.sol)   |
+| `PeggedOracleV1`      | ``                                           |
+| `Multicall2`          | ``                                           |
+| `SushiBar`            | ``                                           |
+| `SushiMaker`          | ``                                           |
+| `SushiMakerKashi`     | ``                                           |
+| `SushiRoll`           | ``                                           |
+| `SushiToken`          | ``                                           |
+
+</TabItem>
+
+<TabItem value='ftm' label='Fantom'>
+
+### Fantom
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='bsc' label='BSC'>
+
+### BSC
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | `0x677978de066b3f5414eea56644d9fca3c75482a1` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiRoll.sol)                   |
+| `SushiToken`      | ``                                           |
+
+### Testnet
+
+| Name              | Address                                      | Source Code                                                                                         |
+| :---------------- | :------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol) |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` |
+
+</TabItem>
+
+<TabItem value='gnosis' label='Gnosis'>
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | `0xdDCbf776dF3dE60163066A5ddDF2277cB445E0F3` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                  |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='harmony' label='Harmony'>
+
+### Harmony
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | `0x67dA5f2FfaDDfF067AB9d5F025F8810634d84287` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                  |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+### Testnet
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+
+</TabItem>
+
+<TabItem value='telos' label='Telos'>
+
+### Telos
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='celo' label='Celo'>
+
+### Celo
+
+| Name                  | Address                                      | Source Code                                                                                         |
+| :-------------------- | :------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
+| `MasterChef`          | ``                                           |
+| `MasterChefV2`        | ``                                           |
+| `MiniChefV2`          | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                 |
+| `SushiV2Factory`      | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol) |
+| `SushiSwapRouter`     | ``                                           |
+| `ComplexRewarderTime` | `0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/mocks/ComplexRewarderTime.sol)  |
+| `PeggedOracleV1`      | ``                                           |
+| `Multicall2`          | ``                                           |
+| `SushiBar`            | ``                                           |
+| `SushiMaker`          | ``                                           |
+| `SushiMakerKashi`     | ``                                           |
+| `SushiRoll`           | ``                                           |
+| `SushiToken`          | ``                                           |
+
+</TabItem>
+
+<TabItem value='fuse' label='Fuse'>
+
+# Fuse
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0x43eA90e2b786728520e4f930d2A71a477BF2737C` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0xF4d73326C13a4Fc5FD7A064217e12780e9Bd62c3` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/Multicall2.sol)                  |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='okex' label='OKEx'>
+
+### OKEx
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+### Testnet
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+
+</TabItem>
+
+<TabItem value='palm' label='Palm'>
+
+### Palm
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/Multicall2.sol)                  |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='moonbeam' label='Moonbeam'>
+
+### Moonbeam
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | `0x011E52E4E40CF9498c79273329E8827b21E2e581` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MiniChefV2.sol)                  |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | `0x0769fd68dFb93167989C6f7254cd0D766Fb2841F` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/Multicall2.sol)                  |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+</TabItem>
+
+<TabItem value='heco' label='HECO'>
+
+### HECO
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+| `BentoBoxV1`      | ``                                           |
+| `PeggedOracleV1`  | ``                                           |
+| `Multicall2`      | ``                                           |
+| `SushiBar`        | ``                                           |
+| `SushiMaker`      | ``                                           |
+| `SushiMakerKashi` | ``                                           |
+| `SushiRoll`       | ``                                           |
+| `SushiToken`      | ``                                           |
+
+### Testnet
+
+| Name              | Address                                      | Source Code                                                                                          |
+| :---------------- | :------------------------------------------- | :--------------------------------------------------------------------------------------------------- |
+| `MasterChef`      | ``                                           |
+| `MasterChefV2`    | ``                                           |
+| `MiniChefV2`      | ``                                           |
+| `SushiV2Factory`  | `0xc35DADB65012eC5796536bD9864eD8773aBc74C4` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Factory.sol)  |
+| `SushiSwapRouter` | `0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506` | [Code](https://github.com/sushiswap/sushiswap/blob/canary/contracts/uniswapv2/UniswapV2Router02.sol) |
+
+</TabItem>
+
 </Tabs>

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # MISOFarmFactory
 
 MISOFarmFactory is a factory contract to conveniently deploy your own token farming contracts.

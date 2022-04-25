@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # FuroStream
 
 FuroStream allows you to create and update token streams, complete with full deposit / withdraw functionality - all on BentoBox!

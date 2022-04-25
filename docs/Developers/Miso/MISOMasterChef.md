@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # MISOMasterChef
 
 The MISOMasterChef contract is in charge of alll the rewards in MISO... he's kind of a big deal.

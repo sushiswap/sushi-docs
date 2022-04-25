@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # MISOFermenter
 
 MISOFermenter is a factory to conveniently deploy your own token vault contracts.

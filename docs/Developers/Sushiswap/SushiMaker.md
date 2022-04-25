@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # SushiMaker
 
 SushiMaker handles "serving up" rewards for xSUSHI holders by trading tokens collected from fees for SUSHI.

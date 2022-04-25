@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # MISOLauncher
 
 MISOLauncher is a factory contract to conveniently deploy your _own_ liquidity contracts.

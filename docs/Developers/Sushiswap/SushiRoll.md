@@ -1,3 +1,7 @@
+---
+sidebar_position: 7
+---
+
 # SushiRoll
 
 SushiRoll helps migrate your existing Uniswap LP tokens to SushiSwap LP tokens.
