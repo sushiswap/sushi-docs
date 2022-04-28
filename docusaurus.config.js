@@ -58,7 +58,7 @@ const config = {
 						position: 'left',
 					},
 					{
-						to: '/docs/Ecosystem/Overview',
+						to: '/docs/Ecosystem/Build%20on%20Sushiswap',
 						label: 'Ecosystem',
 						position: 'left',
 					},

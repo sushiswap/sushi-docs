@@ -1,4 +1,4 @@
-# How to Place A Limit Order
+# How to Place a Limit Order
 
 Limit order v2 is currently deployed on Matic. To access the limit order feature, follow this [link](https://app.sushi.com/limit-order) and the subsequent prompts to connect your wallet to Matic. When you have done this, you will see that you can select a token to sell, a token to buy, and the desired conversion or limit price. In the image below, the user has selected the MATIC/USDC pair, and he has selected the current market price as the conversion rate of the limit order.
 
@@ -8,18 +8,18 @@ You will also notice that the user has the ability to move funds from their Meta
 
 ![](/img/tutimg/htpalo/htpalo2.png)
 
-After you have deposited tokens into the BentoBox, you can place your limit order. In the two images below, the user first clicks the ‘Current’ button to determine the market price, and in the second image, he lowers the price in the bottom price box to the desired price.
+After you have deposited tokens into the BentoBox, you can place your limit order. In the two images below, the user first clicks the _Current_ button to determine the market price, and in the second image, they lower the price in the bottom price box to the desired price.
 
 ![](/img/tutimg/htpalo/htpalo3.png)
 ![](/img/tutimg/htpalo/htpalo4.png)
 
-When you click ‘Review Limit Order,’ you will be prompted with a pop up message, asking you to confirm the limit order. After you confirm on the pop up, you will be asked to sign the transaction on your digital wallet. This is a gasless signature.
+When you click _Review Limit Order,_ you will be prompted with a pop up message asking you to confirm the limit order. After you confirm on the pop up, you will be asked to sign the transaction on your digital wallet; this is a gasless signature.
 
 ![](/img/tutimg/htpalo/htpalo5.png)
 
 ![](/img/tutimg/htpalo/htpalo6.png)
 
-If you then click ‘My Orders’ in the upper right hand of the swapper box, you will see your open orders, as in the left image below. Once the price is in the desired range, limit orders on SushiSwap may take 3-5 minutes to execute. Once the order has executed, you will see your order in your order history, as in the right image below.
+If you then click _My Orders_ in the upper right hand of the swapper box, you will see your open orders, as in the left image below. Once the price is in the desired range, limit orders on SushiSwap may take 3-5 minutes to execute. Once the order has executed, you will see your order in your order history, as in the right image below.
 
 ![](/img/tutimg/htpalo/htpalo7.png)
 
