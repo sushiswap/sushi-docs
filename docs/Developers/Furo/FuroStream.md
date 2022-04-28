@@ -84,10 +84,10 @@ Creates a new token stream.
 
 #### Returns
 
-| Name              | Type    | Description                         |
-| :---------------- | :------ | :---------------------------------- |
-| `streamId`        | uint256 | new stream's ID                     |
-| `depositedShares` | uint256 | amount of shres deposited in stream |
+| Name              | Type    | Description                          |
+| :---------------- | :------ | :----------------------------------- |
+| `streamId`        | uint256 | new stream's ID                      |
+| `depositedShares` | uint256 | amount of shares deposited in stream |
 
 ### withdrawFromStream
 

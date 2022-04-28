@@ -30,7 +30,7 @@ function createVesting(
         returns (uint256 depositedShares, uint256 vestId)
 ```
 
-Creates a vesting. !!
+Creates a vesting schedule for the token stream.
 
 #### Parameters
 
@@ -63,7 +63,7 @@ Creates a vesting. !!
     ) external override
 ```
 
-Withdraws from the vestment.
+Withdraws from the vesting.
 
 #### Parameters
 
@@ -79,7 +79,7 @@ Withdraws from the vestment.
 function stopVesting(uint256 vestId, bool toBentoBox) external override
 ```
 
-Stops a vestment.
+Stops a vesting.
 
 #### Parameters
 
@@ -98,7 +98,7 @@ function vestBalance(uint256 vestId)
         returns (uint256)
 ```
 
-View function that returns the current balance of the vestment.
+View function that returns the current balance of the vesting.
 
 #### Parameters
 
@@ -115,7 +115,7 @@ function _balanceOf(Vest memory vest)
         returns (uint256 claimable)
 ```
 
-Internal function that returns the amount of claimable tokens from a vestment, given the specific vestment object.
+Internal function that returns the amount of claimable tokens from a vesting, given the specific vestment object.
 
 #### Parameters
 
@@ -135,7 +135,7 @@ Internal function that returns the amount of claimable tokens from a vestment, g
 function updateOwner(uint256 vestId, address newOwner) external override
 ```
 
-Sets the new owner of a vestment. Must be current owner to set.
+Sets the new owner of a vesting. Must be current owner to set.
 
 #### Parameters
 
