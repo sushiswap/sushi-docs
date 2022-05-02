@@ -1,14 +1,12 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 ---
 
-# SushiBar
+# Entities
 
 Entities for the SushiBar subgraph are all listed below.
 
-## Entities
-
-### Bar
+## Bar
 
 | Field                | Type       | Description                      |
 | :------------------- | :--------- | :------------------------------- |
@@ -30,7 +28,7 @@ Entities for the SushiBar subgraph are all listed below.
 | `users`              | [Users]    | array of users                   |
 | `updatedAt`          | BigInt     | timestamp bar was updated at     |
 
-### User
+## User
 
 | Field                | Type       | Description                        |
 | :------------------- | :--------- | :--------------------------------- |

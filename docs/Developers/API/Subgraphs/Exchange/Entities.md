@@ -1,12 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 1
 ---
 
-# Exchange
+# Entities
 
 Entities for the Exchange subgraph are all listed below.
-
-## Entities
 
 ### Factory
 

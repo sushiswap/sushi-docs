@@ -48,7 +48,7 @@ const config = {
 						position: 'left',
 					},
 					{
-						to: '/docs/Developers/API/Overview',
+						to: '/docs/Developers/API/Subgraphs/Overview',
 						label: 'Subgraph (API)',
 						position: 'left',
 					},

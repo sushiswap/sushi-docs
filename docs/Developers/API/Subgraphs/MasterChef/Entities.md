@@ -1,14 +1,12 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 ---
 
-# MasterChef
+# Entities
 
 Entities for the MasterChef subgraph are all listed below.
 
-## Entities
-
-### MasterChef
+## MasterChef
 
 | Field             | Type       | Description                     |
 | :---------------- | :--------- | :------------------------------ |
@@ -31,7 +29,7 @@ Entities for the MasterChef subgraph are all listed below.
 | `history`         | [History]  | array of history                |
 | `updatedAt`       | BigInt     | timestamp of most recent update |
 
-### History
+## History
 
 | Field           | Type       | Description                                     |
 | :-------------- | :--------- | :---------------------------------------------- |
@@ -45,7 +43,7 @@ Entities for the MasterChef subgraph are all listed below.
 | `timestamp`     | BigInt     | timestamp                                       |
 | `block`         | BigInt     | block                                           |
 
-### Pool
+## Pool
 
 | Field               | Type       | Description                      |
 | :------------------ | :--------- | :------------------------------- |
@@ -70,7 +68,7 @@ Entities for the MasterChef subgraph are all listed below.
 | `block`             | BigInt     | block                            |
 | `updatedAt`         | BigInt     | timestamp of most recent update  |
 
-### Pool History
+## Pool History
 
 | Field               | Type       | Description                                                               |
 | :------------------ | :--------- | :------------------------------------------------------------------------ |
@@ -92,7 +90,7 @@ Entities for the MasterChef subgraph are all listed below.
 | `block`             | BigInt     | block                                                                     |
 | `updatedAt`         | BigInt     | timestamp of most recent update                                           |
 
-### User
+## User
 
 | Field                          | Type       | Description                                   |
 | :----------------------------- | :--------- | :-------------------------------------------- |

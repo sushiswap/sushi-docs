@@ -1,14 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Maker
+# Entities
 
 Entities for the Maker subgraph are all listed below.
 
-## Entities
-
-### Maker
+## Maker
 
 | Field         | Type       | Description           |
 | :------------ | :--------- | :-------------------- |
@@ -17,7 +15,7 @@ Entities for the Maker subgraph are all listed below.
 | `servers`     | [Server]   | array of servers      |
 | `servings`    | [Serving]  | array of servings     |
 
-### Server
+## Server
 
 | Field         | Type       | Description       |
 | :------------ | :--------- | :---------------- |
