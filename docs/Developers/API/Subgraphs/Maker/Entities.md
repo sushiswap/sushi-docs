@@ -23,3 +23,19 @@ Entities for the Maker subgraph are all listed below.
 | `maker`       | Maker      | maker             |
 | `sushiServed` | BigDecimal | SUSHI served      |
 | `servings`    | [Serving]  | array of servings |
+
+## Serving
+
+| Field         | Type    | Description   |
+| :------------ | :------ | :------------ |
+| `id`          | ID      | maker address |
+| `maker`       | Maker   | maker         |
+| `server`      | Server  | server        |
+| `tx`          | Bytes   | ...           |
+| `token0`      | Bytes   | ...           |
+| `token1`      | Bytes   | ...           |
+| `amount0`     | BigInt  | ...           |
+| `amount1`     | BigInt  | ...           |
+| `amountSushi` | Big Int | ...           |
+| `block`       | Big Int | ...           |
+| `timestmap`   | Big Int | ...           |
