@@ -12,7 +12,8 @@ Entities for the MasterChef subgraph are all listed below.
 | :---------------- | :--------- | :------------------------------ |
 | `id`              | ID         | chef address                    |
 | `bonusMultiplier` | BigInt     | bonus multiplier                |
-| `devaddr`         | Bytes      | dev address                     |
+| `bonusEndBlock`   | BigInt     | block to end bonuses on         |
+| `devaddr`         | Bytes      | dev fund address                |
 | `migrator`        | Bytes      | migrator address                |
 | `owner`           | Bytes      | owner address                   |
 | `startBlock`      | BigInt     | start block                     |
@@ -31,29 +32,30 @@ Entities for the MasterChef subgraph are all listed below.
 
 ## History
 
-| Field           | Type       | Description                                     |
-| :-------------- | :--------- | :---------------------------------------------- |
-| `id`            | ID         | unix timestamp for the start of the day / 86400 |
-| `owner`         | Bytes      | owner address                                   |
-| `slpBalance`    | BigDecimal | SLP balance                                     |
-| `slpAge`        | BigDecimal | age of SLP                                      |
-| `slpAgeRemoved` | BigDecimal | SLP age removed                                 |
-| `slpDeposited`  | BigDecimal | amount of SLP deposited                         |
-| `slpWithdrawn`  | BigDecimal | amount of SLP withdrawn                         |
-| `timestamp`     | BigInt     | timestamp                                       |
-| `block`         | BigInt     | block                                           |
+| Field           | Type       | Description                                |
+| :-------------- | :--------- | :----------------------------------------- |
+| `id`            | ID         | MasterChef ID concantenated with timestamp |
+| `owner`         | Bytes      | owner address (MasterChef, Pool, or User)  |
+| `slpBalance`    | BigDecimal | SLP balance                                |
+| `slpAge`        | BigDecimal | age of SLP                                 |
+| `slpAgeRemoved` | BigDecimal | SLP age removed                            |
+| `slpDeposited`  | BigDecimal | amount of SLP deposited                    |
+| `slpWithdrawn`  | BigDecimal | amount of SLP withdrawn                    |
+| `timestamp`     | BigInt     | timestamp                                  |
+| `block`         | BigInt     | block                                      |
 
 ## Pool
 
 | Field               | Type       | Description                      |
 | :------------------ | :--------- | :------------------------------- |
-| `id`                | ID         | id                               |
-| `owner`             | Bytes      | owner address                    |
+| `id`                | ID         | index of pool                    |
+| `owner`             | MasterChef | owner address                    |
 | `pair`              | Bytes      | pair address                     |
 | `allocPoint`        | BigInt     | allocation point                 |
 | `lastRewardBlock`   | BigInt     | last reward block                |
 | `accSushiPerShare`  | BigInt     | accumulated SUSHI per share      |
 | `users`             | [User]     | array of users                   |
+| `balance`           | BigInt     | SLP token balance                |
 | `userCount`         | BigInt     | number of users                  |
 | `slpBalance`        | BigDecimal | SLP balance                      |
 | `slpAge`            | BigDecimal | age of SLP                       |
@@ -74,8 +76,6 @@ Entities for the MasterChef subgraph are all listed below.
 | :------------------ | :--------- | :------------------------------------------------------------------------ |
 | `id`                | ID         | pool id concatenated with unix timestamp for the start of the day / 86400 |
 | `pool`              | Pool       | pool                                                                      |
-| `pair`              | Bytes      | pair address                                                              |
-| `users`             | [User]     | array of users                                                            |
 | `userCount`         | BigInt     | number of users                                                           |
 | `slpBalance`        | BigDecimal | SLP balance                                                               |
 | `slpAge`            | BigDecimal | age of SLP                                                                |
@@ -88,21 +88,19 @@ Entities for the MasterChef subgraph are all listed below.
 | `exitUSD`           | BigDecimal | all time exits in USD                                                     |
 | `timestamp`         | BigInt     | timestamp                                                                 |
 | `block`             | BigInt     | block                                                                     |
-| `updatedAt`         | BigInt     | timestamp of most recent update                                           |
 
 ## User
 
-| Field                          | Type       | Description                                   |
-| :----------------------------- | :--------- | :-------------------------------------------- |
-| `id`                           | ID         | user address                                  |
-| `pool`                         | Pool       | pool                                          |
-| `amount`                       | BigInt     | amount                                        |
-| `rewardDebt`                   | BigInt     | amount of reward debt                         |
-| `entryUSD`                     | BigDecimal | all time entries in USD                       |
-| `exitUSD`                      | BigDecimal | all time exits in USD                         |
-| `sushiHarvested`               | BigDecimal | amount of SUSHI harvested                     |
-| `sushiHarvestedUSD`            | BigDecimal | amount of SUSHI harvested in USD              |
-| `sushiHarvestedSinceLockup`    | BigDecimal | amount of SUSHI harvested since lockup        |
-| `sushiHarvestedSinceLockupUSD` | BigDecimal | amount of SUSHI harvested since lockup in USD |
-| `timestamp`                    | BigInt     | timestamp                                     |
-| `block`                        | BigInt     | block                                         |
+| Field               | Type       | Description                            |
+| :------------------ | :--------- | :------------------------------------- |
+| `id`                | ID         | pool ID concatenated with user address |
+| `address`           | Bytes      | user address                           |
+| `pool`              | Pool       | pool                                   |
+| `amount`            | BigInt     | amount                                 |
+| `rewardDebt`        | BigInt     | amount of reward debt                  |
+| `entryUSD`          | BigDecimal | all time entries in USD                |
+| `exitUSD`           | BigDecimal | all time exits in USD                  |
+| `sushiHarvested`    | BigDecimal | amount of SUSHI harvested              |
+| `sushiHarvestedUSD` | BigDecimal | amount of SUSHI harvested in USD       |
+| `timestamp`         | BigInt     | timestamp                              |
+| `block`             | BigInt     | block                                  |
