@@ -2,7 +2,7 @@
 
 We have added lists to our markets with a number of use cases in mind, though we expect projects launching on MISO will find a bunch more! Our MISO lists are a way to control, wallet-by-wallet, the total value available to a participant in a Market event.
 
-Once set up and deployed alongside an upcoming market, the List will function at its basis to create a "whitelisted" sale - just add in the wallet address and assign them a full allocation. Where our Lists become potentially even more useful is the ability to assign differing allocations on an individual wallet basis. This allows token allocation via tiered access, according to lottery, extra allocation for NFT holders - cook something new up for your launch!
+Once set up and deployed alongside an upcoming market, the List will function at its core to create a "whitelisted" sale - just add in the wallet address and assign them a full allocation. Where our Lists become potentially even more useful is the ability to assign differing allocations on an individual wallet basis. This allows token allocation via tiered access, according to lottery, extra allocation for NFT holders - cook something new up for your launch!
 
 ## List Options
 
