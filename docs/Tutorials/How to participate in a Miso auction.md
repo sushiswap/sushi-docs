@@ -40,4 +40,4 @@ Once you feel confident that you have all the information needed and want to mov
 
 _Auction Approval_
 
-Congratulations! You have now successfully participated in a MISO auction, go kill some time and come back once the auction has ended; if it is successful, you will be able to claim your tokens! If the auction failed, you will still be able to get your initial investment back. :)
+Congratulations! You have now successfully participated in a MISO auction, go kill some time and come back once the auction has ended; if it is successful, you will be able to claim your tokens! If the auction failed, you will still be able to get your initial investment back.

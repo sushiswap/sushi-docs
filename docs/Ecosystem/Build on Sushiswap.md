@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Build on Sushiswap
+# Build on SushiSwap
 
 Anyone is welcome to build for and on the SushiSwap platform. The smart contracts can be interacted with by anyone on the blockchain. All of our code is also open source and available at our Github ([here](https://github.com/sushiswap)).
 

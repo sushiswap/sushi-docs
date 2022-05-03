@@ -8,15 +8,15 @@ To start earning rewards, you’ll need to access a wallet, add CELO, and connec
 
 ### Connect Your MetaMask to Celo
 
-**Step 1:** Navigate to [metamask.io](https://metamask.io/) and download a wallet.
+**Step 1.** Navigate to [metamask.io](https://metamask.io/) and download a wallet.
 
 <img src='/img/tutimg/htmc/htmc1.gif' alt="" width="75%" />
 
-**Step 2:** Follow each of the steps provided by MetaMask to set up your wallet.
+**Step 2.** Follow each of the steps provided by MetaMask to set up your wallet.
 
-**Step 3:** Select _Networks_ and choose _Custom RPC_ to add Celo.
+**Step 3.** Select _Networks_ and choose _Custom RPC_ to add Celo.
 
-**Step 4:** Follow [these steps](kjffjsdf) to add the Celo network to your MetaMask wallet.
+**Step 4.** Follow [these steps](kjffjsdf) to add the Celo network to your MetaMask wallet.
 
 <img src='/img/tutimg/htmc/htmc2.gif' alt="" width="75%" />
 

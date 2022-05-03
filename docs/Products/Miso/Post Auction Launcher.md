@@ -2,7 +2,7 @@
 
 Our Pool Liquidity contracts enable the creation and migration of liquidity pools to the SushiSwap exchange. They work by pairing two deposited tokens in a batch - typically this will be a project's own token and a pairing with ETH, allowing immediate uptake on the SushiSwap exchange.
 
-As with all MISO ingredients, this works in Recipes - for instance, using a batch of the funds raised from the Initial Token Sale covered in our Markets sections to pair with. Projects can pre-allocate a number of their minted tokens to the MISO Pool Liquidity contract. Upon a successful Market auction, a portion of the proceeds are sent to the Pool Liquidity contract - and the pair is launched.
+As with all MISO ingredients, this works in Recipes - for example, using a batch of the funds raised from the Initial Token Sale covered in our Markets sections to pair with. Projects can pre-allocate a number of their minted tokens to the MISO Pool Liquidity contract. Upon a successful Market auction, a portion of the proceeds are sent to the Pool Liquidity contract - and the pair is launched.
 
 ## Liquidity Options
 

@@ -21,7 +21,7 @@ This query returns the ID (contract address), decimal count and name of the Sush
 
 ## User
 
-This query grabs the first 15 users of the SushiBar and returns the user ID (user's address), the SushiBar address, the user's total amount of xSUSHI and how much (if any) xSUSHi they deposited.
+This query grabs the first 15 users of the SushiBar and returns the user ID (user's address), the SushiBar address, the user's total amount of xSUSHI and how much (if any) xSUSHI they deposited.
 
 ```
 {

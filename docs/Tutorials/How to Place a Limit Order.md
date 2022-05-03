@@ -14,7 +14,7 @@ After you have deposited tokens into the BentoBox, you can place your limit orde
 
 <img src='/img/tutimg/htpalo/htpalo4.png' alt="" width="50%" />
 
-When you click _Review Limit Order,_ you will be prompted with a pop up message asking you to confirm the limit order. After you confirm on the pop up, you will be asked to sign the transaction on your digital wallet; this is a gasless signature.
+When you click _Review Limit Order,_ you will be prompted with a pop up message asking you to confirm the limit order (left image). After you confirm on the pop up, you will be asked to sign the transaction on your digital wallet; this is a gasless signature (right image).
 
 <img src='/img/tutimg/htpalo/htpalo5.png' alt="" width="50%" />
 

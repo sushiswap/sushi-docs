@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# Miso FAQ
+# MISO FAQ
 
 ### Why should project leaders use MISO?
 
@@ -14,11 +14,11 @@ The smart contracts used in any MISO ingredient are all open source and have bee
 
 ### Will all auctions be held in Ether?
 
-No, launch creators will be able to set the auction currency they believe will best benefit their project. Default options for ETH and Stable Coin are available, as well as the ability to assign any custom token for the auction. With MISO’s eventual offering across multiple chains, chain-specific defaults may be built in.
+No, launch creators will be able to set the auction currency they believe will best benefit their project. Default options for ETH and stablecoin are available, as well as the ability to assign any custom token for the auction. With MISO’s eventual offering across multiple chains, chain-specific defaults may be built in.
 
 ### How does MISO benefit Sushi users and holders?
 
-Miso launches will seamlessly integrate with liquidity pool set up on the Sushiswap platform, increasing overall liquidity and transactions - the direct benefits of additional liquidity and projects on the Sushi exchange are obvious. Holistically, the draw of MISO in bringing new, fledgling communities into the Sushi ecosystem extends far further.
+Miso launches will seamlessly integrate with liquidity pool set up on the SushiSwap platform, increasing overall liquidity and transactions - the direct benefits of additional liquidity and projects on the Sushi exchange are obvious. Holistically, the draw of MISO in bringing new, fledgling communities into the Sushi ecosystem extends far further.
 
 ### Will we be able to launch tokens on different chains as well or will MISO start with ETH?
 
@@ -40,7 +40,7 @@ Yes, these are called MISO Permission Lists. Once set up and deployed alongside 
 
 During auction set up, creators will choose an address to receive collected funds upon finalisation. Following a successful auction, project creators will be able to easily add the tokens they raised to a Liquidity launch contract they have created. Once there is an acceptable total of both tokens, the pair is sent to a created liquidity pool on SushiSwap.
 
-With our first Launcher ingredient, PostAuctionLauncher, a project creator can set this address to work with a pre-created PostAuctionLauncher contract, allowing them to set a percentage of their auction raise to be sent as the pairing with a preallocated amount of their project token.
+With our first Launcher ingredient, _PostAuctionLauncher_, a project creator can set this address to work with a pre-created PostAuctionLauncher contract, allowing them to set a percentage of their auction raise to be sent as the pairing with a preallocated amount of their project token.
 
 ### Will we be able to make farming projects as well using MISO?
 

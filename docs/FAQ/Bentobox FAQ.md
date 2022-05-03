@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ### What are isolated risk markets?
 
-An isolated risk market is a market in which risk is not shared collectively. Whereas platforms like Compound and Aave have to limit their accepted collaterals to a select group of tokens because risk is shared collectively on their platforms, the BentoBox — because it uses isolated risk markets — is able to allow users to provide liquidity for any token. If one token pair goes on the BentoBox goes bottoms up, it only affects that pair, and not the entire platform.
+An isolated risk market is a market in which risk is not shared collectively. Whereas platforms like Compound and Aave have to limit their accepted collaterals to a select group of tokens because risk is shared collectively on their platforms, the BentoBox — because it uses isolated risk markets — is able to allow users to provide liquidity for any token. If one token pair is added on the BentoBox and goes bottoms up, it only affects that pair, and not the entire platform.
 
 ### How do I lend in a market and earn interest?
 
@@ -24,7 +24,7 @@ To create a market, you need to add a new pair. If you want to add, say DEUS and
 
 The elastic interest rate is a means of incentivizing liquidity to hover within an ideal range (70 - 80%). The elastic interest rate optimizes for utilization (borrowed assets / total assets). If the utilization is below the minimum target utilization, the interest rate halves every 8 hours. It is capped at a minimum utilization. If the utilization goes above the maximum target utilization, the interest rate doubles every eight hours. At 100%, utilization it doubles every 8 hours. At 90% it's much slower, and at 80% it's stable. Below 70%, it starts dropping, and at 0% it drops by halving every 8 hours. That is, the elastic interest rate is not linear. Rather, the closer utilization gets to the extremes, the faster it goes.
 
-![](/img/faqimg/bb1.png)
+<img src='/img/faqimg/bb1.png' alt="" width="75%" />
 
 ### Why is the borrowing rate more than the supply rate?
 
@@ -77,4 +77,4 @@ The KMP tokens are an asset that users receive after they add tokens to Kashi. T
 
 Leveraging Short/Long is one of the best use cases of a money market protocol. In the past, if you wanted to obtain leverage through borrowing, it would be time consuming and capital inefficient. You would have to go on a lending protocol like CREAM, borrow an asset against your collateral, go to SushiSwap, swap the borrowed asset for collateral, go back to CREAM, and borrow again to “leverage up.” Kashi does it differently: one click leverage. You can click “Swap borrowed token X for token Y collateral” to leverage up from 0.25x to 2.0x. In the example below, we are adding ETH as collateral, and shorting USDT. By using leverage short, we are swapping USDT (borrowed asset) back to collateral (ETH) for a leveraged up borrowing position—thus shorting USDT and longing ETH.
 
-![](/img/faqimg/bb2.png)
+<img src='/img/faqimg/bb2.png' alt="" width="75%" />

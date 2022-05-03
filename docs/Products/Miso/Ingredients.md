@@ -26,9 +26,9 @@ Below is a list of the current "Ingredients" used in our MISO kitchen at launch.
 - Dutch Auction - Declining priced auction designed to get the best price
 - Batch Auction - All commitments get split pro rata at the end of the auction
 
-**Liquidity** - Migration of a portion of raised funds to Sushiswap
+**Liquidity** - Migration of a portion of raised funds to SushiSwap
 
-- Post Auction Launcher - After an auction is successful, a portion of the auction proceeds can be converted to Sushiswap LP tokens and locked up for a period of time
+- Post Auction Launcher - After an auction is successful, a portion of the auction proceeds can be converted to SushiSwap LP tokens and locked up for a period of time
 
 ## Work In Progress
 

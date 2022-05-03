@@ -12,7 +12,7 @@ sidebar_position: 7
 
 You can view our projected emissions curve and supply totals here:
 
-![](/img/faqimg/nomics1.png)
+<img src='/img/faqimg/nomics1.png' alt="" width="75%" />
 
 ### I see different APY/APR % on other sites. What's accurate?
 
