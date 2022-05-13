@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: 'SushiSwap Docs',
 	tagline: 'Documentation & Important Links',
-	url: 'https://your-docusaurus-test-site.com',
-	baseUrl: '/',
+	url: 'https://your-docusaurus-test-site.com', // TODO: add vercel url
+	baseUrl: '/', // TODO: add base url
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
