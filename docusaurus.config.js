@@ -48,8 +48,8 @@ const config = {
 						position: 'left',
 					},
 					{
-						to: '/docs/Developers/API/Subgraphs/Overview',
-						label: 'Subgraph (API)',
+						to: '/docs/Developers/Subgraphs/Overview',
+						label: 'Subgraphs',
 						position: 'left',
 					},
 					{
@@ -61,12 +61,6 @@ const config = {
 						to: '/docs/Ecosystem/Build%20on%20Sushiswap',
 						label: 'Ecosystem',
 						position: 'left',
-					},
-					{
-						to: 'https://sushiswap.com/whitepaper',
-						label: 'Whitepaper',
-						position: 'right',
-						className: 'persistent',
 					},
 					{
 						to: '/docs/FAQ/General%20FAQ',

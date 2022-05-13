@@ -1,41 +1,11 @@
-# Website
+# SushiSwap Documentation
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+This is the repository for the official SushiSwap docs, hosted at []().
 
-### Installation
+### Questions
 
-```
-$ yarn
-```
+Any further questions after reading the documentation should be directed towards our #support channel on Discord, where one of our famous ninjas will be able to assist you further.
 
-### Local Development
+### Contributing
 
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+If you would like to contribute to the SushiSwap docs or make a correction, please make a pull request on the repo with your proposed changes and we will review them.
