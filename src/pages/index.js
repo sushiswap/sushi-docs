@@ -6,7 +6,6 @@ import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import SearchBar from '@theme-original/SearchBar';
 import { InformationCircleIcon, CodeIcon } from '@heroicons/react/outline';
-
 import styled from '@emotion/styled';
 
 export const quickLinks = [

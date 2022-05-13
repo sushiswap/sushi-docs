@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Official Sushiswap Links
+# Official SushiSwap Links
 
 **Official Landing Page:** [https://www.sushi.com/](https://www.sushi.com/)
 
@@ -16,7 +16,12 @@ sidebar_position: 2
 
 **SushiBar APY:** [https://analytics.sushi.com/bar](https://analytics.sushi.com/bar)
 
-**Track Sushiswap's performance in the DEX space (TVL / Volume):**
+**Submit token / logo to SushiSwap (Partner Portal):** [https://partner.sushi.com/](https://partner.sushi.com/)
+
+**Track history of transactions + more:**
+[https://app.zerion.io/](https://app.zerion.io/)
+
+**Track SushiSwap's performance in the DEX space (TVL / Volume):**
 
 [https://www.tokenterminal.com/](https://www.tokenterminal.com/)
 
@@ -41,9 +46,6 @@ sidebar_position: 2
 [https://ethgasstation.info/](https://ethgasstation.info/)
 
 [https://www.gasnow.org/](https://www.gasnow.org/)
-
-**Track history of transactions + more:**
-[https://app.zerion.io/](https://app.zerion.io/)
 
 **Sushiswap Subgraph Links:**
 

@@ -8,6 +8,10 @@ sidebar_position: 1
 
 [https://www.sushi.com/](https://www.sushi.com/)
 
+### How do I submit my token and logo to be included on the exchange?
+
+Anyone looking to get their token added to the SushiSwap exchange must first submit a request through our Partner Portal site; the URL for it can be found in our official links [here](/docs/Ecosystem/Official%20SushiSwap%20Links). After choosing the correct network and adding the token's address as well as its desired logo and background color, the team will review the submission and reach out with further instructions as soon as possible.
+
 ### Where can I check my staked SLP (SUSHI Liquidity Provider) tokens value?
 
 [https://zapper.fi/](https://zapper.fi/)

@@ -5,8 +5,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: 'SushiSwap Docs',
 	tagline: 'Documentation & Important Links',
-	url: 'https://your-docusaurus-test-site.com',
-	baseUrl: '/',
+	url: 'https://your-docusaurus-test-site.com', // TODO: add vercel url
+	baseUrl: '/', // TODO: add base url
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'ignore',
 	favicon: 'img/favicon.ico',
@@ -48,8 +48,8 @@ const config = {
 						position: 'left',
 					},
 					{
-						to: '/docs/Developers/API/Subgraphs/Overview',
-						label: 'Subgraph (API)',
+						to: '/docs/Developers/Subgraphs/Overview',
+						label: 'Subgraphs',
 						position: 'left',
 					},
 					{
@@ -61,12 +61,6 @@ const config = {
 						to: '/docs/Ecosystem/Build%20on%20Sushiswap',
 						label: 'Ecosystem',
 						position: 'left',
-					},
-					{
-						to: 'https://sushiswap.com/whitepaper',
-						label: 'Whitepaper',
-						position: 'right',
-						className: 'persistent',
 					},
 					{
 						to: '/docs/FAQ/General%20FAQ',

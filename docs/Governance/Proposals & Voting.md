@@ -5,7 +5,7 @@ If you desire a poll added to your thread, please contact a member of the core t
 
 Your proposal can gain enough traction to be brought up for voting on our Snapshot voting platform by the core team, where the community will vote with **SUSHIPOWAH** to decide the outcome.
 
-Our Snapshot voting platform can be found at [https://snapshot.page/#/sushi](https://snapshot.page/#/sushi) and you can also read our archived Snapshot (with older proposals) at [https://snapshot.page/#/sushipowah](https://snapshot.page/#/sushipowah)
+Our Snapshot voting platform can be found at [https://snapshot.page/#/sushi](https://snapshot.page/#/sushi) and you can also read our archived Snapshot (with older proposals) at [https://snapshot.page/#/sushipowah](https://snapshot.page/#/sushipowah).
 
 **SUSHIPOWAH** is our voting metric, and is decided as follows:
 
