@@ -21,7 +21,7 @@ After an initial experimental budget for 3 months, rewards for incentivized Liqu
 
 ### MATIC Faucet
 
-If you have moved funds to Polygon network and do not have any MATIC for gas, you will be unable to do any transactions. This is similar to not having any ETH on the Ethereum network to pay for gas to cover your transaction costs. Please try the following links to MATIC Faucets, where they will send you a small amount of MATIC to get you going.
+If you have moved funds to Polygon network and do not have any $MATIC for gas, you will be unable to do any transactions. This is similar to not having any $ETH on the Ethereum network to pay for gas to cover your transaction costs. Please try the following links to MATIC Faucets, where they will send you a small amount of $MATIC to get you going.
 
 [https://macncheese.finance/matic-polygon-mainnet-faucet.php](https://macncheese.finance/matic-polygon-mainnet-faucet.php)
 

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # General FAQ
 
-### What are the official Sushiswap websites?
+### What is the official SushiSwap website?
 
 [https://www.sushi.com/](https://www.sushi.com/)
 
@@ -12,7 +12,7 @@ sidebar_position: 1
 
 Anyone looking to get their token added to the SushiSwap exchange must first submit a request through our Partner Portal site; the URL for it can be found in our official links [here](/docs/Ecosystem/Official%20SushiSwap%20Links). After choosing the correct network and adding the token's address as well as its desired logo and background color, the team will review the submission and reach out with further instructions as soon as possible.
 
-### Where can I check my staked SLP (SUSHI Liquidity Provider) tokens value?
+### Where can I check my staked SLP (Sushi Liquidity Provider) tokens value?
 
 [https://zapper.fi/](https://zapper.fi/)
 
@@ -36,4 +36,4 @@ If you'd like to learn more about impermanent loss, the following articles may b
 
 ### My SLP's aren't showing up on the site or in my wallet?
 
-If you have staked your Sushi Liquidity Provider tokens (SLP) in any of our farms, or on other platforms, the tokens are not in your wallet anymore and thus can't be tracked. If you wish to liquidate your position (exchange the SLP tokens back to the provided tokens), you must first unstake them from any farms. You can, however, check the value of your SLP tokens at [https://apy.vision/](https://apy.vision/).
+If you have staked your Sushi Liquidity Provider (SLP) tokens in any of our farms, or on other platforms, the tokens are not in your wallet anymore and thus can't be tracked. If you wish to liquidate your position (exchange the SLP tokens back to the provided tokens), you must first unstake them from any farms. You can, however, check the value of your SLP tokens at [https://apy.vision/](https://apy.vision/).

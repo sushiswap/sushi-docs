@@ -10,11 +10,11 @@ An exchange is a place to buy/sell tokens, but in order to do that, it needs one
 
 ### Liquidity Provider 101
 
-**Step 1.** Head to sushi.com and enter the app.
+**Step 1.** Head to [sushi.com](https://www.sushi.com/) and enter the app.
 
-**Step 2.** Connect your wallet to SushiSwap (Make sure you have some Ethereum to cover gas fees!)
+**Step 2.** Connect your wallet to SushiSwap (make sure you have some Ethereum to cover gas fees!)
 
-**Step 3.** Click the Liquidity tab and select the input tokens to create your pool (Please note that the two token amounts need to match each other in monetary value! (e.g. SUSHI $100 – ETH $100)
+**Step 3.** Click the _Liquidity_ tab and select the input tokens to create your pool (please note that the two token amounts need to match each other in monetary value, e.g. SUSHI $100 – ETH $100)
 
 **Step 4.** Approve SushiSwap to access the tokens.
 
@@ -28,11 +28,11 @@ The best-case scenario for an LP is when there are many transactions in the pool
 
 ### Removing Liquidity 101
 
-**Step 1.** Head to sushi.com and enter the app.
+**Step 1.** Head to [sushi.com](https://www.sushi.com/) and enter the app.
 
 **Step 2.** Connect your wallet to SushiSwap (Make sure you have some Ethereum to cover gas fees!)
 
-**Step 3.** Click the Liquidity tab and click "Your Liquidity Positions."
+**Step 3.** Click the _Liquidity_ tab and click "Your Liquidity Positions."
 
 **Step 4.** Select the liquidity pair you wish to withdraw from SushiSwap by clicking “Manage”
 
@@ -40,4 +40,4 @@ The best-case scenario for an LP is when there are many transactions in the pool
 
 **Step 6.** Approve the transaction fee in your wallet and you're all set!
 
-There is no vesting period for these earnings and when you remove liquidity, you will also receive your LP earnings.
+There is no vesting period for these earnings and when you remove liquidity, you will also receive your LP earnings!

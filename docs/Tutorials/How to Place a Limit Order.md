@@ -1,6 +1,6 @@
 # How to Place a Limit Order
 
-Limit Order v2 is currently deployed on Matic. To access the limit order feature, follow this [link](https://app.sushi.com/limit-order) and the subsequent prompts to connect your wallet to Matic. When you have done this, you will see that you can select a token to sell, a token to buy, and the desired conversion or limit price. In the image below, the user has selected the MATIC/USDC pair, and he has selected the current market price as the conversion rate of the limit order.
+Limit Order v2 is currently deployed on Polygon. To access the limit order feature, follow this [link](https://app.sushi.com/limit-order) and the subsequent prompts to connect your wallet to the network. When you have completed this, you will see that you can select a token to sell, a token to buy, and the desired conversion or limit price. In the image below, the user has selected the MATIC/USDC pair, and he has selected the current market price as the conversion rate of the limit order.
 
 <img src='/img/tutimg/htpalo/htpalo1.png' alt="" width="50%" />
 

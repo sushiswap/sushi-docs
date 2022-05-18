@@ -4,7 +4,7 @@ _Please note that while the final form of the UI will continue to change, the pr
 
 _The Auction example used below is for explanatory purposes only. Token price, amount, auction duration, descriptors and the like are not indicative of any real auction._
 
-MISO is currently available on the Harmony and Ethereum networks. When landing on the MISO home page, you can see all the auctions currently live as well as the finished and upcoming ones. To create an auction, click on _Create Auction_ in the top right of the page:
+MISO is currently available on both the Harmony and Ethereum networks. When landing on the MISO home page, you can see all the auctions currently live as well as the finished and upcoming ones. To create an auction, click on _Create Auction_ in the top right of the page:
 
 ![](/img/tutimg/htcamo/htcamo1.png)
 
@@ -16,7 +16,7 @@ _Choose your preferred template_
 ![](/img/tutimg/htcamo/htcamo3.png)
 _Enter the name, symbol, total supply and amount of tokens for sale_
 
-In the next step, you will be asked to enter the auction payment currency and the auction dates. The interface proposes ETH, DAI, USDC and USDT by default, but you can input a custom address of any ERC20 token as well. Please note that the start date must be greater (later) than the current date.
+In the next step, you will be asked to enter the auction payment currency and the auction dates. The interface proposes $ETH, $DAI, $USDC and $USDT by default, but you can input a custom address of any ERC-20 token as well. Please note that the start date must be greater (later) than the current date.
 
 ![](/img/tutimg/htcamo/htcamo4.png)
 _Select the payment currency and auction dates_
@@ -54,6 +54,6 @@ Once the auction has been created, you can find it in the upcoming auction list.
 
 ![](/img/tutimg/htcamo/htcamo11.png)
 
-On this page you can add a ton of information, it's a good idea to make sure to document your project as much as possible so users will feel confident to participate in your auction!
+On this page you can add a ton of information - it's a good idea to make sure to document your project as much as possible so users will feel confident to participate in your auction!
 
 When done editing, make sure to save the changes at the bottom of the page; since this is an onchain action, you will have to sign a transaction. Once the transaction has gone through, the changes will appear on the auction page for all.

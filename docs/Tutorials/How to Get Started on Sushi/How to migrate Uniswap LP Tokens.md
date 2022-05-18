@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # How to Migrate Uniswap LP Tokens
 
-Uniswap has recently terminated its token rewards-based liquidity provision program. In light of this, we are offering Uniswap LPs the opportunity to seamlessly and, more importantly, gas-efficiently transfer their liquidity pool from Uniswap to SushiSwap to start earning governance tokens again. If you currently have any liquidity positions on Uniswap, this tutorial will show you how to quickly migration works!
+Uniswap has recently terminated its token rewards-based liquidity provision program. In light of this, we are offering Uniswap LPs the opportunity to seamlessly and, more importantly, gas-efficiently transfer their liquidity pool from Uniswap to SushiSwap to start earning governance tokens again. If you currently have any liquidity positions on Uniswap, this tutorial will show you how to quickly migrating them works!
 
 ![](/img/tutimg/htmu/htmu1.png)
 

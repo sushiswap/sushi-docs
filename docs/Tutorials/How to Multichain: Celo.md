@@ -2,7 +2,7 @@
 
 ## Sushi on Celo
 
-To start earning rewards, you’ll need to access a wallet, add CELO, and connect to the Celo chain using the Sushi app.
+To start earning rewards, you’ll need to access a wallet, add $CELO, and connect to the Celo chain using the Sushi app.
 
 **Note:** _Celo only supports MetaMask, CeloWallet.app, and CeloTerminal to start (via Wallet Connect v2). Valora is not supported. This tutorial will focus on getting you started with MetaMask, but you may use any supported wallet you prefer._
 
@@ -16,7 +16,7 @@ To start earning rewards, you’ll need to access a wallet, add CELO, and connec
 
 **Step 3.** Select _Networks_ and choose _Custom RPC_ to add Celo.
 
-**Step 4.** Follow [these steps](kjffjsdf) to add the Celo network to your MetaMask wallet.
+**Step 4.** Follow [these steps](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC) to add the Celo network to your MetaMask wallet.
 
 <img src='/img/tutimg/htmc/htmc2.gif' alt="" width="75%" />
 
@@ -40,19 +40,15 @@ To start earning rewards, you’ll need to access a wallet, add CELO, and connec
 
 <img src='/img/tutimg/htmc/htmc3.png' alt="" width="75%" />
 
-**Step 2.** Purchase CELO from any available exchange (we have it!)
+**Step 2.** Purchase $CELO from any available exchange (hint: we have it!)
 
-<img src='/img/tutimg/htmc/htmc4.png' alt="" width="75%" />
-
-**Note:** _Celo stablecoins (cUSD and cEUR) are available on BittrexGlobal, KuCoin, and OKCoin. You many also use [need new wrapped link?](zcds) to convert BTC and ETH to cBTC and cETH._
-
-**Step 3.** Send CELO to your MetaMask wallet.
+**Step 3.** Send $CELO to your MetaMask wallet.
 
 <img src='/img/tutimg/htmc/htmc5.png' alt="" width="75%" />
 
 ### How to use the Celo Chain on Sushi with MetaMask
 
-When using Sushi on the Celo Network, it will look and feel like your regular Sushi interface, with some slight changes. For one, fees can be paid in ERC20 tokens, and not just the native token of the protocol, CELO. For instance, transacting with cUSD, fees can be paid in cUSD as well.
+When using Sushi on the Celo Network, it will look and feel like your regular Sushi interface, with some slight changes. For starters, fees can be paid in ERC20 tokens, and not just the native token of the protocol, $CELO. For instance, transacting with cUSD, fees can be paid in cUSD as well.
 
 **Swap Tokens**
 
@@ -80,9 +76,9 @@ When using Sushi on the Celo Network, it will look and feel like your regular Su
 
 ### Liquidity & Yield Farming
 
-You can also earn SUSHI rewards using the Celo-hosted Onsen. To participate in the Onsen program, you need to provide liquidity to the Sushi exchange with your held assets. For doing this, Sushi’s revenue-sharing program rewards its liquidity providers with 0.25% of the 0.30% fee that is charged for every swap on the platform.
+You can also earn $SUSHI rewards using the Celo-hosted Onsen. To participate in the Onsen program, you need to provide liquidity to the Sushi exchange with your held assets. For doing this, Sushi’s revenue-sharing program rewards its liquidity providers with 0.25% of the 0.30% fee that is charged for every swap on the platform.
 
-The Onsen program also takes this a step further and adds more liquidity providing incentives by allotting participants with SUSHI token rewards. Let’s go through the steps together to step into Sushi’s Onsen on the Celo network.
+The Onsen program also takes this a step further and adds more liquidity providing incentives by allotting participants with $SUSHI token rewards. Let’s go through the steps together to step into Sushi’s Onsen on the Celo network.
 
 **Step 1.** Go to [app.sushi.com](https://app.sushi.com/)
 
@@ -122,11 +118,11 @@ The Onsen program also takes this a step further and adds more liquidity providi
 
 <img src='/img/tutimg/htmc/htmc9.gif' alt="" width="75%" />
 
-Once the transaction completes, you will now be a SUSHI farmer on the Celo network! When you refresh the _Yield_ tab on [app.sushi.com](https://app.sushi.com/), you will see your assets farming away 24/7 under the subheading: _Your Yields_.
+Once the transaction completes, you will now be a $SUSHI farmer on the Celo network! When you refresh the _Yield_ tab on [app.sushi.com](https://app.sushi.com/), you will see your assets farming away 24/7 under the subheading: _Your Yields_.
 
 ### Harvest
 
-Click _Harvest_ whenever you want to withdraw your SUSHI to your wallet.
+Click _Harvest_ whenever you want to withdraw your $SUSHI to your wallet.
 
 <img src='/img/tutimg/htmc/htmc10.gif' alt="" width="75%" />
 

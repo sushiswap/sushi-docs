@@ -1,8 +1,8 @@
 # Marketplace for Tokens
 
-Markets at their core are a way to distribute goods to the public and most importantly find the value people are willing to exchange for them. MISO Markets focus on aiding tokens in their price discovery before release for open exchange on SushiSwap. MISO takes the pain out of the decisions and planning surrounding any auction for your token.
+Markets at their core are a way to distribute goods to the public and most importantly find the value people are willing to exchange for them. MISO markets focus on aiding tokens in their price discovery before release for open exchange on SushiSwap. MISO takes the pain out of the decisions and planning surrounding any auction for your token.
 
-We have included two main types initially and will continue to add new types and iterations over these. Markets are at the core of what MISO offers - the rich broth that all the other ingredients are filled with, so we want to get them right. The first three are Crowdsales, Dutch auctions and Batch Auctions. All three offer their own potential advantages and disadvantages, allowing our markets to meet the needs of a wide range of offerings while ensuring token offerings are valued respectably for the SushiSwap ecosystem.
+We have included two main types initially and will continue to add new types and iterations over these. Markets are at the core of what MISO offers - the rich broth that all the other ingredients are filled with, so we want to get them right. The first three are Crowdsales, Dutch Auctions and Batch Auctions. All three offer their own potential advantages and disadvantages, allowing our markets to meet the needs of a wide range of offerings while ensuring token offerings are valued respectably for the SushiSwap ecosystem.
 
 ## Market Sale Options
 
@@ -20,7 +20,7 @@ Dutch Auctions are a centuries old system of auction, aimed at finding the true 
 
 ### Batch Auction
 
-A Market method whereby a set amount of tokens are divided amongst all the contributors to the Market event, weighted according to their contribution to the pool. Whatever your percentage of the total raise, that is the portion of the total tokens on offer you will receive. That's it! Easy. Batch Auctions will be useful for projects looking to ensure that everyone taking part is rewarded, no matter their net worth.
+A market method whereby a set amount of tokens are divided amongst all the contributors to the market event, weighted according to their contribution to the pool. Whatever your percentage of the total raise, that is the portion of the total tokens on offer you will receive. That's it! Batch Auctions will be useful for projects looking to ensure that everyone taking part is rewarded, no matter their net worth.
 
 **Strategy:** This auction style is best suited for big or so called "whale" investors, because as opposed to the previous two, there is no way to outplay someone here. Everybody gets in, and the more you invest, the more you get.
 
@@ -28,8 +28,8 @@ A Market method whereby a set amount of tokens are divided amongst all the contr
 
 ### Hyperbolic Auction
 
-Similar to a Dutch Auction, but set along a hyperbolic curve rather than a straight line. This method allows a more direct progression towards a target price, while still allowing price discovery in the areas above that price. Hyperbolic Auctions effectively start at infinity, then rapidly drop - slowing as the auction approaches zero or the Auction minimum.
+Similar to a Dutch Auction, but set along a hyperbolic curve rather than a straight line. This method allows a more direct progression towards a target price, while still allowing price discovery in the areas above that price. Hyperbolic Auctions effectively start at infinity, then rapidly drop - slowing as the auction approaches zero or the auction minimum.
 
-### Dutch Bonus
+### Dutch Bonus Auction
 
-Dutch Bonus auctions follow the path of a traditional Dutch Auction, with a bonus of tokens able to be set aside for early contributors. This can be used to ensure early or avid supporters get a reward for committing early to a sale, before bigger participants begin their larger Price Discovery setting transactions.
+Dutch Bonus Auctions follow the path of a traditional Dutch Auction, with a bonus of tokens able to be set aside for early contributors. This can be used to ensure early or avid supporters get a reward for committing early to a sale, before bigger participants begin their larger Price Discovery setting transactions.

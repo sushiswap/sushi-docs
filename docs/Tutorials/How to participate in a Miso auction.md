@@ -6,13 +6,13 @@ _The Auction example used below is for explanatory purposes only. Token price, a
 
 MISO is currently available on both the Harmony and Ethereum networks. When landing on the MISO home page, you can see all of the auctions that are currently live, as well as any auctions that have finished or are upcoming. Browse though them and find the one (or two, or three, or four) that you are interested in!
 
-_In this example we will use the auction created in the previous guide (How to Create a MISO Auction)._
+_In the following example, we will use the auction created in the previous guide: [How to Create a MISO Auction](/docs/Tutorials/How%20to%20create%20a%20Miso%20auction)_
 
 <img src='/img/tutimg/htpiama/htpiama1.png' alt="" width="75%" />
 
 _Filter auctions by live, upcoming and finished_
 
-When clicking on an auction, you will be redirected to the auction page. This page is dedicated to that specific auction, with all of the given information about the auction, including the token and the project running it.
+When clicking on an auction, you will be redirected to the auction page. This page is dedicated to that specific auction and contains all of the given information about the auction, including the token and the project running it.
 
 At the top you can find the current state of the auction, the auction type, if it is private or public, time left, amount left, price, chart representation and how much you can commit:
 
@@ -20,7 +20,7 @@ At the top you can find the current state of the auction, the auction type, if i
 
 _State of the auction_
 
-There are currently 3 type of auctions available on MISO, you can find more info about their specificities here (link to marketplace for tokens).
+There are currently 3 type of auctions available on MISO, you can find more info about their specificities [here](/docs/Products/MISO/Marketplace%20for%20Tokens).
 
 On the bottom half of the page you can find more details relating to the auction, the project and its commit history. The _Auction Details_, _Commitments_ and _About Project_ tabs can all be toggled through here.
 
@@ -34,10 +34,10 @@ _Commit History_
 
 **_Please take your time and do your due diligence before committing to any auction!_**
 
-Once you feel confident that you have all the information needed and want to move forward with participating in the auction, scroll up and enter the amount of tokens you want to commit into the auction. Before being able to participate, you first will need to approve the auction contract (if spending ETH you will not need to approve); once done you can finally commit!
+Once you feel confident that you have all of the information needed and want to move forward with participating in the auction, scroll up and enter the amount of tokens you want to commit into the auction. Before being able to participate, you first will need to approve the auction contract (if spending $ETH you will not need to approve); once done you can finally commit!
 
 <img src='/img/tutimg/htpiama/htpiama6.png' alt="" width="50%" />
 
 _Auction Approval_
 
-Congratulations! You have now successfully participated in a MISO auction, go kill some time and come back once the auction has ended; if it is successful, you will be able to claim your tokens! If the auction failed, you will still be able to get your initial investment back.
+Congratulations! You have now successfully participated in a MISO auction, go kill some time and come back once the auction has ended - if it is successful, you will be able to claim your tokens! If the auction failed, you will still be able to get your initial investment back.
