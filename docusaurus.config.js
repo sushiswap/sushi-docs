@@ -20,9 +20,7 @@ const config = {
 			({
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					// Please change this to your repo.
-					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+					// editUrl: 'https://github.com/sushiswap/sushi-docs', // uncomment to have edit links on page
 				},
 				blog: false,
 				theme: {
@@ -70,7 +68,7 @@ const config = {
 					},
 					{
 						href: 'https://github.com/sushiswap',
-						label: 'Github',
+						label: 'GitHub',
 						position: 'right',
 						className: 'persistent',
 					},
@@ -88,7 +86,7 @@ const config = {
 							},
 							{
 								label: 'sushiswap-interface',
-								href: 'https://github.com/sushiswap/interface',
+								href: 'https://github.com/sushiswap/sushiswap-interface',
 							},
 							{
 								label: 'sushiswap-sdk',
@@ -96,7 +94,7 @@ const config = {
 							},
 							{
 								label: 'Deployment Addresses',
-								href: 'https://boringcrypto.github.io/DAOView/#/chefs',
+								href: '/docs/Developers/Deployment%20Addresses',
 							},
 						],
 					},
@@ -113,11 +111,11 @@ const config = {
 							},
 							{
 								label: 'Analytics',
-								href: 'https://app.sushi.com/analytics/1/dashboard',
+								href: 'https://app.sushi.com/analytics?chainId=1',
 							},
 							{
 								label: 'Token Lists',
-								href: 'https://app.sushi.com/analytics/1/tokens',
+								href: 'https://app.sushi.com/analytics/tokens?chainId=1',
 							},
 						],
 					},

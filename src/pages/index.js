@@ -14,39 +14,39 @@ export const quickLinks = [
 		href: '#',
 		icon: InformationCircleIcon,
 		to: './docs/intro',
-		text: `Learn about the core concepts of the Sushiswap Protocol. Swaps, Pools, Lending and more.`,
+		text: `Learn about the core concepts of the SushiSwap Protocol. Swaps, Pools, Lending and more.`,
 	},
 	{
 		title: 'Developers',
 		href: '#',
 		icon: InformationCircleIcon,
 		to: './docs/Developers/Overview',
-		text: `Learn about the architecture of the Sushiswap smart contracts and how to build on top of the protocol.`,
+		text: `Learn about the architecture of the SushiSwap smart contracts and how to build on top of the protocol.`,
 	},
 	{
 		title: 'Tutorials',
 		href: '#',
 		icon: InformationCircleIcon,
 		to: './docs/Tutorials/Overview',
-		text: `Learn step by step how to use the Sushiswap suite of services and how to leverage them to your advantage.`,
+		text: `Learn step by step how to use the SushiSwap suite of services and how to leverage them to your advantage.`,
 	},
 ];
 
 export const Guides = [
 	{
 		title: 'AMM Quick Start',
-		text: 'Learn to interact with the Sushiswap AMM',
+		text: 'Learn how to interact with the SushiSwap AMM',
 		to: './docs/Tutorials/How%20to%20Get%20Started%20on%20Sushi/How%20to%20Swap',
 	},
 	{
-		title: 'Kashi Quick Start',
-		text: 'Learn to interact with the Sushiswap lending service Kashi',
-		to: './kashi/guides/thisguidename',
+		title: 'MISO Quick Start',
+		text: 'Learn how to create and participate in auctions on MISO',
+		to: './docs/Tutorials/How%20to%20create%20a%20Miso%20auction',
 	},
 	{
 		title: 'Subgraph Quick Start',
-		text: 'Learn to interact with the Sushiswap Protocol suite of subgraphs',
-		to: './docs/Developers/API/Overview',
+		text: 'Learn how to interact with the SushiSwap suite of subgraphs',
+		to: './docs/Developers/Subgraphs/Overview',
 	},
 ];
 
@@ -58,7 +58,7 @@ export const github = [
 	},
 	{
 		title: 'sushiswap-interface',
-		href: 'https://github.com/sushiswap/interface',
+		href: 'https://github.com/sushiswap/sushiswap-interface',
 		icon: CodeIcon,
 	},
 	{
@@ -68,7 +68,7 @@ export const github = [
 	},
 	{
 		title: 'Deployment Addresses',
-		href: 'https://boringcrypto.github.io/DAOView/#/chefs',
+		href: './docs/Developers/Deployment%20Addresses',
 		icon: CodeIcon,
 	},
 ];
