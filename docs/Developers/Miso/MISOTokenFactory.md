@@ -13,8 +13,16 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 ### initMISOTokenFactory
 
 ```
-
+function initMISOTokenFactory(address _accessControls) external
 ```
+
+Single gateway to initialize the MISO Token Factory with the proper address. Can only be initialized once.
+
+#### Parameters
+
+| Name              | Type    | Description            |
+| :---------------- | :------ | :--------------------- |
+| `_accessControls` | address | access control address |
 
 ### setMinimumFee
 

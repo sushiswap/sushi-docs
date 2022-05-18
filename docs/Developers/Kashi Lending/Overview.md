@@ -24,7 +24,7 @@ We solve these issues by having a platform with:
 
 The current solutions allow users to supply a variety of collateral assets and borrow another set of assets. If one of the assets were to drop in price faster than liquidators can react, every user and every asset is affected by this. So the risk to the platform is based on the risk level of the riskiest asset listed on the platform. This risk increases with every extra asset that is added, leading to a very limited choice in assets on most platforms.
 
-By isolating lending pairs, anyone can create a new pair similar to how anyone can create a Sushiswap pair. Some lending markets will be very stable and safe, others not so much if they include highly volatile assets with low liquidity. Because these are isolated pools, risk is limited to individual pools and interest rates will reflect that risk. Higher risk pools will attract less suppliers, pushing up the interest rate.
+By isolating lending pairs, anyone can create a new pair similar to how anyone can create a SushiSwap pair. Some lending markets will be very stable and safe, others not so much if they include highly volatile assets with low liquidity. Because these are isolated pools, risk is limited to individual pools and interest rates will reflect that risk. Higher risk pools will attract less suppliers, pushing up the interest rate.
 
 ## Margin Shorting Any Token
 
@@ -50,9 +50,9 @@ When a pool is created an oracle can be selected. We will provide 2 basic oracle
 
 - Chainlink Oracles
 
-- SushiSwap Time Weighted Average Price — every SushiSwap/Uniswap pool can be used to get a TWAP.
+- SushiSwap Time Weighted Average Price — every SushiSwap/Uniswap pool can be used to get a TWAP
 
-- [Open Oracle Price Feeds](https://compound.finance/docs/prices#price) — these are the feeds Compound uses.
+- [Open Oracle Price Feeds](https://compound.finance/docs/prices#price) — these are the feeds Compound uses
 
 Anyone can create a new oracle!
 

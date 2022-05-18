@@ -24,13 +24,13 @@ Building on top of Bentobox provides these benefits:
 
 Placing your tokens in a single vault brings a range of benefits. As more protocols get added to the BentoBox, gas costs will come down, while composability, capital efficiency and flexibility will go up.
 
-_Not all tokens are created equal._ Some have very high gas costs, some are not quite ERC20 compliant. Once they are stored in the BentoBox, you can use your tokens in any BentoBox enabled protocols. These protocols don't have to worry about any token quirks or handle ETH. The BentoBox takes care of all that. On top of that, tokens in the BentoBox will generate extra returns through flash loans and potentially a token strategy.
+_Not all tokens are created equal._ Some have very high gas costs, some are not quite ERC-20 compliant. Once they are stored in the BentoBox, you can use your tokens in any BentoBox enabled protocols. These protocols don't have to worry about any token quirks or handle $ETH. The BentoBox takes care of all that. On top of that, tokens in the BentoBox will generate extra returns through flash loans and potentially a token strategy.
 
 ### Flash Loans
 
 Tokens in the BentoBox can be flash loaned. The fee is 0.05% and this fee goes to the share owners in the BentoBox. Multiple assets can be flash loaned at the same time.
 
-ERC3156 wasn't final at release of the BentoBox and the BentoBox is not ERC3156 compliant at this time. The BentoBox uses push instead of pull to get the returned funds. This is for flexibility and security reasons.
+ERC-3156 wasn't final at release of the BentoBox and the BentoBox is not ERC-3156 compliant at this time. The BentoBox uses push instead of pull to get the returned funds. This is for flexibility and security reasons.
 
 ### Strategies
 
@@ -42,11 +42,11 @@ The BentoBox has a simple strategy system per token. A strategy is a contract th
 
 Some examples of this would be:
 
-- The SushiBar: SUSHI can be invested and held as xSUSHI. See **SushiStrategy.sol**
+- The SushiBar: $SUSHI can be invested and held as xSUSHI. See **SushiStrategy.sol**
 
 - Staking contracts, such as MasterChef and Onsen
 
-It will be up to the community and the Sushi team to decide which strategies are safe enough to enable. The BentoBox has a hardcoded 2 weeks waiting period for enabling or changing strategies.
+It will be up to the community and the Sushi team to decide which strategies are safe enough to enable. The BentoBox has a hardcoded 2 week waiting period for enabling or changing strategies.
 
 ### Amounts and Shares
 
@@ -60,17 +60,17 @@ The batch function allows the batching of multiple BentoBox function calls in a 
 
 ### Supported Tokens
 
-While most ERC20 tokens are supported by the BentoBox, there are some tokens that should not be deposited into the BentoBox:
+While most ERC-20 tokens are supported by the BentoBox, there are some tokens that should not be deposited into the BentoBox:
 
-_Rebasing tokens are not directly supported._ Since rebasing is just a visual (psychological) trick rather than an actual feature, direct support was not added. However, most rebasing tokens could easily be wrapped exposing the underlying balances as an ERC20 token. These could be deposited into the BentoBox without problem.
+_Rebasing tokens are not directly supported._ Since rebasing is just a visual (psychological) trick rather than an actual feature, direct support was not added. However, most rebasing tokens could easily be wrapped exposing the underlying balances as an ERC-20 token. These could be deposited into the BentoBox without problem.
 
-_Tokens where a single 'unit' has significant value._ Due to rounding and gas optimizations, it is possible to craft transactions that will give you 'free' units of a token. In case of a token, such as $SUSHI, with 18 decimals, this would be worth about $0.00000000000000001. As long as gas costs are more than this, it's safe. In the case of WBTC, 1 unit is about $0.00033, which still has a safety margin of about 4 orders of magnitude. There may however be some tokens with low or no decimals and a high value that should not be added to the BentoBox.
+_Tokens where a single 'unit' has significant value._ Due to rounding and gas optimizations, it is possible to craft transactions that will give you 'free' units of a token. In case of a token, such as $SUSHI, with 18 decimals, this would be worth about $0.00000000000000001. As long as gas costs are more than this, it's safe. In the case of $WBTC, 1 unit is about $0.00033, which still has a safety margin of about 4 orders of magnitude. There may however be some tokens with low or no decimals and a high value that should not be added to the BentoBox.
 
-_Tokens where the totalSupply in token units is greater than uint128, which is about 38 decimals._ With a maximum of 18 decimals normally used, this would still allow for a totalSupply of 100.000.000.000.000.000.000, which is more than enough. While ERC20 supports uint256, this limit was added to save on gas.
+_Tokens where the totalSupply in token units is greater than uint128, which is about 38 decimals._ With a maximum of 18 decimals normally used, this would still allow for a totalSupply of 100.000.000.000.000.000.000, which is more than enough. While ERC-20 supports uint256, this limit was added to save on gas.
 
 ### Minimum Token Balance
 
-To prevent a far-fetched grieving attack on the amount to share ratio, a minimum of 1000 shares of each token have to remain in the Bentobox **OR** it has to be emptied completely. Normally this is an insignificant amount, and even in the case of WBTC it's only $3.30. If you're the last user, you can fully withdraw your shares, so no funds are lost/inaccessible because of this.
+To prevent a far-fetched grieving attack on the amount to share ratio, a minimum of 1000 shares of each token have to remain in the BentoBox **OR** it has to be emptied completely. Normally this is an insignificant amount, and even in the case of $WBTC it's only $3.30. If you're the last user, you can fully withdraw your shares, so no funds are lost/inaccessible because of this.
 
 ### Multiple Protocols and Master Contracts
 
