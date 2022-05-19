@@ -190,19 +190,13 @@ const StyledTitleImage = styled(StyledImage)`
 	object-fit: cover;
 	z-index: -1;
 	position: absolute;
-	opacity: 0.2;
+	opacity: 0.4;
 	mask-image: linear-gradient(rgba(0, 0, 0, 1), transparent);
 `;
 
 const StyledGithubIcon = styled.div`
 	svg {
 		fill: var(--ifm-font-color-base);
-	}
-`;
-
-const HideMedium = styled.div`
-	@media (max-width: 960px) {
-		display: none;
 	}
 `;
 
@@ -223,12 +217,9 @@ export default function Home() {
 							alignItems: 'center',
 						}}>
 						<h1 style={{ fontWeight: '700' }}> SushiSwap Docs</h1>
-						<HideMedium>
-							<SearchBar />{' '}
-						</HideMedium>
 					</div>
 					<StyledTitleImage
-						alt='Docusaurus themed image'
+						alt=''
 						sources={{
 							light: useBaseUrl('/img/sushibg.jpg'),
 							dark: useBaseUrl('/img/sushibg.jpg'),
@@ -314,7 +305,6 @@ export default function Home() {
 												viewBox='0 0 120.78 117.79'
 												style={{ width: '24px' }}>
 												<defs></defs>
-												<title>testlogo</title>
 												<g id='Layer_2' data-name='Layer 2'>
 													<g id='Layer_1-2' data-name='Layer 1'>
 														<path

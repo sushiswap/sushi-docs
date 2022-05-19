@@ -64,7 +64,7 @@ html[data-theme="dark"] {
 html[data-theme="light"] {
   --ifm-color-primary: black;
 
-  background-position: 0px -30vh;
+  background-position: 0px -20vh;
   background-repeat: no-repeat;
   background-image: radial-gradient(50% 50% at 50% 50%,
       rgba(255, 0, 122, 0.1) 0%,
@@ -104,7 +104,6 @@ h2,
 h3,
 h4,
 h5 {
-  /* font-family: "Archivo", sans-serif; */
   font-weight: 500;
 }
 
@@ -130,7 +129,6 @@ h4 {
 
 .menu__link--sublist:after {
   background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
-  /* color: var(  --ifm-color-primary); */
 }
 
 .navbar {
@@ -177,13 +175,11 @@ html[data-theme="light"] footer {
 }
 
 .navbar__title {
-  /* font-family: "Archivo", sans-serif; */
   color: var(--ifm-color-primary);
   font-weight: 500;
 }
 
 .navbar__link {
-  /* font-family: "Archivo", sans-serif; */
   color: var(--ifm-color-primary);
   font-weight: 400;
 }
@@ -229,160 +225,6 @@ iframe {
   background: transparent;
 }
 
-.widget-api th:nth-child(1) {
-  width: 28%;
-}
-
-.widget-api th:nth-child(2) {
-  width: 18%;
-}
-
-.widget-api th:nth-child(3) {
-  width: 18%;
-}
-
-.widget-api th:nth-child(4) {
-  width: auto;
-}
-
-.widget-examples {
-  background: none;
-}
-
-.widget-examples {
-  width: 100%;
-}
-
-.widget-examples tr,
-.widget-examples tr:nth-child(2n),
-.widget-examples td {
-  border: 0;
-  background: none;
-}
-
-.widget-examples td:first-child {
-  padding-left: 0;
-  font-size: 0;
-}
-
-.widget-examples td:last-child {
-  width: 100%;
-  padding-right: 0;
-}
-
-.widget-examples .theme-code-block {
-  margin: 0;
-}
-
-.widget-examples pre {
-  min-height: 360px;
-  padding-top: var(--ifm-pre-padding);
-}
-
-.widget-theme-example {
-  max-width: 360px;
-  max-height: 360px;
-}
-
-.admonition-note:last-child {
-  margin-top: 3rem;
-}
-
-html[data-theme="light"] .admonition-note {
-  background: #e8e8e8;
-}
-
-html[data-theme="dark"] .admonition-note {
-  background: none;
-  color: var(--ifm-color-white);
-  border: 1px solid var(--ifm-color-emphasis-300);
-}
-
-html[data-theme="dark"] .admonition-icon svg {
-  fill: var(--ifm-color-white);
-}
-
-html[data-theme="light"] .DocSearch {
-  /* --docsearch-primary-color: var(--ifm-color-primary); */
-  /* --docsearch-text-color: var(--ifm-font-color-base); */
-  --docsearch-muted-color: var(--ifm-color-emphasis-900);
-  --docsearch-container-background: rgba(94, 100, 112, 0.7);
-  /* Modal */
-  --docsearch-modal-background: var(--ifm-color-secondary-lighter);
-  /* Search box */
-  --docsearch-searchbox-background: var(--ifm-color-secondary);
-  --docsearch-searchbox-focus-background: var(--ifm-color-white);
-  /* Hit */
-  --docsearch-hit-color: var(--ifm-font-color-base);
-  --docsearch-hit-active-color: var(--ifm-color-emphasis-700);
-  --docsearch-hit-background: var(--ifm-color-white);
-  --docsearch-searchbox-background: rgba(0, 0, 0, 0.05);
-  /*--docsearch-highlight-color: var(--ifm-color-emphasis-100);*/
-
-  /* Footer */
-  --docsearch-footer-background: var(--ifm-color-white);
-  --docsearch-searchbox-shadow: none;
-}
-
-html[data-theme="dark"] .DocSearch {
-  /* --docsearch-text-color: var(--ifm-font-color-100); */
-  --docsearch-muted-color: var(--ifm-color-secondary-darkest);
-  --docsearch-container-background: rgba(47, 55, 69, 0.7);
-  /* Modal */
-  --docsearch-modal-background: var(--ifm-background-color);
-  /* Search box */
-  --docsearch-searchbox-background: var(--ifm-background-color);
-  --docsearch-searchbox-focus-background: var(--ifm-color-black);
-  /* Hit */
-  --docsearch-hit-color: var(--ifm-font-color-base);
-  --docsearch-hit-active-color: var(--ifm-color-emphasis-700);
-  --docsearch-hit-background: var(--ifm-color-emphasis-100);
-  --docsearch-searchbox-background: rgba(0, 0, 0, 0.2);
-  /* Footer */
-  --docsearch-footer-background: var(--ifm-background-surface-color);
-  --docsearch-key-gradient: linear-gradient(-26.5deg,
-      var(--ifm-color-emphasis-200) 0%,
-      var(--ifm-color-emphasis-100) 100%);
-
-  --docsearch-searchbox-shadow: inset 0 0 0 2px var(--ifm-color-emphasis-200);
-}
-
-html[data-theme="light"] .DocSearch-Hit {
-  background-color: transparent;
-}
-
-html[data-theme="light"] .DocSearch-Hit :focus {
-  background-color: var(--ifm-color-emphasis-100);
-}
-
-html[data-theme="light"] .DocSearch-Hit :hover {
-  background-color: var(--ifm-color-emphasis-100);
-}
-
-html[data-theme="light"] .DocSearch-Hit {
-  background-color: transparent;
-}
-
-html[data-theme="dark"] .DocSearch-Hit {
-  background-color: transparent;
-}
-
-html[data-theme="dark"] .DocSearch-Hit :focus {
-  background-color: var(--ifm-color-emphasis-100);
-}
-
-html[data-theme="dark"] .DocSearch-Hit :hover {
-  background-color: var(--ifm-color-emphasis-100);
-}
-
-html[data-theme="dark"] .DocSearch-Hit a :hover {
-  background-color: transparent;
-}
-
-html[data-theme="dark"] .DocSearch-Hit a {
-  background-color: var(--ifm-color-emphasis-0);
-}
-
 .react-toggle-thumb :hover {
   border: none;
   outline: none;
@@ -401,14 +243,8 @@ html[data-theme="dark"] .DocSearch-Hit a {
   box-shadow: none;
 }
 
-/* Is the below needed? */
-
 .menu {
   padding: 1.5rem 1rem !important;
-}
-
-.dropdown__menu {
-  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.1);
 }
 
 .menu__link:hover {
@@ -431,17 +267,12 @@ html[data-theme="dark"] .DocSearch-Hit a {
   text-decoration: underline;
 }
 
-.navbar__item.dropdown {
-  display: inline-block;
-}
-
 .navbar__item.persistent {
   display: inline-block;
 }
 
 @media (max-width: 960px) {
   .menu {
-    /* background-color: var(--ifm-color-emphasis-0); */
     padding: initial !important;
   }
 
@@ -462,10 +293,3 @@ html[data-theme="dark"] .DocSearch-Hit a {
     display: none;
   }
 }
-
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
