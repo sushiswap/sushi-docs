@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
 	title: 'SushiSwap Docs',
 	tagline: 'Documentation & Important Links',
-	url: 'https://your-docusaurus-test-site.com', // TODO: add vercel url
+	url: 'https://your-docusaurus-test-site.com', // TODO: add url
 	baseUrl: '/', // TODO: add base url
 	onBrokenLinks: 'warn',
 	onBrokenMarkdownLinks: 'ignore',
@@ -78,7 +78,7 @@ const config = {
 				style: 'dark',
 				links: [
 					{
-						title: 'Github',
+						title: 'GitHub',
 						items: [
 							{
 								label: 'sushiswap-contracts',
@@ -94,7 +94,7 @@ const config = {
 							},
 							{
 								label: 'Deployment Addresses',
-								href: '/docs/Developers/Deployment%20Addresses',
+								to: '/docs/Developers/Deployment%20Addresses',
 							},
 						],
 					},
@@ -148,7 +148,7 @@ const config = {
 			colorMode: {
 				defaultMode: 'dark',
 				disableSwitch: false,
-				respectPrefersColorScheme: true,
+				respectPrefersColorScheme: false,
 			},
 		}),
 };
