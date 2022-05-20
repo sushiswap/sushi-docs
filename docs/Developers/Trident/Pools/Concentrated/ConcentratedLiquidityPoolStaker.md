@@ -6,6 +6,8 @@ sidebar_position: 6
 
 This is a Trident Concentrated Liquidity Pool periphery contract that combines non-fungible position management and staking.
 
+The full contract can be found [here](https://github.com/sushiswap/trident/blob/master/contracts/pool/concentrated/ConcentratedLiquidityPoolStaker.sol).
+
 ## Functions
 
 ### addIncentive
