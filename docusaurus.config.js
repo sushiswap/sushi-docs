@@ -16,24 +16,24 @@ const config = {
     [
       '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/sushiswap/sushi-docs/edit/master', // uncomment to have edit links on page
-        },
-         versions: {
+          editUrl: 'https://github.com/sushiswap/sushi-docs/edit/master',
+          versions: {
             current: {
               label: 'current',
             },
           },
-        lastVersion: 'current',
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
+          lastVersion: 'current',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+        },
         blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
   themeConfig:
