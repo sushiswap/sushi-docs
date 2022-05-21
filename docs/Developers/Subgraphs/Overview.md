@@ -18,29 +18,29 @@ Each subgraph is broken into its own section and documented in two forms: by ent
 
 Includes all SushiSwap Exchange data with Price Data, Volume, Users, etc.
 
-- [Mainnet](https://thegraph.com/explorer/subgraph/sushiswap/exchange)
+-   [Mainnet](https://thegraph.com/explorer/subgraph/sushiswap/exchange)
 
-- [Binance](https://thegraph.com/explorer/subgraph/sushiswap/bsc-exchange)
+-   [Binance](https://thegraph.com/explorer/subgraph/sushiswap/bsc-exchange)
 
-- [OKEx](https://q.hg.network/okex-exchange/oec)
+-   [OKEx](https://q.hg.network/okex-exchange/oec)
 
-- [Gnosis](https://thegraph.com/explorer/subgraph/sushiswap/xdai-exchange)
+-   [Gnosis](https://thegraph.com/explorer/subgraph/sushiswap/xdai-exchange)
 
-- [HECO](https://q.hg.network/heco-exchange/heco)
+-   [HECO](https://q.hg.network/heco-exchange/heco)
 
-- [Matic](https://thegraph.com/explorer/subgraph/sushiswap/matic-exchange)
+-   [Matic](https://thegraph.com/explorer/subgraph/sushiswap/matic-exchange)
 
-- [Fantom](https://thegraph.com/explorer/subgraph/sushiswap/fantom-exchange)
+-   [Fantom](https://thegraph.com/explorer/subgraph/sushiswap/fantom-exchange)
 
-- [Arbitrum](https://thegraph.com/explorer/subgraph/sushiswap/arbitrum-exchange)
+-   [Arbitrum](https://thegraph.com/explorer/subgraph/sushiswap/arbitrum-exchange)
 
-- [Celo](https://thegraph.com/explorer/subgraph/sushiswap/celo-exchange)
+-   [Celo](https://thegraph.com/explorer/subgraph/sushiswap/celo-exchange)
 
-- [Avalanche](https://thegraph.com/explorer/subgraph/sushiswap/avalanche-exchange)
+-   [Avalanche](https://thegraph.com/explorer/subgraph/sushiswap/avalanche-exchange)
 
-- [Harmony](https://sushi.graph.t.hmny.io/subgraphs/name/sushiswap/harmony-exchange)
+-   [Harmony](https://sushi.graph.t.hmny.io/subgraphs/name/sushiswap/harmony-exchange)
 
-- [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/moonriver-exchange)
+-   [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/moonriver-exchange)
 
 ### Master Chef
 
