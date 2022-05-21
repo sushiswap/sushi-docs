@@ -8,17 +8,17 @@ The BentoBox is a vault that holds tokens and generates yield from flash loans a
 
 Building on top of Bentobox provides these benefits:
 
-- Extra yield from flash loans
+-   Extra yield from flash loans
 
-- Extra yield from strategies
+-   Extra yield from strategies
 
-- Optimized deposit, withdraw and skim functions that auto convert ETH to WETH
+-   Optimized deposit, withdraw and skim functions that auto convert ETH to WETH
 
-- Low gas (and fixed gas!) transfers of tokens within Bentobox
+-   Low gas (and fixed gas!) transfers of tokens within Bentobox
 
-- Simplified approval of tokens (no need to reapprove for each protocol)
+-   Simplified approval of tokens (no need to reapprove for each protocol)
 
-- Minimal proxy contract factory is built in; no need to roll your own!
+-   Minimal proxy contract factory is built in; no need to roll your own!
 
 ### Single Vault
 
@@ -36,15 +36,15 @@ ERC-3156 wasn't final at release of the BentoBox and the BentoBox is not ERC-315
 
 The BentoBox has a simple strategy system per token. A strategy is a contract that invests a single token for profit and returns the profit in that same token. The safest strategies would be those that:
 
-- Can only ever grow in token amount - principal is always safe
+-   Can only ever grow in token amount - principal is always safe
 
-- Can be deposited and withdrawn at will
+-   Can be deposited and withdrawn at will
 
 Some examples of this would be:
 
-- The SushiBar: $SUSHI can be invested and held as xSUSHI. See **SushiStrategy.sol**
+-   The SushiBar: $SUSHI can be invested and held as xSUSHI. See **SushiStrategy.sol**
 
-- Staking contracts, such as MasterChef and Onsen
+-   Staking contracts, such as MasterChef and Onsen
 
 It will be up to the community and the Sushi team to decide which strategies are safe enough to enable. The BentoBox has a hardcoded 2 week waiting period for enabling or changing strategies.
 

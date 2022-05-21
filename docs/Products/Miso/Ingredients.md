@@ -16,19 +16,19 @@ Below is a list of the current "Ingredients" used in our MISO kitchen at launch.
 
 **Factory** - Minting of new tokens
 
-- Fixed Token - Standard ERC20
-- Mintable Token - ERC20 with minting capabilities and access control
-- SushiToken - ERC20 mintable with governance and access control
+-   Fixed Token - Standard ERC20
+-   Mintable Token - ERC20 with minting capabilities and access control
+-   SushiToken - ERC20 mintable with governance and access control
 
 **Market** - Initial token offerings; Fixed Price and Dutch Auction options
 
-- Crowdsale - Fixed price token swap / ICO contract
-- Dutch Auction - Declining priced auction designed to get the best price
-- Batch Auction - All commitments get split pro rata at the end of the auction
+-   Crowdsale - Fixed price token swap / ICO contract
+-   Dutch Auction - Declining priced auction designed to get the best price
+-   Batch Auction - All commitments get split pro rata at the end of the auction
 
 **Liquidity** - Migration of a portion of raised funds to SushiSwap
 
-- Post Auction Launcher - After an auction is successful, a portion of the auction proceeds can be converted to SushiSwap LP tokens and locked up for a period of time
+-   Post Auction Launcher - After an auction is successful, a portion of the auction proceeds can be converted to SushiSwap LP tokens and locked up for a period of time
 
 ## Work In Progress
 

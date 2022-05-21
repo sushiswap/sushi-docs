@@ -8,17 +8,17 @@ Platforms like Compound and Aave allow users to deposit assets as collateral and
 
 We solve these issues by having a platform with:
 
-- Isolated lending pairs. Anyone can create a pair, it’s up to users which pairs they find safe enough. Risk is isolated to just that pair.
+-   Isolated lending pairs. Anyone can create a pair, it’s up to users which pairs they find safe enough. Risk is isolated to just that pair.
 
-- Flexible oracles, both on-chain and off-chain.
+-   Flexible oracles, both on-chain and off-chain.
 
-- Liquid interest rates based on a specific target utilization range, such as 70-80%.
+-   Liquid interest rates based on a specific target utilization range, such as 70-80%.
 
-- Flexible/composable contracts optimized for low gas.
+-   Flexible/composable contracts optimized for low gas.
 
-- Built on the BentoBox, so supplied assets can be used for flash loans and strategies, providing extra revenue for suppliers.
+-   Built on the BentoBox, so supplied assets can be used for flash loans and strategies, providing extra revenue for suppliers.
 
-- Benefits of liquidations can go to the liquidity provider instead of the liquidators.
+-   Benefits of liquidations can go to the liquidity provider instead of the liquidators.
 
 ## Isolated Lending Pairs
 
@@ -48,11 +48,11 @@ Now we are not only able to short this brand new token (which currently is often
 
 When a pool is created an oracle can be selected. We will provide 2 basic oracles, but the system can be extended and anyone could write a connector to an oracle. Some basic oracles provided are:
 
-- Chainlink Oracles
+-   Chainlink Oracles
 
-- SushiSwap Time Weighted Average Price — every SushiSwap/Uniswap pool can be used to get a TWAP
+-   SushiSwap Time Weighted Average Price — every SushiSwap/Uniswap pool can be used to get a TWAP
 
-- [Open Oracle Price Feeds](https://compound.finance/docs/prices#price) — these are the feeds Compound uses
+-   [Open Oracle Price Feeds](https://compound.finance/docs/prices#price) — these are the feeds Compound uses
 
 Anyone can create a new oracle!
 
@@ -68,6 +68,6 @@ Most of the current implementations use quite a lot of gas, making them useless 
 
 ## Revenue Generation
 
-- 10% of the interest proceeds will be sent to the SushiBar
+-   10% of the interest proceeds will be sent to the SushiBar
 
-- 10% of closed liquidations goes to the SushiBar
+-   10% of closed liquidations goes to the SushiBar

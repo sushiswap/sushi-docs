@@ -12,15 +12,15 @@ Similar to other exchanges in the cryptocurrency market, SushiSwap was in need o
 
 MISO creates a collection of out-of-the-box smart contracts for non-technical founders to choose over more traditional and code-oriented methods of token launching. Our customers will be able to select and customise their token launch - including initial offering, vault and farm options. MISO functionality is aimed at easing new tokens through their launch and migration of new liquidity into SushiSwap. This suite of contracts, dubbed our "ingredients", are divided into the following groups:
 
-- **Tokens** - Options for tokens for projects; token types include Fixed Supply, Mintable & $SUSHI Token
+-   **Tokens** - Options for tokens for projects; token types include Fixed Supply, Mintable & $SUSHI Token
 
-- **Market** - Contracts for initial token offerings; choose from Crowdsale, Dutch & Batch Auction, as well as how you'd like to manage participation
+-   **Market** - Contracts for initial token offerings; choose from Crowdsale, Dutch & Batch Auction, as well as how you'd like to manage participation
 
-- **Liquidity** - Easy liquidity migrations; set a portion of raised funds to create a new SushiSwap pool and migrate trustlessly
+-   **Liquidity** - Easy liquidity migrations; set a portion of raised funds to create a new SushiSwap pool and migrate trustlessly
 
-- **Fermentation** - Vaulting/escrow options for locking up (and releasing) tokens over time
+-   **Fermentation** - Vaulting/escrow options for locking up (and releasing) tokens over time
 
-- **Farm Produce** - Fresh tokens can be farmed for rewards by users
+-   **Farm Produce** - Fresh tokens can be farmed for rewards by users
 
 ### The Recipes
 
