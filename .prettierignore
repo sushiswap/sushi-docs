@@ -1,0 +1,10 @@
+*.html
+*.css
+*.svg
+*.xml
+*.scss
+*.min.js
+.docusarus/
+.cache/
+build/
+.docusaurus/**/*
