@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # ConstantProductPool
 
-This is a Trident exchange pool template with constant product formila for swapping between an ERC-20 token pair.
+This is a Trident exchange pool template with constant product formula for swapping between an ERC-20 token pair.
 
 The full contract can be found [here](https://github.com/sushiswap/trident/blob/master/contracts/pool/constant-product/ConstantProductPool.sol).
 

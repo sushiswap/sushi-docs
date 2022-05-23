@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # MasterDeployer
 
 MasterDeployer is the contract in charge of deploying Trident pools with a template factory whitelist.

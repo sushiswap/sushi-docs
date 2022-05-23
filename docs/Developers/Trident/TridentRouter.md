@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # TridentRouter
 
 The TridentRouter contract is a contract that facilitates in the swapping of assets across Trident pools.
