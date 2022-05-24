@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Core SDK
@@ -69,4 +69,6 @@ Above, we are parsing and validating an address being derived from the `TradeOpt
 
 ## Use it!
 
-These are but a few of the powerful and helpful things the Core SDK can provide. We encourage you to look through the package yourself and leverage it to build your own quality dapps!
+These are but a few of the powerful and helpful things the Core SDK can provide developers. We encourage you to look through the package yourself and leverage it to build your own quality dapps!
+
+The source code can be found [here](https://github.com/sushiswap/sdk/tree/canary/packages/core-sdk).
