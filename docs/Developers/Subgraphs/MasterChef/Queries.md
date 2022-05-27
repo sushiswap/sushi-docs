@@ -2,7 +2,7 @@
 
 This page provides some sample query examples to help get you started with the SushiSwap MasterChef subgraph.
 
-You can test any of the queries, or write your own, on the [SushiSwap Subgraph Explorer](https://thegraph.com/hosted-service/subgraph/zippoxer/sushiswap-subgraph-fork).
+You can test any of the queries, or write your own, on the [SushiSwap Masterchef subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/master-chef).
 
 ## MasterChef
 

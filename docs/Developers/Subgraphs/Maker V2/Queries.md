@@ -2,7 +2,7 @@
 
 This page provides some sample query examples to help get you started with the SushiSwap Maker V2 subgraph.
 
-You can test any of the queries, or write your own, on the [SushiSwap Subgraph Explorer](https://thegraph.com/hosted-service/subgraph/zippoxer/sushiswap-subgraph-fork).
+You can test any of the queries, or write your own, on the [SushiSwap Makerv2 subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/sushi-makerv2).
 
 ## Maker
 
