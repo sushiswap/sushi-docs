@@ -42,7 +42,7 @@ The BentoBox has a simple strategy system per token. A strategy is a contract th
 
 Some examples of this would be:
 
--   The SushiBar: $SUSHI can be invested and held as xSUSHI. See **SushiStrategy.sol**
+- The SushiBar: $SUSHI can be invested and held as xSUSHI
 
 -   Staking contracts, such as MasterChef and Onsen
 
@@ -50,7 +50,7 @@ It will be up to the community and the Sushi team to decide which strategies are
 
 ### Amounts and Shares
 
-When you deposit token in the BentoBox, you receive a number of shares. This represents your shares of the total token amount in the BentoBox. As the amount of tokens grows due to flash loan fees and profit from strategies, you will get your share of that. Simple depositing tokens into the BentoBox can provide returns.
+When you deposit token in the BentoBox, you receive a number of shares. This represents your shares of the total token amount in the BentoBox. As the amount of tokens grows due to flash loan fees and profit from strategies, you will get your share of that. Simply depositing tokens into the BentoBox can provide returns.
 
 Because of limited precision in the accounting, there will be small rounding differences. For most tokens these will be incredibly small and have no useful value. In the top 100 tokens, currently $XAUT is worth the most for a single accounting unit, at about $0.00185. BentoBox is designed to never round in your favour, because that could be exploited by clever hackers. But because of this, when you deposit 100 tokens and withdraw it straight away, you may only receive for instance 99.9999.
 

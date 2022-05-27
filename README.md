@@ -1,6 +1,6 @@
 # SushiSwap Documentation
 
-This is the repository for the official SushiSwap docs, hosted at [sushi-docs.vercel.app](sushi-docs.vercel.app).
+This is the repository for the official SushiSwap docs, hosted at [https://docs.sushi.com/](https://docs.sushi.com/).
 
 ### Questions
 
