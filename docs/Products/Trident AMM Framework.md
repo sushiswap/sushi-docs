@@ -16,10 +16,10 @@ The aforementioned methods (swap, flashSwap, mint, burn, etc.) are collected in 
 
 The framework design pattern used by Trident is known as interface-based programming, which inherently comes with additional advantages in the context of Sushi’s future growth:
 
-- Any future AMM that might be competitive in DeFi can be integrated into Trident
-- Dynamic liquidity types can be created and added using the existing framwork, without requiring a new framework to be created and deployed from scratch
-- Counterproductive game theoretics can be prevented in advance by projects preparing their liquidity to go to market - that is, you can prepare pool types to fit your own strategies
-- External developers can engineer high volume pools, and earn from the fees
+-   Any future AMM that might be competitive in DeFi can be integrated into Trident
+-   Dynamic liquidity types can be created and added using the existing framwork, without requiring a new framework to be created and deployed from scratch
+-   Counterproductive game theoretics can be prevented in advance by projects preparing their liquidity to go to market - that is, you can prepare pool types to fit your own strategies
+-   External developers can engineer high volume pools, and earn from the fees
 
 ### The Trident Pipeline
 
