@@ -28,7 +28,7 @@ const tokenAPrice = pool.token0Price()
 
 Above, we instantiate two `Token` instances and then simply create the Constant Product Pool by passing them into its constructor. Once our pool is deployed, we can do all kinds of things with it, such as query for the current price of the first token (`tokenA` above) in the pool.
 
-## Use it
+## Use It!
 
 This is but one of the powerful and helpful things the Trident SDK can provide developers. We encourage you to look through the package yourself and leverage it to build your own quality dapps!
 

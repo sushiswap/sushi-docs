@@ -40,7 +40,7 @@ const getOracleData = useCallback(
       )
 ```
 
-You can see that we're using the `Currency` entity to type both our `asset` and `collateral` parameters. This ensures that the data being passed to the function always follows the same shape, and that no breaking changes will be introduced with unintended behavior; this is extremely crucial, especially with something as important as retrieving data from an oracle!
+You can see above that we're using the `Currency` entity to type both our `asset` and `collateral` parameters. This ensures that the data being passed to the function always follows the same shape, and that no breaking changes will be introduced with unintended behavior; this is extremely crucial, especially with something as important as retrieving data from an oracle!
 
 ## Constants
 
@@ -67,7 +67,7 @@ public static swapCallParameters(
 
 Above, we are parsing and validating an address being derived from the `TradeOptions` (also in Core SDK) interface, giving us the recipient's address without having to write and rewrite our own custom logic each time we want to parse a legitimate address.
 
-## Use it!
+## Use It!
 
 These are but a few of the powerful and helpful things the Core SDK can provide developers. We encourage you to look through the package yourself and leverage it to build your own quality dapps!
 

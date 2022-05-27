@@ -34,17 +34,17 @@ Creates a vesting schedule for the token stream.
 
 #### Parameters
 
-| Name            | Type    | Description                                      |
-| :-------------- | :------ | :----------------------------------------------- |
-| `token`         | IERC20  | the token to vest                                |
-| `recipient`     | address | address of recipient                             |
-| `start`         | uint32  | when vesting starts                              |
-| `cliffDuration` | uint32  | how long the vesting cliff will last             |
-| `stepDuration`  | uint32  | how long to stay in each step of vesting process |
-| `steps`         | uint32  | amount of steps to include                       |
-| `cliffAmount`   | uint128 | amount to set for cliff                          |
-| `stepAmount`    | uint128 | amount to set for each step                      |
-| `fromBentoBox`  | bool    | boolean for if coming from BentoBox or not       |
+| Name            | Type    | Description                                |
+| :-------------- | :------ | :----------------------------------------- |
+| `token`         | IERC20  | the token to vest                          |
+| `recipient`     | address | address of recipient                       |
+| `start`         | uint32  | when vesting starts                        |
+| `cliffDuration` | uint32  | length of vesting cliff                    |
+| `stepDuration`  | uint32  | length of steps                            |
+| `steps`         | uint32  | amount of steps                            |
+| `cliffAmount`   | uint128 | amount to set for cliff                    |
+| `stepAmount`    | uint128 | amount to set for each step                |
+| `fromBentoBox`  | bool    | boolean for if coming from BentoBox or not |
 
 #### Returns
 
@@ -85,7 +85,7 @@ Stops a vesting.
 
 | Name         | Type    | Description                                |
 | :----------- | :------ | :----------------------------------------- |
-| `vestId`     | uint256 | vestment ID to stop                        |
+| `vestId`     | uint256 | vesting ID to stop                         |
 | `toBentoBox` | bool    | boolean for if coming from BentoBox or not |
 
 ### vestBalance
@@ -102,9 +102,9 @@ View function that returns the current balance of the vesting.
 
 #### Parameters
 
-| Name     | Type    | Description                                 |
-| :------- | :------ | :------------------------------------------ |
-| `vestId` | uint256 | vestment ID of vestment to check balance of |
+| Name     | Type    | Description                    |
+| :------- | :------ | :----------------------------- |
+| `vestId` | uint256 | vesting ID to check balance of |
 
 ### \_balanceOf
 
@@ -119,15 +119,15 @@ Internal function that returns the amount of claimable tokens from a vesting, gi
 
 #### Parameters
 
-| Name   | Type | Description                                     |
-| :----- | :--- | :---------------------------------------------- |
-| `vest` | Vest | vestment object of vestment to check balance of |
+| Name   | Type | Description                        |
+| :----- | :--- | :--------------------------------- |
+| `vest` | Vest | vesting object to check balance of |
 
 #### Returns
 
-| Name        | Type    | Description                              |
-| :---------- | :------ | :--------------------------------------- |
-| `claimable` | uint256 | amount of claimable tokens from vestment |
+| Name        | Type    | Description                             |
+| :---------- | :------ | :-------------------------------------- |
+| `claimable` | uint256 | amount of claimable tokens from vesting |
 
 ### updateOwner
 
@@ -139,10 +139,10 @@ Sets the new owner of a vesting. Must be current owner to set.
 
 #### Parameters
 
-| Name       | Type    | Description                    |
-| :--------- | :------ | :----------------------------- |
-| `vestId`   | uint256 | vestment ID to change owner of |
-| `newOwner` | address | address of new owner to set    |
+| Name       | Type    | Description                   |
+| :--------- | :------ | :---------------------------- |
+| `vestId`   | uint256 | vesting ID to change owner of |
+| `newOwner` | address | address of new owner to set   |
 
 ### \_depositToken
 

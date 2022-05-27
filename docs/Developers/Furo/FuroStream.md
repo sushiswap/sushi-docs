@@ -117,7 +117,7 @@ Withdraws token shares from the stream.
 
 | Name               | Type    | Description                           |
 | :----------------- | :------ | :------------------------------------ |
-| `recipientBalance` | uint256 | user's new balance after withdraw     |
+| `recipientBalance` | uint256 | user's new balance after withdrawal   |
 | `to`               | address | address that shares were withdrawn to |
 
 ### cancelStream
@@ -129,7 +129,7 @@ function cancelStream(uint256 streamId, bool toBentoBox)
         returns (uint256 senderBalance, uint256 recipientBalance)
 ```
 
-Cancels a token stream with the given ID.
+Cancels a token stream with the given ID and returns the sender and recipient balances.
 
 #### Parameters
 
