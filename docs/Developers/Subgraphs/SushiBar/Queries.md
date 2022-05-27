@@ -2,7 +2,7 @@
 
 This page provides some sample query examples to help get you started with the SushiSwap SushiBar subgraph.
 
-You can test any of the queries, or write your own, on the [SushiSwap Subgraph Explorer](https://thegraph.com/hosted-service/subgraph/zippoxer/sushiswap-subgraph-fork).
+You can test any of the queries, or write your own, on the [SushiSwap SushiBar subgraph](https://thegraph.com/explorer/subgraph?id=9PNQKCFNijybeAXkfSYrrQQ9gtRhLJB8VgmBSov3RkDQ&view=Overview).
 
 ## Bar
 
