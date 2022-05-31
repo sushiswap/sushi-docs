@@ -57,6 +57,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/Developers/Packages/Overview',
+            label: 'Packages',
+            position: 'left',
+          },
+          {
             to: '/docs/Governance/Current%20Governance%20Model',
             label: 'Governance',
             position: 'left',
@@ -70,13 +75,11 @@ const config = {
             to: '/docs/FAQ/General%20FAQ',
             label: 'FAQ',
             position: 'right',
-            className: 'persistent',
           },
           {
             href: 'https://github.com/sushiswap',
             label: 'GitHub',
             position: 'right',
-            className: 'persistent',
           },
         ],
       },

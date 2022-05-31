@@ -2,7 +2,7 @@
 
 This page provides some sample query examples to help get you started with the SushiSwap MiniChef subgraph.
 
-You can test any of the queries, or write your own, on the [SushiSwap polygon Minichef subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/matic-minichef).
+You can test any of the queries, or write your own, on the [SushiSwap Polygon MiniChef subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/matic-minichef).
 
 ## MiniChef
 
