@@ -2,11 +2,11 @@
 
 This page provides some sample query examples to help get you started with the SushiSwap MasterChef subgraph.
 
-You can test any of the queries, or write your own, on the [SushiSwap Masterchef subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/master-chef).
+You can test any of the queries, or write your own, on the [SushiSwap MasterChef subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/master-chef).
 
 ## MasterChef
 
-This query gets the first 5 MasterChef pools that were deployed and returns their ID (pool address), bonus multiplier, end block for the multiplier, and the address of the user who deployed the pool.
+This query gets the first 5 MasterChefs that were deployed and returns their ID, bonus multiplier, end block for the multiplier, and the address of the user who deployed the pool.
 
 ```
 {

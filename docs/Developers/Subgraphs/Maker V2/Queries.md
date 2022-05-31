@@ -2,36 +2,16 @@
 
 This page provides some sample query examples to help get you started with the SushiSwap Maker V2 subgraph.
 
-You can test any of the queries, or write your own, on the [SushiSwap Makerv2 subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/sushi-makerv2).
+You can test any of the queries, or write your own, on the [SushiSwap Maker V2 subgraph](https://thegraph.com/hosted-service/subgraph/sushiswap/sushi-makerv2).
 
 ## Maker
 
-This query grabs the first 25 makers and returns their ID, amount of SUSHI served, total amount of SUSHI served, and the servers along with their IDs (user addresses).
+This query grabs the first 25 makers and returns their ID (maker address), amount of $SUSHI served and the total amount of $SUSHI served.
 
 ```
 {
   makers(first: 25) {
     id
-    sushiServed
-    totalServings
-    servers {
-      id
-    }
-  }
-}
-```
-
-## Server
-
-This query grabs the first 50 servers and returns their ID (address) as well as the Maker's ID (address), amount of SUSHI they've served and the total amount of SUSHI they've served.
-
-```
-{
-  servers(first: 50) {
-    id
-    maker {
-      id
-    }
     sushiServed
     totalServings
   }
@@ -40,17 +20,17 @@ This query grabs the first 50 servers and returns their ID (address) as well as 
 
 ## Serving
 
-This query grabs the first 100 servings and returns their ID, amount of SUSHI, the txn data and the server who served that specific serving and their ID (address).
+This query grabs the first 50 servings and returns their IDs as well as the Maker's ID (address), the transaction hash and the amount of $SUSHI in the serving.
 
 ```
 {
-  servings(first: 100) {
+  servings(first: 50) {
     id
-    amountSushi
-    tx
-    server {
+    maker {
       id
     }
+    tx
+    amountSushi
   }
 }
 ```
