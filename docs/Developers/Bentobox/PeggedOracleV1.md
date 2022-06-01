@@ -6,7 +6,7 @@ sidebar_position: 4
 
 This is the contract for the oracle used for pegged prices that _don't change._
 
-You can find the full contract [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/bentobox/PeggedOracleV1.sol).
+You can find the full contract [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/bentobox/PeggedOracleV1.sol).
 
 ## Functions
 

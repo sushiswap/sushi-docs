@@ -32,7 +32,7 @@ interface IBatchFlashBorrower {
 }
 ```
 
-Interfaces for both the FlashBorrower contract and the BatchFlashBorrower contract; source code can be found [here](https://github.com/sushiswap/bentobox/blob/canary/contracts/interfaces/IFlashLoan.sol).
+Interfaces for both the FlashBorrower contract and the BatchFlashBorrower contract; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/bentobox/v1/contracts/interfaces/IFlashLoan.sol).
 
 ## IStrategy
 
@@ -48,7 +48,7 @@ interface IStrategy {
 }
 ```
 
-Interface for the Strategy contract; source code can be found [here](https://github.com/sushiswap/bentobox/blob/canary/contracts/interfaces/IStrategy.sol).
+Interface for the Strategy contract; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/bentobox/v1/contracts/interfaces/IStrategy.sol).
 
 ## IWETH
 
@@ -60,4 +60,4 @@ interface IWETH {
 }
 ```
 
-Standard interface for wrapped ETH; source code can be found [here](https://github.com/sushiswap/bentobox/blob/canary/contracts/interfaces/IWETH.sol).
+Standard interface for wrapped ETH; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/bentobox/v1/contracts/interfaces/IWETH.sol).

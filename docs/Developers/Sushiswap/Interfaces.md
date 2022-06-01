@@ -10,19 +10,23 @@ Listed below are all of the interfaces used in the aforementioned core contracts
 
 ```
 interface IERC20 {
-    function totalSupply() external view returns (uint256);
-    function balanceOf(address account) external view returns (uint256);
-    function allowance(address owner, address spender) external view returns (uint256);
-    function approve(address spender, uint256 amount) external returns (bool);
-    event Transfer(address indexed from, address indexed to, uint256 value);
-    event Approval(address indexed owner, address indexed spender, uint256 value);
+    event Approval(address indexed owner, address indexed spender, uint value);
+    event Transfer(address indexed from, address indexed to, uint value);
 
-    // EIP 2612
-    function permit(address owner, address spender, uint256 value, uint256 deadline, uint8 v, bytes32 r, bytes32 s) external;
+    function name() external view returns (string memory);
+    function symbol() external view returns (string memory);
+    function decimals() external view returns (uint8);
+    function totalSupply() external view returns (uint);
+    function balanceOf(address owner) external view returns (uint);
+    function allowance(address owner, address spender) external view returns (uint);
+
+    function approve(address spender, uint value) external returns (bool);
+    function transfer(address to, uint value) external returns (bool);
+    function transferFrom(address from, address to, uint value) external returns (bool);
 }
 ```
 
-Standard ERC20 interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/interfaces/IERC20.sol).
+Standard ERC20 interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/sushiswap/contracts/interfaces/IERC20.sol).
 
 ## IMasterChef
 

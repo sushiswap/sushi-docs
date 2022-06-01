@@ -6,6 +6,8 @@ sidebar_position: 3
 
 The MiniChef contract plays the same role as the MasterChef contract does, with the main exception being that they are deployed across L2's, whereas MasterChef is deployed on the Ethereum mainnet.
 
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/MiniChefV2.sol).
+
 ## Functions
 
 ### poolLength

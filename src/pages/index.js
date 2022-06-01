@@ -53,7 +53,7 @@ export const Guides = [
 export const github = [
   {
     title: 'sushiswap-contracts',
-    href: 'https://github.com/sushiswap/sushiswap',
+    href: 'https://github.com/sushiswap',
     icon: CodeIcon,
   },
   {

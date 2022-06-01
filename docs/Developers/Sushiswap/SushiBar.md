@@ -8,7 +8,7 @@ SushiBar is the coolest bar in town - you come in with some SUSHI, and you leave
 
 The SushiBar contract handles swapping to and from xSUSHI, SushiSwap's staking token.
 
-The full contract can be viewed [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiBar.sol).
+The full contract can be viewed [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/SushiBar.sol).
 
 ## Functions
 

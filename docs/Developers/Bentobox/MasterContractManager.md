@@ -6,7 +6,7 @@ sidebar_position: 5
 
 The MasterContractManager contract is in charge of approving or revoking a `masterContract` access to user funds.
 
-The full contract can be found [here](https://github.com/sushiswap/bentobox/blob/canary/contracts/MasterContractManager.sol).
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/bentobox/v1/contracts/MasterContractManager.sol).
 
 ## Functions
 

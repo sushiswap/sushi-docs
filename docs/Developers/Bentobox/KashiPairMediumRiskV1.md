@@ -2,11 +2,11 @@
 sidebar_position: 3
 ---
 
-# KashiPairMediumRiskV2
+# KashiPairMediumRiskV1
 
 This contract contains one of the Kashi strategies used on top of BentoBox.
 
-You can find the full contract [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/bentobox/KashiPairMediumRiskV1.sol)
+You can find the full contract [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/bentobox/KashiPairMediumRiskV1.sol).
 
 ## Functions
 

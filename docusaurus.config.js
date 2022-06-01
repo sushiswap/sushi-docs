@@ -91,7 +91,7 @@ const config = {
             items: [
               {
                 label: 'sushiswap-contracts',
-                href: 'https://github.com/sushiswap/sushiswap',
+                href: 'https://github.com/sushiswap',
               },
               {
                 label: 'sushiswap-interface',

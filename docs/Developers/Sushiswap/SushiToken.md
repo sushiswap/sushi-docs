@@ -6,7 +6,7 @@ sidebar_position: 8
 
 This is the contract for the Sushi Token with governance.
 
-The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiToken.sol).
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/SushiToken.sol).
 
 ## Functions
 

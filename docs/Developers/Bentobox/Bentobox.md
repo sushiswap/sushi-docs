@@ -6,7 +6,7 @@ sidebar_position: 2
 
 The BentoBox is a vault for tokens. The stored tokens can be flashloaned or used in strategies - the yield from this will go to the token depositors.
 
-A link to the complete contract can be found [here](https://github.com/sushiswap/bentobox/blob/canary/contracts/BentoBox.sol)
+You can find the full contract [here](https://github.com/sushiswap/sushiswap/tree/master/protocols/bentobox/v1/contracts).
 
 **_Warning:_** Rebasing tokens are **NOT** supported and **WILL** cause a loss of funds!
 

@@ -6,7 +6,7 @@ sidebar_position: 6
 
 SushiMakerKashi handles "serving up" rewards for xSUSHI holders by trading tokens collected from Kashi fees for SUSHI.
 
-The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/SushiMakerKashi.sol).
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/SushiMakerKashi.sol).
 
 ## Functions
 

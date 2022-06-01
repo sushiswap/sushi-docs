@@ -12,7 +12,7 @@ points that determines the number of SUSHI rewarded to each pool.
 
 MasterChef is the only contract with minting rights for the SUSHI token.
 
-The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/MasterChefV2.sol).
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/MasterChefV2.sol).
 
 ## Functions
 
