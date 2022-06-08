@@ -32,6 +32,6 @@ Below is a list of the current "Ingredients" used in our MISO kitchen at launch.
 
 ## Work In Progress
 
-**Farms** - Options for immediate locking away of minted tokens inside varioud farm types. Current proposal focusing on updating the MasterChef contracts to support custom rewards
+**Farms** - Options for immediate locking away of minted tokens inside various farm types. Current proposal focusing on updating the MasterChef contracts to support custom rewards
 
 **Fermentation Vaults** - Vaulting and escrow of minted tokens and interaction with market funds; current implementations include Multi-Sig and Timelock vaults
