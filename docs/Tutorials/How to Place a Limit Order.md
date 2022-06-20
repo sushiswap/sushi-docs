@@ -14,13 +14,13 @@ After you have deposited tokens into the BentoBox, you can place your limit orde
 
 <img src='/img/tutimg/htpalo/htpalo4.png' alt="" width="50%" />
 
-When you click _Review Limit Order,_ you will be prompted with a pop up message asking you to confirm the limit order (left image). After you confirm on the pop up, you will be asked to sign the transaction on your digital wallet; this is a gasless signature (right image).
+When you click _Review Limit Order,_ you will be prompted with a pop-up message asking you to confirm the limit order (left image). After you confirm on the pop-up, you will be asked to sign the transaction on your digital wallet; this is a gasless signature (right image).
 
 <img src='/img/tutimg/htpalo/htpalo5.png' alt="" width="50%" />
 
 <img src='/img/tutimg/htpalo/htpalo6.png' alt="" width="50%" />
 
-If you then click _My Orders_ in the upper right hand of the swapper box, you will see your open orders, as in the left image below. Once the price is in the desired range, limit orders on SushiSwap may take 3-5 minutes to execute. Once the order has executed, you will see your order in your order history, as in the right image below.
+If you then click _My Orders_ in the upper right hand of the swapper box, you will see your open orders, as in the left image below. Once the price is in the desired range, limit orders on SushiSwap may take 3-5 minutes to execute. Once the order has been executed, you will see your order in your order history, as in the right image below.
 
 <img src='/img/tutimg/htpalo/htpalo7.png' alt="" width="50%" />
 

@@ -52,14 +52,14 @@ The main difference is that Kashi uses lending markets, and isolated risk market
 
 ### Below is a list of the ostensible differences between Kashi and Aave, Compound, etc.
 
-| Feature       | Aave, Compound, etc                              | Kashi                                                  |
-| ------------- | ------------------------------------------------ | ------------------------------------------------------ |
-| Markets       | Large pool with a variety of tokens              | A market is one asset and one collateral token         |
-| Risk          | Systemic risk, each token can cripple the system | Isolated risk in each market                           |
-| Assets Listed | "Company"/DAO decides if/when assets get listed  | Users can create any markets they want                 |
-| Interest Rate | Fixed curve that needs manual adjustment         | Elastic interest rates responding to supply and demand |
-| Oracles       | Chosen/maintained by the "Company"/DAO           | Open to use any oracle, user decides                   |
-| Liquidations  | Profits go to the liquidator                     | Liquidity providers can get the profits                |
+| Feature | Aave, Compound, etc | Kashi |
+| --- | --- | --- |
+| Markets | Large pool with a variety of tokens | A market is one asset and one collateral token |
+| Risk | Systemic risk, each token can cripple the system | Isolated risk in each market |
+| Assets Listed | "Company"/DAO decides if/when assets get listed | Users can create any markets they want |
+| Interest Rate | Fixed curve that needs manual adjustment | Elastic interest rates responding to supply and demand |
+| Oracles | Chosen/maintained by the "Company"/DAO | Open to use any oracle, user decides |
+| Liquidations | Profits go to the liquidator | Liquidity providers can get the profits |
 
 ### Are there any fees for using the Bentobox?
 

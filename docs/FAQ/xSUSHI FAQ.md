@@ -10,8 +10,7 @@ Follow this link: [https://app.sushi.com/stake](https://app.sushi.com/stake). Yo
 
 ### If I stake my xSUSHI on another platform do I continue to earn $SUSHI rewards?
 
-Yes, you do! Your $SUSHI rewards will continue to accrue, and you can view your rewards here:
-[https://app.sushi.com/stake](https://app.sushi.com/stake)
+Yes, you do! Your $SUSHI rewards will continue to accrue, and you can view your rewards here: [https://app.sushi.com/stake](https://app.sushi.com/stake)
 
 ### What is the current ROI for xSUSHI staking?
 

@@ -94,49 +94,49 @@ Indexes all BentoBox and Kashi Lending data.
 
 Indexes the MiniChef contracts, which are used in place of MasterChefs for alternate networks.
 
-- [Gnosis](https://thegraph.com/hosted-service/subgraph/sushiswap/xdai-minichef)
+-   [Gnosis](https://thegraph.com/hosted-service/subgraph/sushiswap/xdai-minichef)
 
-- [Matic](https://thegraph.com/explorer/subgraph/sushiswap/matic-minichef)
+-   [Matic](https://thegraph.com/explorer/subgraph/sushiswap/matic-minichef)
 
-- [Fantom](https://thegraph.com/hosted-service/subgraph/sushiswap/fantom-minichef)
+-   [Fantom](https://thegraph.com/hosted-service/subgraph/sushiswap/fantom-minichef)
 
-- [Arbitrum](https://thegraph.com/hosted-service/subgraph/sushiswap/arbitrum-minichef)
+-   [Arbitrum](https://thegraph.com/hosted-service/subgraph/sushiswap/arbitrum-minichef)
 
-- [Celo](https://thegraph.com/hosted-service/subgraph/sushiswap/celo-minichef-v2)
+-   [Celo](https://thegraph.com/hosted-service/subgraph/sushiswap/celo-minichef-v2)
 
-- [Moonbeam](https://thegraph.com/hosted-service/subgraph/sushiswap/moonbeam-minichef)
+-   [Moonbeam](https://thegraph.com/hosted-service/subgraph/sushiswap/moonbeam-minichef)
 
-- [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/moonriver-minichef)
+-   [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/moonriver-minichef)
 
-- [Fuse](https://thegraph.com/hosted-service/subgraph/sushiswap/fuse-minichef)
+-   [Fuse](https://thegraph.com/hosted-service/subgraph/sushiswap/fuse-minichef)
 
 ### MISO
 
 Indexes the MISO contracts, which includes auction data, participants, commitments, etc.
 
-- [Mainnet](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-ethereum)
+-   [Mainnet](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-ethereum)
 
-- [Binance](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-bsc)
+-   [Binance](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-bsc)
 
-- [Matic](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-polygon)
+-   [Matic](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-polygon)
 
-- [Fantom](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-fantom)
+-   [Fantom](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-fantom)
 
-- [Arbitrum](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-arbitrum)
+-   [Arbitrum](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-arbitrum)
 
-- [Avanlanche](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-avalanche)
+-   [Avanlanche](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-avalanche)
 
-- [Moonbeam](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-moonbeam)
+-   [Moonbeam](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-moonbeam)
 
-- [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-moonriver)
+-   [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-moonriver)
 
 ### Furo
 
 Indexes the Furo contracts, which includes streaming data, vesting data and user data.
 
-- [FuroStream - Mainnet](https://thegraph.com/hosted-service/subgraph/sushiswap/furo-stream-ethereum)
+-   [FuroStream - Mainnet](https://thegraph.com/hosted-service/subgraph/sushiswap/furo-stream-ethereum)
 
-- [FuroVesting - Mainnet](https://thegraph.com/hosted-service/subgraph/sushiswap/furo-vesting-ethereum)
+-   [FuroVesting - Mainnet](https://thegraph.com/hosted-service/subgraph/sushiswap/furo-vesting-ethereum)
 
 ### Trident
 

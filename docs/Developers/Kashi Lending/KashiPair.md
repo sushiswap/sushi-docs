@@ -414,9 +414,9 @@ Executes a set of actions and allows composability (contract calls) to other con
 
 #### Returns
 
-| Name     | Type    | Description                                                                                      |
-| :------- | :------ | :----------------------------------------------------------------------------------------------- |
-| `value1` | uint256 | first positioned return value of the last executed action, if applicable                         |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `value1` | uint256 | first positioned return value of the last executed action, if applicable |
 | `value2` | uint256 | second positioned return value of the last executed action which returns 2 values, if applicable |
 
 ### liquidate
@@ -435,13 +435,13 @@ Handles the liquidation of users' balances, once the users' amount of collateral
 
 #### Parameters
 
-| Name             | Type      | Description                                                                                  |
-| :--------------- | :-------- | :------------------------------------------------------------------------------------------- |
-| `users`          | address[] | array of user addresses                                                                      |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `users` | address[] | array of user addresses |
 | `maxBorrowParts` | uint256[] | mapped array to `users`, contains maximum borrow amounts to liquidate of the respective user |
-| `to`             | address   | address of receiver in open liquidations                                                     |
-| `swapper`        | ISwapper  | swapper contract address                                                                     |
-| `open`           | bool      | true to perform an open liquidation, else false                                              |
+| `to` | address | address of receiver in open liquidations |
+| `swapper` | ISwapper | swapper contract address |
+| `open` | bool | true to perform an open liquidation, else false |
 
 ### withdrawFees
 

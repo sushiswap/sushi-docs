@@ -70,7 +70,7 @@ When using Sushi on the Celo Network, it will look and feel like your regular Su
 
 **Step 6.** Allow Sushi to spend your tokens by confirming in your wallet.
 
-**Step 7.** After this approval processes, click _Swap_.
+**Step 7.** After this approval process, click _Swap_.
 
 **Step 8.** Confirm the swap transaction fee from your wallet and voila! All done.
 
@@ -104,7 +104,7 @@ The Onsen program also takes this a step further and adds more liquidity providi
 
 **Step 9.** Approve the transaction and relevant fees from your wallet and you will now receive your liquidity pair or LP tokens!
 
-**Step 10.** Once the transaction approves, click the _Yield_ tab and click the yield farming pair you wish to join. You should see your Wallet Balance now displays your received LP tokens.
+**Step 10.** Once the transaction approves, click the _Yield_ tab and click the yield farming pair you wish to join. You should see your Wallet Balance now display your received LP tokens.
 
 **Step 11.** Input the amount of LP tokens you wish to add to the farm or click MAX.
 
