@@ -1,0 +1,65 @@
+---
+openapi: 3.0.1
+info:
+  title: Furo
+  version: "1"
+servers:
+- url: https://sushi.com
+paths:
+  /furo/api/stream/{chainId}/{streamId}:
+    get:
+      description: Get stream
+      parameters:
+      - name: chainId
+        in: path
+        description: Chain ID number, e.g. 1 for ethereum mainnet
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      - name: streamId
+        in: path
+        description: Stream ID number, starts at 1000
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: integer
+      responses:
+        '200':
+          description: |-
+            200 response
+          content:
+            application/json:
+              examples: 
+                foo:
+                  value:
+                    {
+                      "id": "1021",
+                      "__typename": "Stream",
+                      "status": "ACTIVE",
+                      "startedAt": "1654896300",
+                      "expiresAt": "1685269219",
+                      "modifiedAtTimestamp": "1654891693",
+                      "totalAmount": "190562207738",
+                      "withdrawnAmount": "0",
+                      "txHash": "0x8ef330231938de480733823ce27f717ee80149b81d0ea26e66b19578c100e503",
+                      "recipient": {
+                        "id": "0xc86498822ef633f6e1e971484c56e3a087ecc333"
+                      },
+                      "createdBy": {
+                        "id": "0x19b3eb3af5d93b77a5619b047de0eed7115a19e7"
+                      },
+                      "token": {
+                        "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                        "symbol": "USDC",
+                        "name": "USD Coin",
+                        "decimals": "6"
+                      }
+                    }
+      servers:
+      - url: https://sushi.com
+    servers:
+    - url: https://sushi.com
+components: {}

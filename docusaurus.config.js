@@ -1,5 +1,34 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+/**
+ * @type {import('redocusaurus').PresetEntry}
+ */
+ const redocusaurus = [
+  'redocusaurus',
+  {
+    debug: Boolean(process.env.DEBUG || process.env.CI),
+    specs: [
+      {
+        id: 'furo',
+        spec: 'openapi/furo/v1/openapi.yaml',
+        route: '/api/furo/',
+      },
+    ],
+    theme: {
+      primaryColor: '#35393d',
+      /**
+       * Options to pass to redoc
+       * @see https://github.com/redocly/redoc#redoc-options-object
+       */
+      options: { disableSearch: true },
+      /**
+       * Options to pass to override RedocThemeObject
+       * @see https://github.com/Redocly/redoc#redoc-theme-object
+       */
+      theme: {},
+    },
+  },
+];
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -35,6 +64,8 @@ const config = {
         },
       },
     ],
+    // Redocusaurus Config
+    redocusaurus
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
