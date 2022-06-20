@@ -29,14 +29,19 @@ SushiGuard mitigates this type of malicious MEV by leveraging the power of Flash
 
 </aside>
 
-# Why use Sushi Guard?
+## Why use Sushi Guard?
 
 <aside>
-⛔ **mev** sucks. use OpenMEV with Sushi.
+
+> Summary in meme form:
+
+⛔ **MEV** sucks. MEV attacs
+
+🍣 use Sushi. Sushi Guard protec. Sushi Guard no attacs.
 
 </aside>
 
-# Sushiswap’s Sushi Guard
+# Tutorial: How to configure how Sushi Guard works
 
 When you access the Sushi DApp online, you can control the settings for Sushi Guard by accessing the settings panel. (`https://app.sushi.com`)
 
@@ -58,9 +63,10 @@ _Check the settings by clicking the toggle button in the top right corner_
 ![002.png](/img/tutimg/sushiguard/002.png)
 
 <aside>
+
 ✅ **Sushi Guard Protector**
 
-**"Interface Settings"\*** By default**,** the Sushi** Guard Protector is enabled.** We can click the toggle and enable or disable it instantly!
+**"Interface Settings"** By default**,** the Sushi** Guard Protector is enabled.** We can click the toggle and enable or disable it instantly!
 
 </aside>
 
@@ -69,7 +75,8 @@ _Check the settings by clicking the toggle button in the top right corner_
 ![003.png](/img/tutimg/sushiguard/003.png)
 
 <aside>
-⛩️ **Samurai is here to help:** Having an issue? Reach out to the Sushi Samurai
+
+⛩️ **Samurai is here to help:** Having an issue? Reach out to the Sushi Samurai\*\*
 
 </aside>
 
@@ -80,15 +87,16 @@ _Check the settings by clicking the toggle button in the top right corner_
 Sushi Guard works with any token that is available on Sushiswap! Below we have an example of a trade with $FOLD. Any supported token will work!
 
 <aside>
-🔑 **Confirm Swap
 
-Confirm your swap and sign the transaction.\*\*
+🔑 **Confirm Swap**
+
+**Confirm your swap and sign the transaction.**
 
 When you click to ‘Confirm Swap’ you can also open up a more detailed view of the transaction you are about to sign.
 
 </aside>
 
-![Screenshot on 2022-06-14 at 13-40-00.png](/img/tutimg/sushiguard/Screenshot_on_2022-06-14_at_13-40-00.png)
+![](/img/tutimg/sushiguard/swap.png)
 
 ![Sushiswap - Confirm Swap Detailed View](/img/tutimg/sushiguard/004.png)
 
@@ -96,23 +104,25 @@ Sushiswap - Confirm Swap Detailed View
 
 ---
 
-# Signing your transaction
+## Signing your transaction
 
-> In this example, we are using Metamask wallet.
+> In this example, we are using MetaMask wallet.
 
 <aside>
-🟠 **Is this Signature Request Dangerous?
 
-"Signing this message can be dangerous?"\*\*
+🟠 **Is this Signature Request Dangerous?**
+
+**"Signing this message can be dangerous?"**
 
 **You can safely sign the transaction request.**
 
 </aside>
 
 <aside>
-✅ This **Signature Request is safe and secure
 
-"You are safe to use this"\*\*
+✅ This **Signature Request is safe and secure**
+
+**"You are safe to use this"**
 
 **This signature method is safe** because we are only using it to sign a specific subset of transactions, sushi swap trades.
 
@@ -125,27 +135,36 @@ _You can also verify that you are signing the transaction by comparing the messa
 Signature Request Confirmation
 
 <aside>
+
 🫂 **I do not want to use this signing method, can I still use Sushi Guard?**
 
-**"**Y\*\*ou can use Sushi Guard without this signing method by configuring your wallet’s RPC Provider"
+**"You can use Sushi Guard without this signing method by configuring your wallet’s RPC Provider"**
 
-(`https://api.susirelay.com/v1`)\*\*
+(`https://api.susirelay.com/v1`)
 
 </aside>
 
 ![questions.png](/img/tutimg/sushiguard/questions.png)
 
 <aside>
-🚧 **Some Assembly Required  for certain Wallets**
+
+🚧 **Some Configuration Required for certain Wallets**
+
+> Configure your RPC Connection manually using the official RPC Endpoint
 
 -   **Coinbase Wallet** (latest)
 -   older **Ledger** Wallets
 
-Configure your RPC Connection manually using the official RPC Endpoint
+In your wallet's _Network Settings_, add a 'new network', call it _Sushi Guard_. After you have created a _new network_, add the following settings:
+
+<pre>
+CHAIN_ID: `1`
+RPC_URL: `https://api.sushirelay.com/v1`
+NATIVE SYMBOL: ETH
+Block Explorer: `https://etherscan.io`
+</pre>
 
 **https://api.securerpc.com/v1**
-
-https://api.sushirelay.com/v1
 
 **Remember**: Never, ever, share any private keys or send anyone money, even for a test transaction! Support will never ask you to do these things, no exceptions!
 
@@ -158,15 +177,7 @@ https://api.sushirelay.com/v1
 -   Sushi Samurai Help
 -   [Manifold Finance Helpdesk](https://github.com/manifoldfinance/support)
 
--   **Steps to report issues**
-    Just follow the steps below. Otherwise, send a support ticket.
-    [https://github.com/manifoldfinance/support](https://github.com/manifoldfinance/support)
-    ***
-    I use the <name of wallet> app and I am having the following issues
-    1. Step 1
-    2. Step 2
-    3. Step 3
-    ***
+-   **Steps to report issues** Just follow the steps below. Otherwise, send a support ticket. [https://github.com/manifoldfinance/support](https://github.com/manifoldfinance/support)
 
 <aside>
 ☎️ **Manifold Finance Security**
@@ -180,6 +191,6 @@ Encryption: https://manifoldfinance.com/.well-known/pgp-key.asc
 ```
 
 <aside>
-👉 **Discourse:** [forums.sushi.com](https://forums.sushi.com)
+👉 **Sushi Discourse Forums:** [forums.sushi.com](https://forums.sushi.com)
 
 </aside>
