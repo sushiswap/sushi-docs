@@ -32,5 +32,4 @@ You can fill out an application to apply to be listed on Onsen: [Onsen Applicati
 
 New links will be periodically indexed below as available information on Onsen grows:
 
-[https://medium.com/sushiswap-org/onsen-steamy-round-2-mid-update-8164e685d75d](https://medium.com/sushiswap-org/onsen-steamy-round-2-mid-update-8164e685d75d)
-[https://snapshot.page/#/sushi/proposal/QmcvdHzLsQ49dMEXi5VMykHYpgE3oVzCMNqGSbehATLmYg](https://snapshot.page/#/sushi/proposal/QmcvdHzLsQ49dMEXi5VMykHYpgE3oVzCMNqGSbehATLmYg)
+[https://medium.com/sushiswap-org/onsen-steamy-round-2-mid-update-8164e685d75d](https://medium.com/sushiswap-org/onsen-steamy-round-2-mid-update-8164e685d75d) [https://snapshot.page/#/sushi/proposal/QmcvdHzLsQ49dMEXi5VMykHYpgE3oVzCMNqGSbehATLmYg](https://snapshot.page/#/sushi/proposal/QmcvdHzLsQ49dMEXi5VMykHYpgE3oVzCMNqGSbehATLmYg)

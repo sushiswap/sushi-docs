@@ -18,8 +18,7 @@ sidebar_position: 2
 
 **Submit token / logo to SushiSwap (Partner Portal):** [https://partner.sushi.com/](https://partner.sushi.com/)
 
-**Track history of transactions + more:**
-[https://app.zerion.io/](https://app.zerion.io/)
+**Track history of transactions + more:** [https://app.zerion.io/](https://app.zerion.io/)
 
 **Track SushiSwap's performance in the DEX space (TVL / Volume):**
 

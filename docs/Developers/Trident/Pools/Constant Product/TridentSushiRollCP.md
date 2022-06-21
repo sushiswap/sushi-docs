@@ -58,15 +58,15 @@ Migrates between Trident Constant Product pools with different fee / TWAP settin
 
 #### Parameters
 
-| Name                | Type                 | Description                                                                |
-| :------------------ | :------------------- | :------------------------------------------------------------------------- |
-| `currentPool`       | IConstantProductPool | Trident CP address we want to migrate from (can be an outdated CP factory) |
-| `amount`            | uint256              | LP token balance to be migrated                                            |
-| `swapFee`           | uint256              | swap fee of the CP pool being migrated into                                |
-| `twapSupport`       | bool                 | does CP pool moving into support TWAP oracles                              |
-| `minToken0Received` | uint256              | slippage protection for removing liquidity from UniV2 style pool           |
-| `minToken1Received` | uint256              | slippage protection for removing liquidity from UniV2 style pool           |
-| `minLpReceived`     | uint256              | slippage protection for minting liquidity on Trident CP pool               |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `currentPool` | IConstantProductPool | Trident CP address we want to migrate from (can be an outdated CP factory) |
+| `amount` | uint256 | LP token balance to be migrated |
+| `swapFee` | uint256 | swap fee of the CP pool being migrated into |
+| `twapSupport` | bool | does CP pool moving into support TWAP oracles |
+| `minToken0Received` | uint256 | slippage protection for removing liquidity from UniV2 style pool |
+| `minToken1Received` | uint256 | slippage protection for removing liquidity from UniV2 style pool |
+| `minLpReceived` | uint256 | slippage protection for minting liquidity on Trident CP pool |
 
 #### Returns
 

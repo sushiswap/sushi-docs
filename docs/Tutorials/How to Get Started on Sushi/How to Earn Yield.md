@@ -6,8 +6,7 @@ sidebar_position: 4
 
 Earning yield on SushiSwap is connected to being a liquidity provider, but it is also different because you earn $SUSHI token rewards. Our yield farms are branded on Sushi as Onsen. You can take a look at the current Onsen pair options at [https://app.sushi.com/farm](https://app.sushi.com/farm?chainId=1). There are other yield-bearing instruments, but this tutorial will focus on the Onsen pairs.
 
-![](/img/tutimg/htey/htey1.png)
-_When new pools are added to the Onsen, their yields are quite high and as more users enter the yield pairs, the APY balances out, as shown in the screenshot above._
+![](/img/tutimg/htey/htey1.png) _When new pools are added to the Onsen, their yields are quite high and as more users enter the yield pairs, the APY balances out, as shown in the screenshot above._
 
 ### Yield Farming & Onsen 101
 
@@ -41,5 +40,4 @@ Once a temporary Onsen pair is no longer bearing yield, you will probably want t
 
 **Step 4.** Select the farm or Onsen pair you wish to no longer participate in and click “Harvest x.xx SUSHI”
 
-**Step 5.** Approve the transaction from your wallet and you’re all set!
-_Note: You can also remove the liquidity position entirely on this page as well_
+**Step 5.** Approve the transaction from your wallet and you’re all set! _Note: You can also remove the liquidity position entirely on this page as well_

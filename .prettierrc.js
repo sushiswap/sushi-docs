@@ -9,6 +9,7 @@ module.exports = {
   tabWidth: 2,
   trailingComma: 'all',
   quoteProps: 'as-needed',
+  proseWrap: 'never',
   semi: true,
   overrides: [
     {

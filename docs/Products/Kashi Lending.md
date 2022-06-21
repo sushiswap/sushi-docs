@@ -14,11 +14,11 @@ The main difference is that Kashi uses lending markets, and isolated risk market
 
 Another important consequence is that an elastic interest rate is used to incentivize liquidity in a certain range (see [What is the Elastic Interest Rate?](/docs/FAQ/Bentobox%20FAQ#what-is-the-elastic-interest-rate)). Yet another consequence of lending pairs and isolated risk markets is that Kashi’s oracles need to be customizable to provide price feeds for infinitely many tokens.
 
-| Feature       | Aave, Compound, etc                              | Kashi                                                  |
-| ------------- | ------------------------------------------------ | ------------------------------------------------------ |
-| Markets       | Large pool with a variety of tokens              | A market is one asset and one collateral token         |
-| Risk          | Systemic risk, each token can cripple the system | Isolated risk in each market                           |
-| Assets Listed | "Company"/DAO decides if/when assets get listed  | Users can create any markets they want                 |
-| Interest Rate | Fixed curve that needs manual adjustment         | Elastic interest rates responding to supply and demand |
-| Oracles       | Chosen/maintained by the "Company"/DAO           | Open to use any oracle, user decides                   |
-| Liquidations  | Profits go to the liquidator                     | Liquidity providers can get the profits                |
+| Feature | Aave, Compound, etc | Kashi |
+| --- | --- | --- |
+| Markets | Large pool with a variety of tokens | A market is one asset and one collateral token |
+| Risk | Systemic risk, each token can cripple the system | Isolated risk in each market |
+| Assets Listed | "Company"/DAO decides if/when assets get listed | Users can create any markets they want |
+| Interest Rate | Fixed curve that needs manual adjustment | Elastic interest rates responding to supply and demand |
+| Oracles | Chosen/maintained by the "Company"/DAO | Open to use any oracle, user decides |
+| Liquidations | Profits go to the liquidator | Liquidity providers can get the profits |

@@ -4,11 +4,9 @@ sidebar_position: 2
 
 # MasterChef
 
-The MasterChef gives out a constant number of SUSHI per block, for liquidity providers that stake
-SLP tokens within contract.
+The MasterChef gives out a constant number of SUSHI per block, for liquidity providers that stake SLP tokens within contract.
 
-New ERC20s or pools are added/updated by the owner of the contract with allocation
-points that determines the number of SUSHI rewarded to each pool.
+New ERC20s or pools are added/updated by the owner of the contract with allocation points that determines the number of SUSHI rewarded to each pool.
 
 MasterChef is the only contract with minting rights for the SUSHI token.
 
@@ -57,8 +55,7 @@ function set(
 ) public onlyOwner
 ```
 
-Updates the allocation points assigned to an existing pool, and can only be called
-by the owner.
+Updates the allocation points assigned to an existing pool, and can only be called by the owner.
 
 #### Parameters
 
@@ -76,8 +73,7 @@ function setMigrator(
 ) public onlyOwner
 ```
 
-Sets the contract that is has ability to perform a migration for staked tokens,
-and can only be called by the owner.
+Sets the contract that is has ability to perform a migration for staked tokens, and can only be called by the owner.
 
 #### Parameters
 
@@ -93,8 +89,7 @@ function migrate(
 ) public
 ```
 
-Migrates an lp token/pool to another lp contract. Can be called by anyone, and we trust
-that migrator contract is good.
+Migrates an lp token/pool to another lp contract. Can be called by anyone, and we trust that migrator contract is good.
 
 #### Parameters
 
@@ -157,8 +152,7 @@ function updatePool(
 
 Update reward variables for a given pool to be kept up-to-date.
 
-Is called on all withdraws, and deposits. So will only be called by itself individually for
-pools that aren't as active to keep them up-to-date when updating allocation points.
+Is called on all withdraws, and deposits. So will only be called by itself individually for pools that aren't as active to keep them up-to-date when updating allocation points.
 
 #### Parameters
 
@@ -210,8 +204,7 @@ function emergencyWithdraw(
 ) public
 ```
 
-Withdraw LP tokens from MasterChef without receiving SUSHI rewards.
-To be only used for emergencies or problems with harvesting rewards.
+Withdraw LP tokens from MasterChef without receiving SUSHI rewards. To be only used for emergencies or problems with harvesting rewards.
 
 #### Parameters
 
@@ -228,8 +221,7 @@ function safeSushiTransfer(
 ) internal
 ```
 
-Internal function to be used in case of rounding error that causes pool to
-not have enough SUSHI.
+Internal function to be used in case of rounding error that causes pool to not have enough SUSHI.
 
 #### Parameters
 
