@@ -47,11 +47,11 @@ paths:
                       totalAmount: "1336999999999998"
                       withdrawnAmount: "0"
                       recipient:
-                        id: 0x23defc2ca207e7fbd84ae43b00048fb5cb4db5b2
+                        id: "0x23defc2ca207e7fbd84ae43b00048fb5cb4db5b2"
                       createdBy:
-                        id: 0xc39c2d6eb8adef85f9caa141ec95e7c0b34d8dec
+                        id: "0xc39c2d6eb8adef85f9caa141ec95e7c0b34d8dec"
                       token:
-                        id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                        id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                         symbol: SUSHI
                         name: SushiToken
                         decimals: "18"
@@ -65,11 +65,11 @@ paths:
                       totalAmount: "9999999999999"
                       withdrawnAmount: "0"
                       recipient:
-                        id: 0xc39c2d6eb8adef85f9caa141ec95e7c0b34d8dec
+                        id: "0xc39c2d6eb8adef85f9caa141ec95e7c0b34d8dec"
                       createdBy:
-                        id: 0x23defc2ca207e7fbd84ae43b00048fb5cb4db5b2
+                        id: "0x23defc2ca207e7fbd84ae43b00048fb5cb4db5b2"
                       token:
-                        id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                        id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                         symbol: SUSHI
                         name: SushiToken
                         decimals: "18"
@@ -114,13 +114,13 @@ paths:
                     modifiedAtTimestamp: "1654891693"
                     totalAmount: "190562207738"
                     withdrawnAmount: "0"
-                    txHash: 0x8ef330231938de480733823ce27f717ee80149b81d0ea26e66b19578c100e503
+                    txHash: "0x8ef330231938de480733823ce27f717ee80149b81d0ea26e66b19578c100e503"
                     recipient:
-                      id: 0xc86498822ef633f6e1e971484c56e3a087ecc333
+                      id: "0xc86498822ef633f6e1e971484c56e3a087ecc333"
                     createdBy:
-                      id: 0x19b3eb3af5d93b77a5619b047de0eed7115a19e7
+                      id: "0x19b3eb3af5d93b77a5619b047de0eed7115a19e7"
                     token:
-                      id: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+                      id: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
                       symbol: USDC
                       name: USD Coin
                       decimals: "6"
@@ -179,28 +179,28 @@ paths:
                     toBentoBox: false
                     createdAtBlock: "14985857"
                     createdAtTimestamp: "1655568392"
-                    txHash: 0x1f914b83ff4eeed923b89cfda57220742d3a52e592bf8f011275804d0e0599e3
+                    txHash: "0x1f914b83ff4eeed923b89cfda57220742d3a52e592bf8f011275804d0e0599e3"
                     token:
-                      id: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+                      id: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
                       name: USD Coin
                       symbol: USDC
                       decimals: "6"
                     to:
-                      id: 0xc86498822ef633f6e1e971484c56e3a087ecc333
+                      id: "0xc86498822ef633f6e1e971484c56e3a087ecc333"
                   - id: 1021:tx:0
                     type: DEPOSIT
                     amount: "190562207738"
                     toBentoBox: false
                     createdAtBlock: "14940306"
                     createdAtTimestamp: "1654891693"
-                    txHash: 0x8ef330231938de480733823ce27f717ee80149b81d0ea26e66b19578c100e503
+                    txHash: "0x8ef330231938de480733823ce27f717ee80149b81d0ea26e66b19578c100e503"
                     token:
-                      id: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+                      id: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
                       name: USD Coin
                       symbol: USDC
                       decimals: "6"
                     to:
-                      id: 0xc86498822ef633f6e1e971484c56e3a087ecc333
+                      id: "0xc86498822ef633f6e1e971484c56e3a087ecc333"
       servers:
       - url: http://www.sushi.com
     servers:
@@ -250,14 +250,14 @@ paths:
                       withdrawnAmount: "0"
                       fromBentoBox: false
                       token:
-                        id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                        id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                         symbol: SUSHI
                         name: SushiToken
                         decimals: "18"
                       recipient:
-                        id: 0x7a5f66eb194f629db12f25bd0695819cb690fcc7
+                        id: "0x7a5f66eb194f629db12f25bd0695819cb690fcc7"
                       createdBy:
-                        id: 0x7a5f66eb194f629db12f25bd0695819cb690fcc7
+                        id: "0x7a5f66eb194f629db12f25bd0695819cb690fcc7"
                     - id: "3"
                       __typename: Vesting
                       status: CANCELLED
@@ -273,14 +273,14 @@ paths:
                       withdrawnAmount: "1100000000000008"
                       fromBentoBox: false
                       token:
-                        id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                        id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                         symbol: SUSHI
                         name: SushiToken
                         decimals: "18"
                       recipient:
-                        id: 0x7a5f66eb194f629db12f25bd0695819cb690fcc7
+                        id: "0x7a5f66eb194f629db12f25bd0695819cb690fcc7"
                       createdBy:
-                        id: 0x7a5f66eb194f629db12f25bd0695819cb690fcc7
+                        id: "0x7a5f66eb194f629db12f25bd0695819cb690fcc7"
                     outgoingVestings:
                     - id: "2"
                       __typename: Vesting
@@ -297,14 +297,14 @@ paths:
                       withdrawnAmount: "0"
                       fromBentoBox: false
                       token:
-                        id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                        id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                         symbol: SUSHI
                         name: SushiToken
                         decimals: "18"
                       recipient:
-                        id: 0x7a5f66eb194f629db12f25bd0695819cb690fcc7
+                        id: "0x7a5f66eb194f629db12f25bd0695819cb690fcc7"
                       createdBy:
-                        id: 0x7a5f66eb194f629db12f25bd0695819cb690fcc7
+                        id: "0x7a5f66eb194f629db12f25bd0695819cb690fcc7"
       servers:
       - url: http://www.sushi.com
     servers:
@@ -356,16 +356,16 @@ paths:
                     totalAmount: "138121548"
                     withdrawnAmount: "0"
                     fromBentoBox: false
-                    txHash: 0x269479de4d7f84f0fc398ee545d75353cd8c24ffdb364336bb2df9c15a2c1d33
+                    txHash: "0x269479de4d7f84f0fc398ee545d75353cd8c24ffdb364336bb2df9c15a2c1d33"
                     token:
-                      id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                      id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                       symbol: SUSHI
                       name: SushiToken
                       decimals: "18"
                     recipient:
-                      id: 0xd4bad6e7887110081aa8ee9e16c9341890cae7e5
+                      id: "0xd4bad6e7887110081aa8ee9e16c9341890cae7e5"
                     createdBy:
-                      id: 0xc9ecab4ae699ac237a5abc5a7f2c08afc09aa253
+                      id: "0xc9ecab4ae699ac237a5abc5a7f2c08afc09aa253"
       servers:
       - url: http://www.sushi.com
     servers:
@@ -419,14 +419,14 @@ paths:
                     toBentoBox: true
                     createdAtBlock: "14879604"
                     createdAtTimestamp: "1654012508"
-                    txHash: 0x269479de4d7f84f0fc398ee545d75353cd8c24ffdb364336bb2df9c15a2c1d33
+                    txHash: "0x269479de4d7f84f0fc398ee545d75353cd8c24ffdb364336bb2df9c15a2c1d33"
                     token:
-                      id: 0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
+                      id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
                       symbol: SUSHI
                       name: SushiToken
                       decimals: "18"
                     to:
-                      id: 0xd4bad6e7887110081aa8ee9e16c9341890cae7e5
+                      id: "0xd4bad6e7887110081aa8ee9e16c9341890cae7e5"
       servers:
       - url: http://www.sushi.com
     servers:
