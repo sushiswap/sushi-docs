@@ -12,7 +12,7 @@ It is built using a service called OpenMEV from Manifold Finance.
 
 MEV is the crypto-version of arbitrage trading / high-frequency trading that you typically see on Wall Street. Arbitrage bots are used to monitor the network, and when you submit a transaction, they will submit a transaction of their own and "bribe" the miner to place their transaction before yours and ten after your transaction. **This is called "Sandwiching"**. This has the effect of manipulating price and volume and is used to make a profit from your trades.
 
-SushiGuard mitigates this type of malicious MEV by leveraging the power of Flashbots, Eden Network, and Manifold Finance's OpenMEV network.
+Sushi Guard mitigates this type of malicious MEV by leveraging the power of Flashbots, Eden Network, and Manifold Finance's OpenMEV network.
 
 [OpenMEV](https://docs.openmev.org) [Flashbots](https://docs.flashbots.net) [Eden Network](https://edennetwork.io)
 
@@ -66,7 +66,7 @@ _Check the settings by clicking the toggle button in the top right corner_
 
 ✅ **Sushi Guard Protector**
 
-**"Interface Settings"** By default**,** the Sushi** Guard Protector is enabled.** We can click the toggle and enable or disable it instantly!
+**"Interface Settings"** By default**,** the **Sushi Guard Protector is enabled.** We can click the toggle and enable or disable it instantly!
 
 </aside>
 
@@ -84,7 +84,7 @@ _Check the settings by clicking the toggle button in the top right corner_
 
 ## Trading using Sushi Guard
 
-Sushi Guard works with any token that is available on Sushiswap! Below we have an example of a trade with $FOLD. Any supported token will work!
+Sushi Guard works with any token that is available on SushiSwap! Below we have an example of a trade with $FOLD. Any supported token will work!
 
 <aside>
 
@@ -100,7 +100,7 @@ When you click to ‘Confirm Swap’ you can also open up a more detailed view o
 
 ![Sushiswap - Confirm Swap Detailed View](/img/tutimg/sushiguard/004.png)
 
-Sushiswap - Confirm Swap Detailed View
+_SushiSwap - Confirm Swap Detailed View_
 
 ---
 
@@ -132,7 +132,7 @@ _You can also verify that you are signing the transaction by comparing the messa
 
 ![Signature Request Confirmation](/img/tutimg/sushiguard/005.png)
 
-Signature Request Confirmation
+_Signature Request Confirmation_
 
 <aside>
 
@@ -153,9 +153,9 @@ Signature Request Confirmation
 > Configure your RPC Connection manually using the official RPC Endpoint
 
 -   **Coinbase Wallet** (latest)
--   older **Ledger** Wallets
+-   Older **Ledger** Wallets
 
-In your wallet's _Network Settings_, add a 'new network', call it _Sushi Guard_. After you have created a _new network_, add the following settings:
+In your wallet's _Network Settings_, add a 'new network' and call it _Sushi Guard_. After you have created a _new network_, add the following settings:
 
 <pre>
 CHAIN_ID: `1`
@@ -173,14 +173,16 @@ Block Explorer: `https://etherscan.io`
 **Links**
 
 -   [OpenMEV Documentation](https://docs.openmev.org)
--   [Sushiswap Documentation](https://github.com/sushiswap/sushi-docs)
--   Sushi Samurai Help
+-   [SushiSwap Documentation](https://github.com/sushiswap/sushi-docs)
+-   [Sushi Samurai Help](https://toshokan.samurais.io/)
 -   [Manifold Finance Helpdesk](https://github.com/manifoldfinance/support)
 
--   **Steps to report issues** Just follow the steps below. Otherwise, send a support ticket. [https://github.com/manifoldfinance/support](https://github.com/manifoldfinance/support)
+**Steps to report issues:** Just follow the steps below; otherwise, send a support ticket: [https://github.com/manifoldfinance/support](https://github.com/manifoldfinance/support)
 
 <aside>
+
 ☎️ **Manifold Finance Security**
+
 </aside>
 
 ```ini
@@ -191,6 +193,7 @@ Encryption: https://manifoldfinance.com/.well-known/pgp-key.asc
 ```
 
 <aside>
+
 👉 **Sushi Discourse Forums:** [forums.sushi.com](https://forums.sushi.com)
 
 </aside>
