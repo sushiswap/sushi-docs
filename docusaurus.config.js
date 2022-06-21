@@ -78,6 +78,17 @@ const config = {
         },
         items: [
           {
+            type: 'dropdown',
+            label: 'API',
+            position: 'left',
+            items: [
+              {
+                label: 'Furo',
+                href: '/api/furo',
+              },
+            ],
+          },
+          {
             to: '/docs/Developers/Overview',
             label: 'Contracts',
             position: 'left',
@@ -111,7 +122,7 @@ const config = {
             href: 'https://github.com/sushiswap',
             label: 'GitHub',
             position: 'right',
-          },
+          }
         ],
       },
       footer: {

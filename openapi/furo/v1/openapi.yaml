@@ -10,6 +10,7 @@ servers:
 paths:
   /furo/api/user/{chainId}/{address}/streams:
     get:
+      summary: Get user streams
       description: Get user streams
       parameters:
       - name: chainId
@@ -78,7 +79,8 @@ paths:
     - url: http://www.sushi.com
   /furo/api/stream/{chainId}/{streamId}:
     get:
-      description: Get stream
+      summary: Get stream 
+      description: Stream status can be `ACTIVE` or `CANCELLED`
       parameters:
       - name: chainId
         in: path
@@ -128,7 +130,24 @@ paths:
     - url: https://sushi.com
   /furo/api/stream/{chainId}/{streamId}/transactions:
     get:
-      description: Get stream transactions
+      summary: Get stream transactions
+      description: > 
+        Get stream transactions
+        
+        
+        Transactions types:
+        
+        
+        - `DEPOSIT`  
+        
+        
+        - `WITHDRAWAL`  
+        
+        
+        - `EXTEND` - A stream can be topped up, increasing the amount
+        
+        - `DISBURSEMENT` - When a stream is cancelled, two disbursement transactions
+        will be created, returning the remaining shares to the recipient and the creator.
       parameters:
       - name: chainId
         in: path
@@ -188,6 +207,7 @@ paths:
     - url: http://www.sushi.com
   /furo/api/user/{chainId}/{address}/vestings:
     get:
+      summary: Get user vests
       description: Get user vests
       parameters:
       - name: chainId
@@ -291,7 +311,12 @@ paths:
     - url: http://www.sushi.com
   /furo/api/vesting/{chainId}/{vestId}:
     get:
-      description: Get vest
+      summary: Get vest 
+      description: >
+        Get vest 
+        
+        
+        Vest status can be `ACTIVE` or `CANCELLED`
       parameters:
       - name: chainId
         in: path
@@ -347,7 +372,22 @@ paths:
     - url: http://www.sushi.com
   /furo/api/vesting/{chainId}/{vestId}/transactions:
     get:
-      description: Get vest transactions
+      summary: Get vest transactions
+      description:  > 
+        Get vest transactions
+        
+        
+        Transactions types:
+        
+        
+        - `DEPOSIT`  
+        
+        
+        - `WITHDRAWAL`  
+        
+        
+        - `DISBURSEMENT` - When a vest is cancelled, two disbursement transactions
+        will be created, returning the remaining shares to the recipient and the creator.
       parameters:
       - name: chainId
         in: path
