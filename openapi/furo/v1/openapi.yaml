@@ -10,6 +10,7 @@ servers:
 paths:
   /furo/api/user/{chainId}/{address}/streams:
     get:
+      operationId: 'getUserStreams'
       summary: Get user streams
       description: Get user streams
       parameters:
@@ -79,6 +80,7 @@ paths:
     - url: http://www.sushi.com
   /furo/api/stream/{chainId}/{streamId}:
     get:
+      operationId: 'getStream'
       summary: Get stream 
       description: Stream status can be `ACTIVE` or `CANCELLED`
       parameters:
@@ -130,6 +132,7 @@ paths:
     - url: https://sushi.com
   /furo/api/stream/{chainId}/{streamId}/transactions:
     get:
+      operationId: 'getStreamTransactions'
       summary: Get stream transactions
       description: > 
         Get stream transactions
@@ -207,6 +210,7 @@ paths:
     - url: http://www.sushi.com
   /furo/api/user/{chainId}/{address}/vestings:
     get:
+      operationId: 'getUserVesting'
       summary: Get user vests
       description: Get user vests
       parameters:
@@ -311,6 +315,7 @@ paths:
     - url: http://www.sushi.com
   /furo/api/vesting/{chainId}/{vestId}:
     get:
+      operationId: 'getVest'
       summary: Get vest 
       description: >
         Get vest 
@@ -372,6 +377,7 @@ paths:
     - url: http://www.sushi.com
   /furo/api/vesting/{chainId}/{vestId}/transactions:
     get:
+      operationId: 'getVestTransactions'
       summary: Get vest transactions
       description:  > 
         Get vest transactions
