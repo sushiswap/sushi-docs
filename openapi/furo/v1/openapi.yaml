@@ -3,7 +3,7 @@ openapi: 3.0.1
 info:
   title: Furo
   description: Earn, stream and automate your DAO salaries and token vesting with Furo.
-  version: "1"
+  version: "1.0.0"
 servers:
 - url: https://sushi.com
 - url: http://www.sushi.com
