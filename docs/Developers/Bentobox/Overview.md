@@ -42,7 +42,7 @@ The BentoBox has a simple strategy system per token. A strategy is a contract th
 
 Some examples of this would be:
 
-- The SushiBar: $SUSHI can be invested and held as xSUSHI
+-   The SushiBar: $SUSHI can be invested and held as xSUSHI
 
 -   Staking contracts, such as MasterChef and Onsen
 

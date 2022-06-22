@@ -188,13 +188,13 @@ Provides flash loan capabilities.
 
 #### Parameters
 
-| Name       | Type           | Description                                                                                            |
-| :--------- | :------------- | :----------------------------------------------------------------------------------------------------- |
+| Name | Type | Description |
+| :-- | :-- | :-- |
 | `borrower` | IFlashBorrower | the address of the contract that implements and conforms to `IFlashBorrower` and handles the flashloan |
-| `receiver` | address        | address of the token receiver                                                                          |
-| `token`    | IERC20         | address of the token to receive                                                                        |
-| `amount`   | uint256        | amount of tokens to receive                                                                            |
-| `data`     | bytes          | the calldata to pass to the `borrower` contract                                                        |
+| `receiver` | address | address of the token receiver |
+| `token` | IERC20 | address of the token to receive |
+| `amount` | uint256 | amount of tokens to receive |
+| `data` | bytes | the calldata to pass to the `borrower` contract |
 
 ### batchFlashLoan
 
@@ -212,13 +212,13 @@ Support for batched flashloans; useful to request multiple different tokens in a
 
 #### Parameters
 
-| Name        | Type                | Description                                                                                                 |
-| :---------- | :------------------ | :---------------------------------------------------------------------------------------------------------- |
-| `borrower`  | IBatchFlashBorrower | the address of the contract that implements and conforms to `IBatchFlashBorrower` and handles the flashloan |
-| `receivers` | address[]           | array of addresses of the token receivers                                                                   |
-| `tokens`    | IERC20[]            | addresses of the tokens                                                                                     |
-| `amounts`   | uint256[]           | amounts of the tokens for each receiver                                                                     |
-| `data`      | bytes               | the calldata to pass to the `borrower` contract                                                             |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `borrower` | IBatchFlashBorrower | the address of the contract that implements and conforms to `IBatchFlashBorrower` and handles the flashloan |
+| `receivers` | address[] | array of addresses of the token receivers |
+| `tokens` | IERC20[] | addresses of the tokens |
+| `amounts` | uint256[] | amounts of the tokens for each receiver |
+| `data` | bytes | the calldata to pass to the `borrower` contract |
 
 ### setStrategyTargetPercentage
 

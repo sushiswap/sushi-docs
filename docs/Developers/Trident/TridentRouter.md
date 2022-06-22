@@ -20,8 +20,8 @@ Swaps token A to token B directly; swaps are done on `bento` tokens.
 
 #### Parameters
 
-| Name     | Type                   | Description                                                                                                                              |
-| :------- | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| Name | Type | Description |
+| :-- | :-- | :-- |
 | `params` | ExactInputSingleParams | address of token A, pool, amount of token A to swap, minimum amount of token B after the swap and data required by the pool for the swap |
 
 #### Returns
@@ -40,8 +40,8 @@ Swaps token A to token B indirectly by using multiple hops.
 
 #### Parameters
 
-| Name     | Type                   | Description                                                                                                                              |
-| :------- | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| Name | Type | Description |
+| :-- | :-- | :-- |
 | `params` | ExactInputSingleParams | address of token A, pool, amount of token A to swap, minimum amount of token B after the swap and data required by the pool for the swap |
 
 #### Returns
@@ -60,8 +60,8 @@ Swaps token A to token B directly; it is the same as `exactInputSingle` except i
 
 #### Parameters
 
-| Name     | Type                   | Description                                                                                                                              |
-| :------- | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| Name | Type | Description |
+| :-- | :-- | :-- |
 | `params` | ExactInputSingleParams | address of token A, pool, amount of token A to swap, minimum amount of token B after the swap and data required by the pool for the swap |
 
 #### Returns
@@ -80,8 +80,8 @@ Swaps token a to token B indirectly by using multiple hops; it is the same as `e
 
 #### Parameters
 
-| Name     | Type                   | Description                                                                                                                              |
-| :------- | :--------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| Name | Type | Description |
+| :-- | :-- | :-- |
 | `params` | ExactInputSingleParams | address of token A, pool, amount of token A to swap, minimum amount of token B after the swap and data required by the pool for the swap |
 
 #### Returns

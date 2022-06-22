@@ -8,8 +8,7 @@ The following Medium article details how to use Sushi's swap function, participa
 
 ### Polygon - ETH Bridge
 
-If you are looking to bridge assets from the Ethereum Network over to Polygon (MATIC), please see the following link:
-[https://wallet.matic.network/login/](https://wallet.matic.network/login/)
+If you are looking to bridge assets from the Ethereum Network over to Polygon (MATIC), please see the following link: [https://wallet.matic.network/login/](https://wallet.matic.network/login/)
 
 Once connected with your wallet, please click _Move funds from Ethereum to Polygon._
 
@@ -17,7 +16,7 @@ Once connected with your wallet, please click _Move funds from Ethereum to Polyg
 
 ### LP Rewards on Polygon
 
-After an initial experimental budget for 3 months, rewards for incentivized Liquidity Provision as well as Kashi Lending will run indefinitely.
+After an initial experimental budget for 3 months, rewards for incentivized Liquidity Provision, as well as Kashi Lending, will run indefinitely.
 
 ### MATIC Faucet
 

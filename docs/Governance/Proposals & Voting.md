@@ -1,7 +1,6 @@
 # Proposals & Voting
 
-Any member of the community is welcome to post a proposal on our forums, but please try and follow the set out template that is shown when creating a thread so that the proposals can be easily read through by the prospective voters.
-If you desire a poll to be added to your thread, please contact a member of the core team or a community team member.
+Any member of the community is welcome to post a proposal on our forums, but please try and follow the set out template that is shown when creating a thread so that the proposals can be easily read through by the prospective voters. If you desire a poll to be added to your thread, please contact a member of the core team or a community team member.
 
 Your proposal can gain enough traction to be brought up for voting on our Snapshot voting platform by the core team, where the community will vote with **SUSHIPOWAH** to decide the outcome.
 

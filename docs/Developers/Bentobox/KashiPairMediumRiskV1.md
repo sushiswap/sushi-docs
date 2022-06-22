@@ -68,12 +68,12 @@ Internal helper function to move tokens.
 
 #### Parameters
 
-| Name    | Type    | Description                                                                                                            |
-| :------ | :------ | :--------------------------------------------------------------------------------------------------------------------- |
-| `token` | IERC20  | ERC20 token to add                                                                                                     |
-| `share` | uint256 | amount of ERC20 token in shares to add                                                                                 |
-| `total` | uint256 | total amount to deduct from this contract's balance                                                                    |
-| `skim`  | bool    | if true, only does a balance check on this contract; false if tokens from msg.sender in bentoBox should be transferred |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `token` | IERC20 | ERC20 token to add |
+| `share` | uint256 | amount of ERC20 token in shares to add |
+| `total` | uint256 | total amount to deduct from this contract's balance |
+| `skim` | bool | if true, only does a balance check on this contract; false if tokens from msg.sender in bentoBox should be transferred |
 
 ### addCollateral
 
@@ -337,9 +337,9 @@ Executes a set of actions and allows composability (contract calls) to other con
 
 #### Returns
 
-| Name     | Type    | Description                                                                                               |
-| :------- | :------ | :-------------------------------------------------------------------------------------------------------- |
-| `value1` | uint256 | may contain first positioned return value of last executed action (if applicable)                         |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `value1` | uint256 | may contain first positioned return value of last executed action (if applicable) |
 | `value2` | uint256 | may contain second positioned return value of last executed action which returns 2 values (if applicable) |
 
 ### liquidate
@@ -358,13 +358,13 @@ Handles the liquidation of users' balances once the users' amount of collateral 
 
 #### Parameters
 
-| Name             | Type      | Description                                                                                                    |
-| :--------------- | :-------- | :------------------------------------------------------------------------------------------------------------- |
-| `users`          | address[] | array of user addresses                                                                                        |
+| Name | Type | Description |
+| :-- | :-- | :-- |
+| `users` | address[] | array of user addresses |
 | `maxBorrowParts` | uint256[] | one-to-one mapping to `users`, contains maximum (partial) borrow amounts (to liquidate) of the respective user |
-| `to`             | address   | address of the receiver in open liquidations if `swapper` is zero                                              |
-| `swapper`        | ISwapper  | contract address of the `ISwapper` implementation, swappers are restricted for closed liquidations             |
-| `open`           | bool      | true to perform an open liquidation, else false                                                                |
+| `to` | address | address of the receiver in open liquidations if `swapper` is zero |
+| `swapper` | ISwapper | contract address of the `ISwapper` implementation, swappers are restricted for closed liquidations |
+| `open` | bool | true to perform an open liquidation, else false |
 
 ### withdrawFees
 

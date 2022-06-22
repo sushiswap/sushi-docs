@@ -28,5 +28,4 @@ They can be harvested 6 months from the time you/your pool earned the rewards.
 
 ### How is the vested $SUSHI going to be distributed?
 
-The community has voted on this proposal:
-[https://snapshot.page/#/sushi/proposal/QmPwBGy98NARoEcUfuWPgzMdJdiaZub1gVic67DcSs6NZQ](https://snapshot.page/#/sushi/proposal/QmPwBGy98NARoEcUfuWPgzMdJdiaZub1gVic67DcSs6NZQ)
+The community has voted on this proposal: [https://snapshot.page/#/sushi/proposal/QmPwBGy98NARoEcUfuWPgzMdJdiaZub1gVic67DcSs6NZQ](https://snapshot.page/#/sushi/proposal/QmPwBGy98NARoEcUfuWPgzMdJdiaZub1gVic67DcSs6NZQ)
