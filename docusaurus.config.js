@@ -3,7 +3,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /**
  * @type {import('redocusaurus').PresetEntry}
  */
- const redocusaurus = [
+const redocusaurus = [
   'redocusaurus',
   {
     debug: Boolean(process.env.DEBUG || process.env.CI),
@@ -35,7 +35,7 @@ const config = {
   title: 'SushiSwap',
   tagline: 'Documentation Portal',
   url: 'https://docs.sushi.com/',
-  baseUrl: '/', 
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -65,7 +65,7 @@ const config = {
       },
     ],
     // Redocusaurus Config
-    redocusaurus
+    redocusaurus,
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -122,7 +122,7 @@ const config = {
             href: 'https://github.com/sushiswap',
             label: 'GitHub',
             position: 'right',
-          }
+          },
         ],
       },
       footer: {
@@ -168,6 +168,10 @@ const config = {
                 label: 'Token Lists',
                 href: 'https://app.sushi.com/analytics/tokens?chainId=1',
               },
+              {
+                label: 'Press Kit',
+                href: 'https://drive.google.com/file/d/1zka0SDli7cNnOtRTmxZWiW8xE2d1-VK_/view',
+              },
             ],
           },
           {
@@ -196,7 +200,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ['solidity']
+        additionalLanguages: ['solidity'],
       },
       colorMode: {
         defaultMode: 'dark',
