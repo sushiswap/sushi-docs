@@ -1,7 +1,3 @@
----
-sidebar_position: 2
----
-
 # Sushi Guard
 
 > MEV, Front running, and arbitrage Protection for Sushi users

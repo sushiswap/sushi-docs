@@ -10,9 +10,9 @@ The Core SDK contains many helper functions, types, constants and custom errors 
 
 To start, let's talk about the entities in the Core SDK - these are the common classes that are used in everything we do on the frontend. As our entire codebase is written in TypeScript, they serve as an excellent typing measure for us to ensure the least amount of friction possible when working on the frontend. Each are constructed in a way as to be reusable across many use-cases, with real utility.
 
-Let's take a look at an example below:
+Let's take a look at an example below!
 
-#### Currency
+### Currency
 
 A currency is any fungible financial instrument, including Ether, all ERC-20 tokens, other chain-native currencies, etc.
 
@@ -46,7 +46,7 @@ You can see above that we're using the `Currency` entity to type both our `asset
 
 Another large reason that the Core SDK is so helpful for developers is that it contains a vast collection of constant variables, that are used very frequently throughout the entire codebase. These include an address map for all major tokens across all major chains, as well as a token map containing the relevant metadata for the major tokens and a chain ID map.
 
-If you would like to take a look at all of the constants we currently have included in the Core SDK package you may do so [here](https://github.com/sushiswap/sdk/tree/canary/packages/core-sdk/src).
+If you would like to take a look at all of the constants we currently have included in the Core SDK package you may do so [here](https://github.com/sushiswap/sdk/tree/canary/packages/core-sdk/src/constants).
 
 ## Functions
 
@@ -65,7 +65,7 @@ public static swapCallParameters(
     const to: string = validateAndParseAddress(options.recipient)
 ```
 
-Above, we are parsing and validating an address being derived from the `TradeOptions` (also in Core SDK) interface, giving us the recipient's address without having to write and rewrite our own custom logic each time we want to parse a legitimate address.
+Above, we are parsing and validating an address being derived from the `TradeOptions` (also in the Core SDK) interface, giving us the recipient's address without having to write and rewrite our own custom logic each time we want to parse a legitimate address.
 
 ## Use It!
 

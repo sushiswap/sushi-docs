@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 
 ### initMISOMarket
 
-```
+```solidity
 function initMISOMarket(address _accessControls, address _bentoBox, address[] memory _templates) external
 ```
 
@@ -28,7 +28,7 @@ Initializes the market with a list of auction templates. Can only be initialized
 
 ### setMinimumFee
 
-```
+```solidity
 function setMinimumFee(uint256 _amount) external
 ```
 
@@ -42,7 +42,7 @@ Sets the minimum fee. Must have operator access.
 
 ### setIntegratorFeePct
 
-```
+```solidity
 function setIntegratorFeePct(uint256 _amount) external
 ```
 
@@ -56,7 +56,7 @@ Sets the integrator fee percentage. Must have operator access.
 
 ### setDividends
 
-```
+```solidity
 function setDividends(address payable _divaddr) external
 ```
 
@@ -70,7 +70,7 @@ Sets the dividend address. Must have operator access.
 
 ### setLocked
 
-```
+```solidity
 function setLocked(bool _locked) external
 ```
 
@@ -84,7 +84,7 @@ Sets the factory to be locked or unlocked.
 
 ### setCurrentTemplateId
 
-```
+```solidity
 function setCurrentTemplateId(uint256 _templateType, uint256 _templateId) external
 ```
 
@@ -99,7 +99,7 @@ Sets the current template ID for any type. Must have operator access.
 
 ### hasMarketMinterRole
 
-```
+```solidity
 function hasMarketMinterRole(address _address) public view returns (bool)
 ```
 
@@ -113,7 +113,7 @@ Used to check whether an address has the minter role, returns a boolean.
 
 ### deployMarket
 
-```
+```solidity
 function deployMarket(
         uint256 _templateId,
         address payable _integratorFeeAccount
@@ -138,7 +138,7 @@ Creates a new MISOMarket from `_templateId` and transfers fees.
 
 ### createMarket
 
-```
+```solidity
 function createMarket(
         uint256 _templateId,
         address _token,
@@ -169,7 +169,7 @@ Creates a new MISOMarket from `_templateId`.
 
 ### addAuctionTemplate
 
-```
+```solidity
 function addAuctionTemplate(address _template) external
 ```
 
@@ -183,7 +183,7 @@ Calls `_addAuctionTemplate`, which adds an auction template to create through fa
 
 ### \_addAuctionTemplate
 
-```
+```solidity
 function _addAuctionTemplate(address _template) internal
 ```
 
@@ -197,7 +197,7 @@ Internal function called by `addAuctionTemplate`, it adds an auction template to
 
 ### removeAuctionTemplate
 
-```
+```solidity
 function removeAuctionTemplate(uint256 _templateId) external
 ```
 
@@ -211,7 +211,7 @@ Removes an auction template. Must have operator access.
 
 ### getAuctionTemplate
 
-```
+```solidity
 function getAuctionTemplate(uint256 _templateId) external view returns (address)
 ```
 
@@ -225,7 +225,7 @@ View function that returns a template address based on the ID.
 
 ### getTemplateId
 
-```
+```solidity
 function getTemplateId(address _auctionTemplate) external view returns (uint256)
 ```
 
@@ -239,7 +239,7 @@ View function that returns a template ID based on the address.
 
 ### numberOfAuctions
 
-```
+```solidity
 function numberOfAuctions() external view returns (uint)
 ```
 
@@ -247,7 +247,7 @@ View function that returns the total number of auctions in the factory.
 
 ### minimumFee
 
-```
+```solidity
 function minimumFee() external view returns(uint128)
 ```
 
@@ -255,7 +255,7 @@ View function that returns the minimumFee of the auctions in the contract.
 
 ### getMarkets
 
-```
+```solidity
 function getMarkets() external view returns(address[] memory)
 ```
 
@@ -263,7 +263,7 @@ View function that returns an array of all the addresses of all the auctions in 
 
 ### getMarketTemplateId
 
-```
+```solidity
 function getMarketTemplateId(address _auction) external view returns(uint64)
 ```
 

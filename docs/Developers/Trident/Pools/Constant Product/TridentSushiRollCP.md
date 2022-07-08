@@ -8,7 +8,7 @@ The full contract can be found [here](https://github.com/sushiswap/trident/blob/
 
 ### migrateLegacyToCP
 
-```
+```solidity
 function migrateLegacyToCP(
         IUniswapV2Minimal pair,
         uint256 amount,
@@ -42,7 +42,7 @@ Migrates existing SushiSwap or other Uniswap V2 style pools to Trident and retur
 
 ### migrateCP
 
-```
+```solidity
 function migrateCP(
         IConstantProductPool currentPool,
         uint256 amount,

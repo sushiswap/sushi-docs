@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/trident/blob/
 
 ### mint
 
-```
+```solidity
  function mint(bytes calldata data) public override nonReentrant returns (uint256 liquidity)
 ```
 
@@ -32,7 +32,7 @@ Mints LP tokens and returns the amount of liquidity; should be called via the ro
 
 ### burn
 
-```
+```solidity
  function burn(bytes calldata data) public override nonReentrant returns (IPool.TokenAmount[] memory withdrawnAmounts)
 ```
 
@@ -52,7 +52,7 @@ Burns LP tokens that are sent to this contract and returns the withdrawn amounts
 
 ### burnSingle
 
-```
+```solidity
 function burnSingle(bytes calldata data) public override nonReentrant returns (uint256 amountOut)
 ```
 
@@ -72,7 +72,7 @@ Burns LP tokens that are sent to this contract and swaps one of the output token
 
 ### swap
 
-```
+```solidity
 function swap(bytes calldata data) public override nonReentrant returns (uint256 amountOut)
 ```
 
@@ -92,7 +92,7 @@ Swaps one token for another; the router must prefund this contract and ensure th
 
 ### flashSwap
 
-```
+```solidity
 function flashSwap(bytes calldata data) public override nonReentrant returns (uint256 amountOut)
 ```
 
@@ -112,7 +112,7 @@ Flash swaps one token for another; the router must support swap callbacks and en
 
 ### updateBarParameters
 
-```
+```solidity
 function updateBarParameters() public
 ```
 
@@ -120,7 +120,7 @@ Updates `barFee` and `barFeeTo` for Trident protocol.
 
 ### \_update
 
-```
+```solidity
 function _update(
         uint256 balance0,
         uint256 balance1,
@@ -144,7 +144,7 @@ Internal function that updates balances and reserves of pool.
 
 ### \_mintFee
 
-```
+```solidity
 function _mintFee(uint112 _reserve0, uint112 _reserve1) internal returns (uint256 _totalSupply, uint256 computed)
 ```
 
@@ -166,7 +166,7 @@ Internal function that mints and transfers bar fees to the receiver and returns 
 
 ### \_getAmountOut
 
-```
+```solidity
 function _getAmountOut(
         uint256 amountIn,
         uint256 reserveAmountIn,
@@ -192,7 +192,7 @@ Internal function that calculates the amount of an asset to remove and returns t
 
 ### \_getAmountIn
 
-```
+```solidity
 function _getAmountIn(
         uint256 amountOut,
         uint256 reserveAmountIn,
@@ -218,7 +218,7 @@ Internal function that calculates the amount of an asset to add and returns that
 
 ### getAmountOut
 
-```
+```solidity
 function getAmountOut(bytes calldata data) public view override returns (uint256 finalAmountOut)
 ```
 
@@ -238,7 +238,7 @@ Calls `_getAmountOut` and calculates the amount of an asset to remove.
 
 ### getAmountIn
 
-```
+```solidity
 function getAmountIn(bytes calldata data) public view override returns (uint256 finalAmountIn)
 ```
 
@@ -258,7 +258,7 @@ Calls `_getAmountIn` and calculates the amount of an asset to add.
 
 ### \_transfer
 
-```
+```solidity
 function _transfer(
         address token,
         uint256 shares,
@@ -280,7 +280,7 @@ Internal function that transfers `bento` shares.
 
 ### \_nonOptimalMintFee
 
-```
+```solidity
 function _nonOptimalMintFee(
         uint256 _amount0,
         uint256 _amount1,
@@ -309,7 +309,7 @@ Internal function that calculates the non-optimal mint fee, which is a fee charg
 
 ### getAssets
 
-```
+```solidity
 function getAssets() public view override returns (address[] memory assets)
 ```
 
@@ -323,7 +323,7 @@ Returns an array containing the addresses of the two assets.
 
 ### \_getReserves
 
-```
+```solidity
 function _getReserves()
         internal
         view
@@ -346,7 +346,7 @@ Internal function that returns the amount of reserves in `bento` shares.
 
 ### getReserves
 
-```
+```solidity
 function getReserves()
         public
         view
@@ -369,7 +369,7 @@ Calls `_getReserves` and returns the amount of reserves in `bento` shares.
 
 ### getNativeReserves
 
-```
+```solidity
 function getNativeReserves()
         public
         view

@@ -48,7 +48,7 @@ sidebar_position: 2
 
 **Sushiswap Subgraph Links:**
 
-[Sushiswap Subgraph Explorer](https://thegraph.com/hosted-service/subgraph/zippoxer/sushiswap-subgraph-fork)
+[Sushiswap Subgraph Explorer](https://thegraph.com/hosted-service/subgraph/sushiswap/exchange)
 
 [Sushiswap Subgraph Source (Github)](https://github.com/sushiswap/sushiswap-subgraph)
 

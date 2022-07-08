@@ -8,7 +8,7 @@ The Trident SDK contains all of the entities, constants, functions, interfaces a
 
 Let's walk through deploying a new Constant Product Pool together!
 
-#### Deploying a Constant Product Pool
+## Deploying a Constant Product Pool
 
 A Constant Product Pool is one of the many types of pools that can be launched with Trident, hassle-free. Before doing anything else, let's first import the class from the SDK using `import { ConstantProductPool } from '@sushiswap/trident-sdk'`
 

@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 
 ### \_calculateDomainSeparator
 
-```
+```solidity
 function _calculateDomainSeparator(uint256 chainId) private view returns (bytes32)
 ```
 
@@ -26,7 +26,7 @@ Private function called by `DOMAIN_SEPARATOR` that calculates and returns the do
 
 ### DOMAIN_SEPARATOR
 
-```
+```solidity
 function DOMAIN_SEPARATOR() public view returns (bytes32)
 ```
 
@@ -34,7 +34,7 @@ Function that calls `_calculateDomainSeparator`, which returns the domain separa
 
 ### registerProtocol
 
-```
+```solidity
 function registerProtocol() public
 ```
 
@@ -42,7 +42,7 @@ Function used by other contracts to register with this master contract, so that 
 
 ### whitelistMasterContract
 
-```
+```solidity
 function whitelistMasterContract(address masterContract, bool approved) public onlyOwner
 ```
 
@@ -57,7 +57,7 @@ Function that enables or disables a contract for approval without signed message
 
 ### setMasterContractApproval
 
-```
+```solidity
 function setMasterContractApproval(
         address user,
         address masterContract,

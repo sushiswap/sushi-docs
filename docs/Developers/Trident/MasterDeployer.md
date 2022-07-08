@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/trident/blob/
 
 ### deployPool
 
-```
+```solidity
 function deployPool(address _factory, bytes calldata _deployData) external returns (address pool)
 ```
 
@@ -33,7 +33,7 @@ Deploys a pool and returns the address of the newly deployed pool.
 
 ### addToWhitelist
 
-```
+```solidity
 function addToWhitelist(address _factory) external onlyOwner
 ```
 
@@ -47,7 +47,7 @@ Adds an address to the whitelist. Can only be called by the owner of the contrac
 
 ### removeFromWhitelist
 
-```
+```solidity
 function removeFromWhitelist(address _factory) external onlyOwner
 ```
 
@@ -61,7 +61,7 @@ Removes an address from the whitelist. Can only be called by the owner of the co
 
 ### setBarFee
 
-```
+```solidity
 function setBarFee(uint256 _barFee) external onlyOwner
 ```
 
@@ -75,7 +75,7 @@ Sets the bar fee. Can only be called by the owner of the contract.
 
 ### setBarFeeTo
 
-```
+```solidity
 function setBarFeeTo(address _barFeeTo) external onlyOwner
 ```
 

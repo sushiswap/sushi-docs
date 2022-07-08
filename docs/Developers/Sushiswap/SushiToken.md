@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 
 ### mint
 
-```
+```solidity
 function mint(address _to, uint256 _amount) public onlyOwner
 ```
 
@@ -27,7 +27,7 @@ Creates `_amount` token to `_to`. Can only be called by the owner of the contrac
 
 ### delegates
 
-```
+```solidity
 function delegates(address delegator)
         external
         view
@@ -44,7 +44,7 @@ View function to return the delegatee for the given delegate address.
 
 ### delegate
 
-```
+```solidity
 function delegate(address delegatee) external
 ```
 
@@ -58,7 +58,7 @@ Calls the internal `_delegate` function, which delegates votes from `msg.sender`
 
 ### delegateBySig
 
-```
+```solidity
 function delegateBySig(
         address delegatee,
         uint nonce,
@@ -85,7 +85,7 @@ Delegates votes from signatory to `delegatee`.
 
 ### getCurrentVotes
 
-```
+```solidity
 function getCurrentVotes(address account)
         external
         view
@@ -102,7 +102,7 @@ View function that returns the current votes balance for given account.
 
 ### getPriorVotes
 
-```
+```solidity
 function getPriorVotes(address account, uint blockNumber)
         external
         view
@@ -120,7 +120,7 @@ Determines the prior number of votes for an account as of a block number.
 
 ### \_delegate
 
-```
+```solidity
 function _delegate(address delegator, address delegatee)
         internal
 ```
@@ -136,11 +136,11 @@ Internal function called by `delegate`, which delegates votes from `msg.sender` 
 
 ### \_moveDelegates
 
-```
+```solidity
 function _moveDelegates(address srcRep, address dstRep, uint256 amount) internal
 ```
 
-Internal function called by `_delegate`, it allows one to move their delegate votes from one delegatee to another. !!
+Internal function called by `_delegate`, it allows one to move their delegate votes from one delegatee to another.
 
 #### Parameters
 
@@ -152,7 +152,7 @@ Internal function called by `_delegate`, it allows one to move their delegate vo
 
 ### \_writeCheckpoint
 
-```
+```solidity
 function _writeCheckpoint(
         address delegatee,
         uint32 nCheckpoints,
@@ -162,7 +162,7 @@ function _writeCheckpoint(
         internal
 ```
 
-Internal function called by `_moveDelegates`, it writes a new checkpoint. !!
+Internal function called by `_moveDelegates`, it writes a new checkpoint.
 
 #### Parameters
 

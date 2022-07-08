@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 
 ### bridgeFor
 
-```
+```solidity
 function bridgeFor(address token) public view returns (address bridge)
 ```
 
@@ -26,7 +26,7 @@ Checks and returns address for a bridge to use. !!
 
 ### setBridge
 
-```
+```solidity
 function setBridge(address token, address bridge) external onlyOwner
 ```
 
@@ -41,7 +41,7 @@ Sets the bridge to use. Can only be called by the owner of the contract. !!
 
 ### \_convert
 
-```
+```solidity
 function _convert(address token0, address token1) internal
 ```
 
@@ -56,7 +56,7 @@ Internal function called by `convert`, which converts tokens to SUSHI for xSUSHI
 
 ### convert
 
-```
+```solidity
 function convert(address token0, address token1) external onlyEOA()
 ```
 
@@ -71,7 +71,7 @@ Calls the above internal `_convert` function to convert tokens to SUSHI for xSUS
 
 ### convertMultiple
 
-```
+```solidity
 function convertMultiple(
         address[] calldata token0,
         address[] calldata token1
@@ -89,7 +89,7 @@ Allows batch conversion of tokens to SUSHI for xSUSHI holders. !!
 
 ### \_convertStep
 
-```
+```solidity
  function _convertStep(
         address token0,
         address token1,
@@ -111,7 +111,7 @@ Private function that calculates and returns the amount of SUSHI to be given aft
 
 ### \_swap
 
-```
+```solidity
 function _swap(
         address fromToken,
         address toToken,
@@ -139,7 +139,7 @@ Internal function to swap tokens to SUSHI for xSUSHI holders. !!
 
 ### \_toSUSHI
 
-```
+```solidity
 function _toSUSHI(address token, uint256 amountIn)
         internal
         returns (uint256 amountOut)

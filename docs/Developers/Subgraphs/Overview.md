@@ -10,7 +10,7 @@ If you are unfamiliar with GraphQL, we recommend taking a quick look through the
 
 The SushiSwap subgraph works by listening for events emitted by one or more data sources (Smart Contracts) on the various chains. It handles the indexing and caching of data which can later be queried using an exposed GraphQL API, providing an excellent developer experience.
 
-Each subgraph is broken into its own section and documented in two forms: by entity and by queries.
+Each subgraph is broken down into its own section and documented in two forms: by entity and by queries.
 
 ## Current Subgraph Locations
 
@@ -22,11 +22,7 @@ Includes all SushiSwap Exchange data with Price Data, Volume, Users, etc.
 
 -   [Binance](https://thegraph.com/explorer/subgraph/sushiswap/bsc-exchange)
 
--   [OKEx](https://q.hg.network/okex-exchange/oec)
-
 -   [Gnosis](https://thegraph.com/explorer/subgraph/sushiswap/xdai-exchange)
-
--   [HECO](https://q.hg.network/heco-exchange/heco)
 
 -   [Matic](https://thegraph.com/explorer/subgraph/sushiswap/matic-exchange)
 
@@ -37,8 +33,6 @@ Includes all SushiSwap Exchange data with Price Data, Volume, Users, etc.
 -   [Celo](https://thegraph.com/explorer/subgraph/sushiswap/celo-exchange)
 
 -   [Avalanche](https://thegraph.com/explorer/subgraph/sushiswap/avalanche-exchange)
-
--   [Harmony](https://sushi.graph.t.hmny.io/subgraphs/name/sushiswap/harmony-exchange)
 
 -   [Moonriver](https://thegraph.com/hosted-service/subgraph/sushiswap/moonriver-exchange)
 
@@ -124,7 +118,7 @@ Indexes the MISO contracts, which includes auction data, participants, commitmen
 
 -   [Arbitrum](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-arbitrum)
 
--   [Avanlanche](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-avalanche)
+-   [Avalanche](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-avalanche)
 
 -   [Moonbeam](https://thegraph.com/hosted-service/subgraph/sushiswap/miso-moonbeam)
 

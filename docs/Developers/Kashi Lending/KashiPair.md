@@ -10,7 +10,7 @@ KashiPair is a masterContract for BentoBox that provides functionality for suppl
 
 ### init
 
-```
+```solidity
 function init(bytes calldata data) public payable override
 ```
 
@@ -24,7 +24,7 @@ This function serves as the constructor for clone contracts, as the clones can't
 
 ### accrue
 
-```
+```solidity
 function accrue() public
 ```
 
@@ -32,7 +32,7 @@ Accrues the interest on the borrowed tokens and handles the accumulation of fees
 
 ### \_isSolvent
 
-```
+```solidity
 function _isSolvent(
         address user,
         bool open,
@@ -52,7 +52,7 @@ Internal function used by the `solvent` modifier, it checks if the user is solve
 
 ### updateExchangeRate
 
-```
+```solidity
 function updateExchangeRate() public returns (bool updated, uint256 rate)
 ```
 
@@ -67,7 +67,7 @@ Gets the exchange rate and returns it.
 
 ### \_addTokens
 
-```
+```solidity
 function _addTokens(
         IERC20 token,
         uint256 share,
@@ -89,7 +89,7 @@ Internal helper function to move tokens.
 
 ### addCollateral
 
-```
+```solidity
 function addCollateral(
         address to,
         bool skim,
@@ -109,7 +109,7 @@ Adds `collateral` from msg.sender to the account `to`.
 
 ### \_removeCollateral
 
-```
+```solidity
 function _removeCollateral(address to, uint256 share) internal
 ```
 
@@ -124,7 +124,7 @@ Internal function called by `removeCollateral`, it removes `share` amount of col
 
 ### removeCollateral
 
-```
+```solidity
 function removeCollateral(address to, uint256 share) public solvent
 ```
 
@@ -139,7 +139,7 @@ Calls `_removeCollateral`, which removes `share` amount of collateral and transf
 
 ### \_addAsset
 
-```
+```solidity
 function _addAsset(
         address to,
         bool skim,
@@ -165,7 +165,7 @@ Internal function called by `addAsset`, it adds assets to the lending pair and r
 
 ### addAsset
 
-```
+```solidity
 function addAsset(
         address to,
         bool skim,
@@ -191,7 +191,7 @@ Calls `_addAsset`, which adds assets to the lending pair and returns the total f
 
 ### \_removeAsset
 
-```
+```solidity
 function _removeAsset(address to, uint256 fraction) internal returns (uint256 share)
 ```
 
@@ -212,7 +212,7 @@ Internal function called by `removeAsset`, it removes an asset from msg.sender a
 
 ### removeAsset
 
-```
+```solidity
 function removeAsset(address to, uint256 fraction) public returns (uint256 share)
 ```
 
@@ -233,7 +233,7 @@ Calls `_removeAsset`, which removes an asset from msg.sender and transfers it to
 
 ### \_borrow
 
-```
+```solidity
 function _borrow(address to, uint256 amount) internal returns (uint256 part, uint256 share)
 ```
 
@@ -255,7 +255,7 @@ Internal function called by `borrow`, it allows sender to borrow `amount` and tr
 
 ### borrow
 
-```
+```solidity
 function borrow(address to, uint256 amount) public solvent returns (uint256 part, uint256 share)
 ```
 
@@ -277,7 +277,7 @@ Calls `_borrow`, which allows sender to borrow `amount` and transfers it to the 
 
 ### \_repay
 
-```
+```solidity
 function _repay(
         address to,
         bool skim,
@@ -303,7 +303,7 @@ Internal function called by `repay`, it repays a loan and returns the total amou
 
 ### repay
 
-```
+```solidity
 function repay(
         address to,
         bool skim,
@@ -329,7 +329,7 @@ Calls `_repay`, which repays a loan and returns the total amount paid.
 
 ### \_bentoDeposit
 
-```
+```solidity
 function _bentoDeposit(
         bytes memory data,
         uint256 value,
@@ -351,7 +351,7 @@ Internal helper function for depositing into `bentoBox`.
 
 ### \_bentoWithdraw
 
-```
+```solidity
 function _bentoWithdraw(
         bytes memory data,
         uint256 value1,
@@ -372,7 +372,7 @@ Internal helper function for withdrawing from `bentoBox`.
 
 ### \_call
 
-```
+```solidity
 function _call(
         uint256 value,
         bytes memory data,
@@ -394,7 +394,7 @@ Internal helper function for performing a contract call and eventually extractin
 
 ### cook
 
-```
+```solidity
 function cook(
         uint8[] calldata actions,
         uint256[] calldata values,
@@ -421,7 +421,7 @@ Executes a set of actions and allows composability (contract calls) to other con
 
 ### liquidate
 
-```
+```solidity
 function liquidate(
         address[] calldata users,
         uint256[] calldata maxBorrowParts,
@@ -445,7 +445,7 @@ Handles the liquidation of users' balances, once the users' amount of collateral
 
 ### withdrawFees
 
-```
+```solidity
 function withdrawFees() public
 ```
 
@@ -453,7 +453,7 @@ Withdraws the fees accumulated.
 
 ### setSwapper
 
-```
+```solidity
 function setSwapper(ISwapper swapper, bool enable) public onlyOwner
 ```
 
@@ -468,7 +468,7 @@ Registers and enables / disables swapper contracts used in closed liquidations. 
 
 ### setFeeTo
 
-```
+```solidity
 function setFeeTo(address newFeeTo) public onlyOwner
 ```
 

@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/trident/blob/
 
 ### getDeployData
 
-```
+```solidity
 function getDeployData() external view override returns (bytes memory, IMasterDeployer)
 ```
 
@@ -20,7 +20,7 @@ Called in the constructor to populate deploy data.
 
 ### calculatePoolAddress
 
-```
+```solidity
 function calculatePoolAddress(
         address token0,
         address token1,

@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/trident/blob/
 
 ### getPoolsForTokens
 
-```
+```solidity
 function getPoolsForTokens(address constantProductPoolFactory, address[] calldata tokens)
         external
         view

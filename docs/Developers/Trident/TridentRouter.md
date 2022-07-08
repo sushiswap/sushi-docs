@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/trident/blob/
 
 ### exactInputSingle
 
-```
+```solidity
 function exactInputSingle(ExactInputSingleParams calldata params) public payable returns (uint256 amountOut)
 ```
 
@@ -32,7 +32,7 @@ Swaps token A to token B directly; swaps are done on `bento` tokens.
 
 ### exactInput
 
-```
+```solidity
 function exactInput(ExactInputParams calldata params) public payable returns (uint256 amountOut)
 ```
 
@@ -52,7 +52,7 @@ Swaps token A to token B indirectly by using multiple hops.
 
 ### exactInputSingleWithNativeToken
 
-```
+```solidity
 function exactInputSingleWithNativeToken(ExactInputSingleParams calldata params) public payable returns (uint256 amountOut)
 ```
 
@@ -72,7 +72,7 @@ Swaps token A to token B directly; it is the same as `exactInputSingle` except i
 
 ### exactInputWithNativeToken
 
-```
+```solidity
 function exactInputWithNativeToken(ExactInputParams calldata params) public payable returns (uint256 amountOut)
 ```
 
@@ -92,7 +92,7 @@ Swaps token a to token B indirectly by using multiple hops; it is the same as `e
 
 ### complexPath
 
-```
+```solidity
 function complexPath(ComplexPathParams calldata params) public payable
 ```
 
@@ -100,13 +100,13 @@ Swaps multiple input tokens to multiple output tokens using multiple paths, in d
 
 #### Parameters
 
-| Name     | Type              | Description                                                                       |
-| :------- | :---------------- | :-------------------------------------------------------------------------------- |
-| `params` | ComplexPathParams | includes all info needed for the swap (check `ComplexPathParams` struct for more) |
+| Name     | Type              | Description                           |
+| :------- | :---------------- | :------------------------------------ |
+| `params` | ComplexPathParams | includes all info needed for the swap |
 
 ### addLiquidity
 
-```
+```solidity
 function addLiquidity(
         TokenInput[] calldata tokenInput,
         address pool,
@@ -134,7 +134,7 @@ Adds liquidity to a pool.
 
 ### burnLiquidity
 
-```
+```solidity
 function burnLiquidity(
         address pool,
         uint256 liquidity,
@@ -156,7 +156,7 @@ Burns liquidity tokens to get back `bento` tokens.
 
 ### burnLiquiditySingle
 
-```
+```solidity
 function burnLiquiditySingle(
         address pool,
         uint256 liquidity,
@@ -178,7 +178,7 @@ Burns liquidity tokens to get back `bento` tokens; the tokens are swapped automa
 
 ### sweep
 
-```
+```solidity
 function sweep(
         address token,
         uint256 amount,
@@ -200,7 +200,7 @@ Recovers mistakenly sent tokens.
 
 ### unwrapWETH
 
-```
+```solidity
 function unwrapWETH(address recipient) external payable
 ```
 
@@ -214,7 +214,7 @@ Helper function to unwrap this contract's wETH into ETH.
 
 ### deployPool
 
-```
+```solidity
 function deployPool(address factory, bytes calldata deployData) external payable returns (address)
 ```
 
@@ -222,7 +222,7 @@ Wrapper function to allow pool deployment to be batched and returns the address 
 
 ### approveMasterContract
 
-```
+```solidity
 function approveMasterContract(
         uint8 v,
         bytes32 r,
@@ -242,7 +242,7 @@ Wrapper function to allow Bento set master contract approval to be batched, so t
 
 ### harvest
 
-```
+```solidity
 function harvest(address token, uint256 maxChangeAmount) external payable
 ```
 
@@ -257,7 +257,7 @@ Rebalances a BentoBox token strategy and ensures there are enough tokens availab
 
 ### \_depositToBentoBox
 
-```
+```solidity
 function _depositToBentoBox(
         address token,
         address recipient,
@@ -265,7 +265,7 @@ function _depositToBentoBox(
     ) internal
 ```
 
-Internal function used by others than deposits from the user's wallet into BentoBox.
+Internal function used by others that deposits from the user's wallet into BentoBox.
 
 #### Parameters
 

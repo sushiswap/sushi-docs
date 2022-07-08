@@ -6,7 +6,7 @@ sidebar_position: 2
 
 The BentoBox is a vault for tokens. The stored tokens can be flashloaned or used in strategies - the yield from this will go to the token depositors.
 
-You can find the full contract [here](https://github.com/sushiswap/sushiswap/tree/master/protocols/bentobox/v1/contracts).
+You can find the full contract [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/bentobox/v1/contracts/BentoBox.sol).
 
 **_Warning:_** Rebasing tokens are **NOT** supported and **WILL** cause a loss of funds!
 
@@ -14,7 +14,7 @@ You can find the full contract [here](https://github.com/sushiswap/sushiswap/tre
 
 ### \_tokenBalanceOf
 
-```
+```solidity
 function _tokenBalanceOf(IERC20 token) internal view returns (uint256 amount)
 ```
 
@@ -28,7 +28,7 @@ Internal function that returns the balance of `token` this contract holds, plus 
 
 ### toShare
 
-```
+```solidity
 function toShare(
         IERC20 token,
         uint256 amount,
@@ -48,7 +48,7 @@ Helper function to represent an amount of token in shares.
 
 ### toAmount
 
-```
+```solidity
 function toAmount(
         IERC20 token,
         uint256 share,
@@ -68,7 +68,7 @@ Helper function to represent shares back into token amount.
 
 ### deposit
 
-```
+```solidity
 function deposit(
         IERC20 token_,
         address from,
@@ -99,7 +99,7 @@ Deposit an amount of token represented in either amount or share.
 
 ### withdraw
 
-```
+```solidity
  function withdraw(
         IERC20 token_,
         address from,
@@ -130,7 +130,7 @@ Withdraws an amount of token from a user account.
 
 ### transfer
 
-```
+```solidity
  function transfer(
         IERC20 token,
         address from,
@@ -152,7 +152,7 @@ Transfer shares from a user account to another one.
 
 ### transferMultiple
 
-```
+```solidity
 function transferMultiple(
         IERC20 token,
         address from,
@@ -174,7 +174,7 @@ Transfer shares from a user account to _multiple other ones._
 
 ### flashLoan
 
-```
+```solidity
 function flashLoan(
         IFlashBorrower borrower,
         address receiver,
@@ -198,7 +198,7 @@ Provides flash loan capabilities.
 
 ### batchFlashLoan
 
-```
+```solidity
  function batchFlashLoan(
         IBatchFlashBorrower borrower,
         address[] calldata receivers,
@@ -222,7 +222,7 @@ Support for batched flashloans; useful to request multiple different tokens in a
 
 ### setStrategyTargetPercentage
 
-```
+```solidity
 function setStrategyTargetPercentage(IERC20 token, uint64 targetPercentage_) public onlyOwner
 ```
 
@@ -237,7 +237,7 @@ Sets the target percentage of the strategy for `token`. Can only be called by th
 
 ### setStrategy
 
-```
+```solidity
 function setStrategy(IERC20 token, IStrategy newStrategy) public onlyOwner
 ```
 
@@ -252,7 +252,7 @@ Sets the contract address of a new strategy that conforms to `IStrategy` for `to
 
 ### harvest
 
-```
+```solidity
 function harvest(
         IERC20 token,
         bool balance,

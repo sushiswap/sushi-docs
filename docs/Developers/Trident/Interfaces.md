@@ -8,7 +8,7 @@ Below is a list of interfaces used in the aforementioned Trident and Constant Pr
 
 ## IBentoBoxMinimal
 
-```
+```solidity
 interface IBentoBoxMinimal {
     function balanceOf(address, address) external view returns (uint256);
 
@@ -72,7 +72,7 @@ Minimal BentoBox vault interface; source code can be found [here](https://github
 
 ## IERC20PermitAllowed
 
-```
+```solidity
 interface IERC20PermitAllowed {
     function permit(
         address holder,
@@ -91,18 +91,13 @@ IERC20 with permit interface; source code can be found [here](https://github.com
 
 ## IMasterDeployer
 
-```
+```solidity
 interface IMasterDeployer {
     function barFee() external view returns (uint256);
-
     function barFeeTo() external view returns (address);
-
     function bento() external view returns (address);
-
     function migrator() external view returns (address);
-
     function pools(address pool) external view returns (bool);
-
     function deployPool(address factory, bytes calldata deployData) external returns (address);
 }
 ```
@@ -111,24 +106,16 @@ Trident pool deployer interface; source code can be found [here](https://github.
 
 ## IPool
 
-```
+```solidity
 interface IPool {
     function swap(bytes calldata data) external returns (uint256 finalAmountOut);
-
     function flashSwap(bytes calldata data) external returns (uint256 finalAmountOut);
-
     function mint(bytes calldata data) external returns (uint256 liquidity);
-
     function burn(bytes calldata data) external returns (TokenAmount[] memory withdrawnAmounts);
-
     function burnSingle(bytes calldata data) external returns (uint256 amountOut);
-
     function poolIdentifier() external pure returns (bytes32);
-
     function getAssets() external view returns (address[] memory);
-
     function getAmountOut(bytes calldata data) external view returns (uint256 finalAmountOut);
-
     function getAmountIn(bytes calldata data) external view returns (uint256 finalAmountIn);
 
     event Swap(address indexed recipient, address indexed tokenIn, address indexed tokenOut, uint256 amountIn, uint256 amountOut);
@@ -144,10 +131,9 @@ Trident pool interface; source code can be found [here](https://github.com/sushi
 
 ## IPoolFactory
 
-```
+```solidity
 interface IPoolFactory {
     function deployPool(bytes calldata _deployData) external returns (address pool);
-
     function configAddress(bytes32 data) external returns (address pool);
 }
 ```
@@ -156,7 +142,7 @@ Trident factory pool deployment interface; source code can be found [here](https
 
 ## IConstantProductPool
 
-```
+```solidity
 interface IConstantProductPool is IPool, IERC20 {
     function getNativeReserves()
         external
@@ -173,7 +159,7 @@ Trident Constant Product Pool interface; source code can be found [here](https:/
 
 ## IConstantProductPoolFactory
 
-```
+```solidity
 interface IConstantProductPoolFactory {
     function getDeployData() external view returns (bytes memory, IMasterDeployer);
 }
@@ -183,10 +169,9 @@ Trident Constant Product Pool factory interface; source code can be found [here]
 
 ## ITridentCallee
 
-```
+```solidity
 interface ITridentCallee {
     function tridentSwapCallback(bytes calldata data) external;
-
     function tridentMintCallback(bytes calldata data) external;
 }
 ```
@@ -195,7 +180,7 @@ Trident pool callback interface; source code can be found [here](https://github.
 
 ## ITridentNFT
 
-```
+```solidity
 interface ITridentNFT {
     function ownerOf(uint256) external view returns (address);
 }
@@ -205,7 +190,7 @@ Trident NFT interface; source code can be found [here](https://github.com/sushis
 
 ## ITridentRouter
 
-```
+```solidity
 interface ITridentRouter {
     struct Path {
         address pool;
@@ -267,7 +252,7 @@ Trident pool router interface; source code can be found [here](https://github.co
 
 ## IWETH9
 
-```
+```solidity
 interface IWETH9 is IERC20 {
     function deposit() external payable;
     function withdraw(uint256) external;
@@ -278,7 +263,7 @@ WETH interface; source code can be found [here](https://github.com/sushiswap/tri
 
 ## IWhiteListManager
 
-```
+```solidity
 interface IWhiteListManager {
     function whitelistedAccounts(address operator, address account) external returns (bool);
 }

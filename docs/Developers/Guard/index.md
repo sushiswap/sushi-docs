@@ -4,7 +4,7 @@ title: OpenMEV
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: OpenMEV
-sidebar_position: 1
+sidebar_position: 2
 pagination_label: Introduction
 description: OpenMEV Specification
 keywords:

@@ -6,9 +6,9 @@ sidebar_position: 5
 
 The Limit Order SDK is an exciting one - it not only contains all of the constants, types and enums needed for interacting with the limit order function of SushiSwap, but it also contains the code for the limit orders themselves!
 
-Let's dive into creating a new limit order:
+Let's dive into creating a new limit order!
 
-#### Creating a Limit Order
+## Creating a Limit Order
 
 First, we need to import the class from the SDK using `import { LimitOrder } from '@sushiswap/limit-order-sdk'`
 
@@ -40,7 +40,7 @@ const { v, r, s } = limitOrder.signdOrderWithPrivatekey(ChainId.MATIC, carol)
 
 Above, we start by creating two instances of a token with the `Token` entity from the Core SDK. We then create variables to hold some data (arbitrary in this example) that we will need to create a limit order. Once we have all of the pieces together, we can instantiate a new limit order from the `LimitOrder` class in the SDK. Congratulations, you've just created a limit order! From here, we can do whatever we need to do with the order (if anything at all) - above, we showcase how a user named Carol could then sign her limit order (calling the `signdOrderWithPrivateKey` method on `LimitOrder`) and pull out the pieces needed from the signature for verification elsewhere.
 
-# Use it
+## Use It!
 
 This is but one of the powerful and helpful things the Limit Order SDK can provide developers. We encourage you to look through the package yourself and leverage it to build your own quality dapps!
 
