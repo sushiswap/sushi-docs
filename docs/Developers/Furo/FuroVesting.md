@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/furo/blob/mas
 
 ### createVesting
 
-```
+```solidity
 function createVesting(
         IERC20 token,
         address recipient,
@@ -55,7 +55,7 @@ Creates a vesting schedule for the token stream.
 
 ### withdraw
 
-```
+```solidity
  function withdraw(
         uint256 vestId,
         bytes calldata taskData,
@@ -75,7 +75,7 @@ Withdraws from the vesting.
 
 ### stopVesting
 
-```
+```solidity
 function stopVesting(uint256 vestId, bool toBentoBox) external override
 ```
 
@@ -90,7 +90,7 @@ Stops a vesting.
 
 ### vestBalance
 
-```
+```solidity
 function vestBalance(uint256 vestId)
         external
         view
@@ -108,7 +108,7 @@ View function that returns the current balance of the vesting.
 
 ### \_balanceOf
 
-```
+```solidity
 function _balanceOf(Vest memory vest)
         internal
         view
@@ -131,7 +131,7 @@ Internal function that returns the amount of claimable tokens from a vesting, gi
 
 ### updateOwner
 
-```
+```solidity
 function updateOwner(uint256 vestId, address newOwner) external override
 ```
 
@@ -146,7 +146,7 @@ Sets the new owner of a vesting. Must be current owner to set.
 
 ### \_depositToken
 
-```
+```solidity
 function _depositToken(
         address token,
         address from,
@@ -176,7 +176,7 @@ Internal function that deposits a token into a stream.
 
 ### \_transferToken
 
-```
+```solidity
 function _transferToken(
         address token,
         address from,

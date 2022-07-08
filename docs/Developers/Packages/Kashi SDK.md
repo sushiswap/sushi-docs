@@ -35,7 +35,7 @@ const address = computePairAddress({
 
 Above, we are using the `Token` entity from the Core SDK to create new instances of an asset and a collateral token. We then pass all the necessary data (including the Chainlink oracle address - also stored in the Core SDK!) to compute the pair address, then logging it out to ensure everything worked correctly. Easy!
 
-# Use it
+## Use It!
 
 These is but one of the many powerful and helpful things the Kashi SDK can provide. We encourage you to look through the package yourself and leverage it to build your own quality dapps!
 

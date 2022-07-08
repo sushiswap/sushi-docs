@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 
 ### migrateWithPermit
 
-```
+```solidity
 function migrateWithPermit(
         address tokenA,
         address tokenB,
@@ -44,7 +44,7 @@ Migrates existing Uniswap LP tokens to SushiSwap LP tokens and permits the move 
 
 ### migrate
 
-```
+```solidity
  function migrate(
         address tokenA,
         address tokenB,
@@ -70,7 +70,7 @@ Migrates approved `liquidity` amount of `tokenA` and `tokenB`.
 
 ### removeLiquidity
 
-```
+```solidity
 function removeLiquidity(
         address tokenA,
         address tokenB,
@@ -103,7 +103,7 @@ Removes liquidity from old router. !!
 
 ### pairForOldRouter
 
-```
+```solidity
 function pairForOldRouter(address tokenA, address tokenB) internal view returns (address pair)
 ```
 
@@ -124,7 +124,7 @@ Calculates the CREATE2 address for a pair without making any external calls.
 
 ### \_addLiquidity
 
-```
+```solidity
 function _addLiquidity(
         address tokenA,
         address tokenB,
@@ -153,7 +153,7 @@ Internal function that creates the token pair if it doesn't exist yet, to be add
 
 ### addLiquidity
 
-```
+```solidity
 function addLiquidity(
         address tokenA,
         address tokenB,

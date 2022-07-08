@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 
 ### setBridge
 
-```
+```solidity
 function setBridge(address token, address bridge) external onlyOwner
 ```
 
@@ -27,11 +27,11 @@ Sets the bridge for the given token and bridge addresses. Can only be called by 
 
 ### convert
 
-```
+```solidity
 function convert(IKashiWithdrawFee kashiPair) external onlyEOA
 ```
 
-Calls the private `_convert` function which converts the given Kashi Pair into Bento shares, then into the underlying Kashi asset. !!
+Calls the private `_convert` function which converts the given Kashi Pair into Bento shares, then into the underlying Kashi asset.
 
 #### Parameters
 
@@ -41,7 +41,7 @@ Calls the private `_convert` function which converts the given Kashi Pair into B
 
 ### convertMultiple
 
-```
+```solidity
 function convertMultiple(IKashiWithdrawFee[] calldata kashiPair) external onlyEOA
 ```
 
@@ -55,7 +55,7 @@ Calls the private `_convert` function which converts the given Kashi Pairs into 
 
 ### \_convert
 
-```
+```solidity
 function _convert(IKashiWithdrawFee kashiPair) private
 ```
 
@@ -69,7 +69,7 @@ Private function used in `convert` and `convertMultiple` which converts the give
 
 ### \_convertStep
 
-```
+```solidity
 function _convertStep(address token0, uint256 amount0) private returns (uint256 sushiOut)
 ```
 
@@ -90,7 +90,7 @@ Private function that calculates and returns the amount of SUSHI to be given aft
 
 ### \_swap
 
-```
+```solidity
 function _swap(
         address fromToken,
         address toToken,

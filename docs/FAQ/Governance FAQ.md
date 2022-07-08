@@ -28,11 +28,11 @@ Yes! Any member of the SushiSwap community is welcome to submit a proposal here:
 
 ### How can a proposal be pushed to a vote?
 
-If a proposal gathers enough community interest, enthusiasm and engagement, it is then reviewed by the core team. If approved, a formal vote can be submitted here: [https://snapshot.page/#/sushi](https://snapshot.page/#/sushi)
+If a proposal gathers enough community interest, enthusiasm and engagement, it is then reviewed by the core team. If approved, a formal vote can be submitted [here](https://snapshot.org/#/sushigov.eth)
 
 ### How do I vote?
 
-You can vote here: [https://snapshot.page/#/sushi](https://snapshot.page/#/sushi)
+You can vote [here](https://snapshot.org/#/sushigov.eth)
 
 ### Do I have to pay gas to vote?
 

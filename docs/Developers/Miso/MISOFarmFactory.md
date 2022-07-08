@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 
 ### initMISOFarmFactory
 
-```
+```solidity
 function initMISOFarmFactory(
         address _accessControls,
         address payable _misoDiv,
@@ -35,7 +35,7 @@ Single gateway to initialize the MISO Farm Factory with proper addresses. Can on
 
 ### setMinimumFee
 
-```
+```solidity
 function setMinimumFee(uint256 _amount) external
 ```
 
@@ -49,7 +49,7 @@ Sets the minimum fee.
 
 ### setIntegratorFeePct
 
-```
+```solidity
 function setIntegratorFeePct(uint256 _amount) external
 ```
 
@@ -63,7 +63,7 @@ Sets the integrator fee percentage.
 
 ### setDividends
 
-```
+```solidity
 function setDividends(address payable _divaddr) external
 ```
 
@@ -77,7 +77,7 @@ Sets the dividend address.
 
 ### setLocked
 
-```
+```solidity
 function setLocked(bool _locked) external
 ```
 
@@ -91,7 +91,7 @@ Sets the factory to be locked or unlocked.
 
 ### setCurrentTemplateId
 
-```
+```solidity
 function setCurrentTemplateId(uint256 _templateType, uint256 _templateId) external
 ```
 
@@ -106,7 +106,7 @@ Sets the current template ID for any type. Must have operator access.
 
 ### hasFarmMinterRole
 
-```
+```solidity
 function hasFarmMinterRole(address _address) public view returns (bool)
 ```
 
@@ -120,7 +120,7 @@ Used to check whether an address has the minter role, returns a boolean.
 
 ### deployFarm
 
-```
+```solidity
 function deployFarm(
         uint256 _templateId,
         address payable _integratorFeeAccount
@@ -145,7 +145,7 @@ Deploys a farm corresponding to the `_templateId` and transfers fees.
 
 ### createFarm
 
-```
+```solidity
 function createFarm(
         uint256 _templateId,
         address payable _integratorFeeAccount,
@@ -172,7 +172,7 @@ Creates a farm corresponding to the `_templateId`.
 
 ### addFarmTemplate
 
-```
+```solidity
 function addFarmTemplate(address _template) external
 ```
 
@@ -186,7 +186,7 @@ Adds a farm template to create through factory. Must have operator access.
 
 ### removeFarmTemplate
 
-```
+```solidity
 function removeFarmTemplate(uint256 _templateId) external
 ```
 
@@ -200,7 +200,7 @@ Removes a farm template. Must have operator access.
 
 ### getFarmTemplate
 
-```
+```solidity
 function getFarmTemplate(uint256 _farmTemplate) external view returns (address)
 ```
 
@@ -214,7 +214,7 @@ View function to get the template address based on the template ID.
 
 ### getTemplateId
 
-```
+```solidity
 function getTemplateId(address _farmTemplate) external view returns (uint256)
 ```
 
@@ -228,7 +228,7 @@ View function to get the template ID based on the template address.
 
 ### numberOfFarms
 
-```
+```solidity
 function numberOfFarms() external view returns (uint256)
 ```
 
@@ -236,7 +236,7 @@ View function that returns total number of farms in the factory.
 
 ### getFarms
 
-```
+```solidity
 function getFarms() external view returns(address[] memory)
 ```
 

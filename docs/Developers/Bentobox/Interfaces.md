@@ -8,7 +8,7 @@ Below is a list of interfaces used in the aforementioned BentoBox contracts.
 
 ## IFlashLoan
 
-```
+```solidity
 interface IFlashBorrower {
     function onFlashLoan(
         address sender,
@@ -20,7 +20,7 @@ interface IFlashBorrower {
 }
 ```
 
-```
+```solidity
 interface IBatchFlashBorrower {
     function onBatchFlashLoan(
         address sender,
@@ -36,14 +36,11 @@ Interfaces for both the FlashBorrower contract and the BatchFlashBorrower contra
 
 ## IStrategy
 
-```
+```solidity
 interface IStrategy {
     function skim(uint256 amount) external;
-
     function harvest(uint256 balance, address sender) external returns (int256 amountAdded);
-
     function withdraw(uint256 amount) external returns (uint256 actualAmount);
-
     function exit(uint256 balance) external returns (int256 amountAdded);
 }
 ```
@@ -52,10 +49,9 @@ Interface for the Strategy contract; source code can be found [here](https://git
 
 ## IWETH
 
-```
+```solidity
 interface IWETH {
     function deposit() external payable;
-
     function withdraw(uint256) external;
 }
 ```

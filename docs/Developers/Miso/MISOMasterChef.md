@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 
 ### getInitData
 
-```
+```solidity
 function getInitData(
             address _rewards,
             uint256 _rewardsPerBlock,
@@ -45,7 +45,7 @@ Generates the init data for Farm Factory.
 
 ### setBonus
 
-```
+```solidity
 function setBonus(
         uint256 _bonusEndBlock,
         uint256 _bonusMultiplier
@@ -63,7 +63,7 @@ Sets the bonus rewards for the farm. Can only be called by the owner of the cont
 
 ### poolLength
 
-```
+```solidity
 function poolLength() external view returns (uint256)
 ```
 
@@ -71,7 +71,7 @@ View function that returns how many pools are in the farm. !!
 
 ### addToken
 
-```
+```solidity
 function addToken(uint256 _allocPoint, IERC20 _lpToken, bool _withUpdate) public
 ```
 
@@ -89,7 +89,7 @@ Adds a new LP to the pool. Can only be called by the owner of the contract.
 
 ### set
 
-```
+```solidity
 function set(uint256 _pid, uint256 _allocPoint, bool _withUpdate) public
 ```
 
@@ -105,7 +105,7 @@ Updates the given pool's token allocation point. Can only be called by the owner
 
 ### getMultiplier
 
-```
+```solidity
 function getMultiplier(uint256 _from, uint256 _to) public view returns (uint256)
 ```
 
@@ -120,7 +120,7 @@ Returns the reward multiplier over the given `_from` to `_to` block.
 
 ### pendingRewards
 
-```
+```solidity
 function pendingRewards(uint256 _pid, address _user) external view returns (uint256)
 ```
 
@@ -135,7 +135,7 @@ View function to see pending token rewards on the frontend.
 
 ### massUpdatePools
 
-```
+```solidity
 function massUpdatePools() public
 ```
 
@@ -145,7 +145,7 @@ Updates the reward variables for _all_ pools.
 
 ### updatePool
 
-```
+```solidity
 function updatePool(uint256 _pid) public
 ```
 
@@ -159,7 +159,7 @@ Updates the reward variables of a given pool to be up-to-date.
 
 ### deposit
 
-```
+```solidity
 function deposit(uint256 _pid, uint256 _amount) public
 ```
 
@@ -174,7 +174,7 @@ Deposits LP tokens to MasterChef for rewards allocation.
 
 ### withdraw
 
-```
+```solidity
 function withdraw(uint256 _pid, uint256 _amount) public
 ```
 
@@ -189,7 +189,7 @@ Withdraws LP tokens from MasterChef.
 
 ### emergencyWithdraw
 
-```
+```solidity
 function emergencyWithdraw(uint256 _pid) public
 ```
 
@@ -203,7 +203,7 @@ Withdraws LP without caring for rewards. **_Use in EMERGENCIES only_**
 
 ### safeRewardsTransfer
 
-```
+```solidity
 function safeRewardsTransfer(address _to, uint256 _amount) internal
 ```
 
@@ -218,7 +218,7 @@ An internal safe rewards transfer function, used in case of rounding errors caus
 
 ### tokensRemaining
 
-```
+```solidity
 function tokensRemaining() public view returns(uint256)
 ```
 
@@ -226,7 +226,7 @@ View function that returns how many tokens the farm is holding. !!
 
 ### tokenDebt
 
-```
+```solidity
 function tokenDebt() public view returns(uint256)
 ```
 
@@ -234,7 +234,7 @@ View function that returns the total amount of token debt. !!
 
 ### blocksRemaining
 
-```
+```solidity
 function blocksRemaining() public view returns (uint256)
 ```
 
@@ -242,7 +242,7 @@ View function that returns the number of blocks remining with the current reward
 
 ### claimTips
 
-```
+```solidity
 function claimTips() public
 ```
 
@@ -250,7 +250,7 @@ Claims any rewards for the developers, if set.
 
 ### dev
 
-```
+```solidity
 function dev(address _devaddr) public
 ```
 
@@ -264,7 +264,7 @@ Update the developer address, by the previous dev (ie, can only be set by the pr
 
 ### setDevPercentage
 
-```
+```solidity
 function setDevPercentage(uint256 _devPercentage) public
 ```
 

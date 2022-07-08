@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 
 ### initMISOFermenter
 
-```
+```solidity
 function initMISOFermenter(address _accessControls) external
 ```
 
@@ -26,7 +26,7 @@ Single gateway to initialize the MISO Market with the proper address. Can only b
 
 ### setLocked
 
-```
+```solidity
 function setLocked(bool _locked) external
 ```
 
@@ -40,7 +40,7 @@ Sets the factory to be locked or unlocked.
 
 ### hasVaultMinterRole
 
-```
+```solidity
 function hasVaultMinterRole(address _address) public view returns (bool)
 ```
 
@@ -54,7 +54,7 @@ Used to check whether an address has the minter role and returns a boolean.
 
 ### createEscrow
 
-```
+```solidity
 function createEscrow(uint256 _templateId) external returns (address newEscrow)
 ```
 
@@ -74,7 +74,7 @@ Creates a new escrow corresponding to the given template ID. If the contract is 
 
 ### addEscrowTemplate
 
-```
+```solidity
 function addEscrowTemplate(address _escrowTemplate) external
 ```
 
@@ -88,7 +88,7 @@ Adds an escrow template to create through factory. Must have operator access.
 
 ### removeEscrowTemplate
 
-```
+```solidity
 function removeEscrowTemplate(uint256 _templateId) external
 ```
 
@@ -102,7 +102,7 @@ Removes an escrow template. Must have operator access.
 
 ### getEscrowTemplate
 
-```
+```solidity
 getEscrowTemplate(uint256 _templateId) external view returns (address)
 ```
 
@@ -116,7 +116,7 @@ View function that returns the address of the escrow template based on the templ
 
 ### getTemplateId
 
-```
+```solidity
 function getTemplateId(address _escrowTemplate) external view returns (uint256 templateId)
 ```
 
@@ -136,7 +136,7 @@ View function that returns the template ID based on the template address.
 
 ### numberOfTokens
 
-```
+```solidity
 numberOfTokens() external view returns (uint256)
 ```
 

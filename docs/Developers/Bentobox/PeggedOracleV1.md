@@ -12,7 +12,7 @@ You can find the full contract [here](https://github.com/sushiswap/sushiswap/blo
 
 ### getDataParameter
 
-```
+```solidity
 function getDataParameter(uint256 rate) public pure returns (bytes memory)
 ```
 
@@ -26,7 +26,7 @@ Returns the abi-encoded fixed exchange rate.
 
 ### get
 
-```
+```solidity
 function get(bytes calldata data) public override returns (bool, uint256)
 ```
 
@@ -40,7 +40,7 @@ Gets the fixed exchange rate.
 
 ### peek
 
-```
+```solidity
 function peek(bytes calldata data) public view override returns (bool, uint256)
 ```
 
@@ -54,7 +54,7 @@ Check the current exchange rate without any state changes.
 
 ### peekSpot
 
-```
+```solidity
 function peekSpot(bytes calldata data) external view override returns (uint256 rate)
 ```
 

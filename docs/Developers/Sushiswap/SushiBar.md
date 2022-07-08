@@ -14,7 +14,7 @@ The full contract can be viewed [here](https://github.com/sushiswap/sushiswap/bl
 
 ### enter
 
-```
+```solidity
 function enter(uint256 _amount) public
 ```
 
@@ -28,7 +28,7 @@ Locks SUSHI and mints xSUSHI.
 
 ### leave
 
-```
+```solidity
 function leave(uint256 _share) public
 ```
 

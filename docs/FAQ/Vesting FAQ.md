@@ -24,7 +24,7 @@ They can be harvested 6 months from the time you/your pool earned the rewards.
 
 ### Where can I check my vested $SUSHI balance?
 
-[https://app.sushi.com/vesting](https://app.sushi.com/vesting)
+[https://app.sushi.com/vesting](https://app.sushi.com/vesting) (DEPRECATED)
 
 ### How is the vested $SUSHI going to be distributed?
 

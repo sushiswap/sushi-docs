@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 
 ### poolLength
 
-```
+```solidity
 function poolLength() public view returns (uint256 pools)
 ```
 
@@ -20,7 +20,7 @@ View function that returns the number of MiniChef pools.
 
 ### add
 
-```
+```solidity
 function add(uint256 allocPoint, IERC20 _lpToken, IRewarder _rewarder) public onlyOwner
 ```
 
@@ -38,7 +38,7 @@ Adds a new LP to the pool. Can only be called by the owner of the contract.
 
 ### set
 
-```
+```solidity
 function set(uint256 _pid, uint256 _allocPoint, IRewarder _rewarder, bool overwrite) public onlyOwner
 ```
 
@@ -55,7 +55,7 @@ Updates the given pool's SUSHI allocation point and `IRewarder` contract. Can on
 
 ### setSushiPerSecond
 
-```
+```solidity
 function setSushiPerSecond(uint256 _sushiPerSecond) public onlyOwner
 ```
 
@@ -69,7 +69,7 @@ Sets the SUSHI per second to be distributed. Can only be called by the owner of 
 
 ### setMigrator
 
-```
+```solidity
 function setMigrator(IMigratorChef _migrator) public onlyOwner
 ```
 
@@ -83,7 +83,7 @@ Sets the `migrator` contract. Can only be called by the owner of the contract.
 
 ### migrate
 
-```
+```solidity
 function migrate(uint256 _pid) public
 ```
 
@@ -97,7 +97,7 @@ Migrates an LP token to another LP contract through the `migrator` contract.
 
 ### pendingSushi
 
-```
+```solidity
 function pendingSushi(uint256 _pid, address _user) external view returns (uint256 pending)
 ```
 
@@ -118,7 +118,7 @@ View function to see pending SUSHI on the frontend and returns the pending SUSHI
 
 ### massUpdatePools
 
-```
+```solidity
 function massUpdatePools(uint256[] calldata pids) external
 ```
 
@@ -132,7 +132,7 @@ Updates the reward variables for _all_ of the pools. Be careful of gas spending!
 
 ### updatePool
 
-```
+```solidity
 function updatePool(uint256 pid) public returns (PoolInfo memory pool)
 ```
 
@@ -152,7 +152,7 @@ Updates rewards variables for the given pool and returns the pool that was updat
 
 ### deposit
 
-```
+```solidity
 function deposit(uint256 pid, uint256 amount, address to) public
 ```
 
@@ -168,7 +168,7 @@ Deposits LP tokens to the MiniChef for SUSHI allocation. !!
 
 ### withdraw
 
-```
+```solidity
 function withdraw(uint256 pid, uint256 amount, address to) public
 ```
 
@@ -184,7 +184,7 @@ Withdraws LP tokens from the MiniChef. !!
 
 ### harvest
 
-```
+```solidity
 function harvest(uint256 pid, address to) public
 ```
 
@@ -199,7 +199,7 @@ Harvests SUSHI rewards for transaction sender to `to`.
 
 ### withdrawAndHarvest
 
-```
+```solidity
 function withdrawAndHarvest(uint256 pid, uint256 amount, address to) public
 ```
 
@@ -215,7 +215,7 @@ Withdraws LP tokens from the MiniChef _and_ harvests SUSHI rewards for transacti
 
 ### emergencyWithdraw
 
-```
+```solidity
 function emergencyWithdraw(uint256 pid, address to) public
 ```
 

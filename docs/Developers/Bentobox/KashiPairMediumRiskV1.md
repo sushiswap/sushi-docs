@@ -12,7 +12,7 @@ You can find the full contract [here](https://github.com/sushiswap/sushiswap/blo
 
 ### accrue
 
-```
+```solidity
 function accrue() public
 ```
 
@@ -20,7 +20,7 @@ Accrues the interest on the borrowed tokens and handles the accumulation of fees
 
 ### \_isSolvent
 
-```
+```solidity
 function _isSolvent(
         address user,
         bool open,
@@ -40,7 +40,7 @@ Internal function used by the `solvent` modifier, it checks if the user is solve
 
 ### updateExchangeRate
 
-```
+```solidity
 function updateExchangeRate() public returns (bool updated, uint256 rate)
 ```
 
@@ -55,7 +55,7 @@ Gets the exchange rate, ie how much collateral to buy 1e18 asset. Invoked if nee
 
 ### \_addTokens
 
-```
+```solidity
  function _addTokens(
         IERC20 token,
         uint256 share,
@@ -77,7 +77,7 @@ Internal helper function to move tokens.
 
 ### addCollateral
 
-```
+```solidity
 function addCollateral(
         address to,
         bool skim,
@@ -97,7 +97,7 @@ Adds `share` amount of collateral from `msg.sender` to the account `to`.
 
 ### \_removeCollateral
 
-```
+```solidity
 function _removeCollateral(address to, uint256 share) internal
 ```
 
@@ -112,7 +112,7 @@ Internal function called by `removeCollateral`, it removes the amount `share` of
 
 ### removeCollateral
 
-```
+```solidity
 function removeCollateral(address to, uint256 share) public solvent
 ```
 
@@ -127,7 +127,7 @@ Calls `_removeCollateral`, which removes the amount `share` of collateral and tr
 
 ### \_addAsset
 
-```
+```solidity
 function _addAsset(
         address to,
         bool skim,
@@ -153,7 +153,7 @@ Internal function called by `addAsset`, it adds the given assets to the lending 
 
 ### addAsset
 
-```
+```solidity
 function addAsset(
         address to,
         bool skim,
@@ -179,7 +179,7 @@ Calls `_addAsset`, which adds the given assets to the lending pair.
 
 ### \_removeAsset
 
-```
+```solidity
 function _removeAsset(address to, uint256 fraction) internal returns (uint256 share)
 ```
 
@@ -200,7 +200,7 @@ Internal function called by `removeAsset`, it removes an asset from msg.sender a
 
 ### removeAsset
 
-```
+```solidity
 function removeAsset(address to, uint256 fraction) public returns (uint256 share)
 ```
 
@@ -221,7 +221,7 @@ Calls `_removeAsset`, which removes an asset from msg.sender and transfers it to
 
 ### \_borrow
 
-```
+```solidity
 function _borrow(address to, uint256 amount) internal returns (uint256 part, uint256 share)
 ```
 
@@ -243,7 +243,7 @@ Internal function called by `borrow`, it allows the sender to borrow `amount` an
 
 ### borrow
 
-```
+```solidity
 function borrow(address to, uint256 amount) public solvent returns (uint256 part, uint256 share)
 ```
 
@@ -265,7 +265,7 @@ Calls `_borrow`, which allows the sender to borrow `amount` and transfer to `to`
 
 ### \_repay
 
-```
+```solidity
 function _repay(
         address to,
         bool skim,
@@ -291,7 +291,7 @@ Internal function called by `repay`, it repays a loan.
 
 ### repay
 
-```
+```solidity
 function repay(
         address to,
         bool skim,
@@ -317,7 +317,7 @@ Calls `_repay`, which repays a loan.
 
 ### cook
 
-```
+```solidity
 function cook(
         uint8[] calldata actions,
         uint256[] calldata values,
@@ -344,7 +344,7 @@ Executes a set of actions and allows composability (contract calls) to other con
 
 ### liquidate
 
-```
+```solidity
 function liquidate(
         address[] calldata users,
         uint256[] calldata maxBorrowParts,
@@ -368,7 +368,7 @@ Handles the liquidation of users' balances once the users' amount of collateral 
 
 ### withdrawFees
 
-```
+```solidity
 function withdrawFees() public
 ```
 
@@ -376,7 +376,7 @@ Withdraw the fees accumulated.
 
 ### setSwapper
 
-```
+```solidity
 function setSwapper(ISwapper swapper, bool enable) public onlyOwner
 ```
 
@@ -391,7 +391,7 @@ Used to register and enable / disable swapper contracts used in closed liquidati
 
 ### setFeeTo
 
-```
+```solidity
 function setFeeTo(address newFeeTo) public onlyOwner
 ```
 

@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 
 ### initMISOTokenFactory
 
-```
+```solidity
 function initMISOTokenFactory(address _accessControls) external
 ```
 
@@ -26,7 +26,7 @@ Single gateway to initialize the MISO Token Factory with the proper address. Can
 
 ### setMinimumFee
 
-```
+```solidity
 function setMinimumFee(uint256 _amount) external
 ```
 
@@ -40,7 +40,7 @@ Sets the minimum fee. Must have operator access.
 
 ### setIntegratorFeePct
 
-```
+```solidity
 function setIntegratorFeePct(uint256 _amount) external
 ```
 
@@ -54,7 +54,7 @@ Sets the integrator fee percentage. Must have operator access.
 
 ### setDividends
 
-```
+```solidity
 function setDividends(address payable _divaddr) external
 ```
 
@@ -68,7 +68,7 @@ Sets the dividend address. Must have operator access.
 
 ### setLocked
 
-```
+```solidity
 function setLocked(bool _locked) external
 ```
 
@@ -82,7 +82,7 @@ Sets the factory to be locked or unlocked.
 
 ### setCurrentTemplateId
 
-```
+```solidity
 function setCurrentTemplateId(uint256 _templateType, uint256 _templateId) external
 ```
 
@@ -97,7 +97,7 @@ Sets the current template ID for any type. Must have operator access.
 
 ### hasMarketMinterRole
 
-```
+```solidity
 function hasMarketMinterRole(address _address) public view returns (bool)
 ```
 
@@ -111,7 +111,7 @@ Used to check whether an address has the minter role, returns a boolean.
 
 ### deployToken
 
-```
+```solidity
 function deployToken(
         uint256 _templateId,
         address payable _integratorFeeAccount
@@ -136,7 +136,7 @@ Creates a token corresponding to the given template ID and transfers fees.
 
 ### createToken
 
-```
+```solidity
 function createToken(
         uint256 _templateId,
         address payable _integratorFeeAccount,
@@ -163,7 +163,7 @@ Creates a token corresponding to the given template ID.
 
 ### addTokenTemplate
 
-```
+```solidity
 function addTokenTemplate(address _template) external
 ```
 
@@ -177,7 +177,7 @@ Adds a token template to create through factory. Must have operator access.
 
 ### removeTokenTemplate
 
-```
+```solidity
 function removeTokenTemplate(uint256 _templateId) external
 ```
 
@@ -191,7 +191,7 @@ Removes a token template. Must have operator access.
 
 ### numberOfTokens
 
-```
+```solidity
 function numberOfTokens() external view returns (uint256)
 ```
 
@@ -199,7 +199,7 @@ View function that returns the total number of tokens in the factory.
 
 ### getTokens
 
-```
+```solidity
 function getTokens() external view returns (address[] memory)
 ```
 
@@ -207,7 +207,7 @@ View function that returns an array of the addresses of the tokens in the factor
 
 ### getTokenTemplate
 
-```
+```solidity
 function getTokenTemplate(uint256 _templateId) external view returns (address)
 ```
 
@@ -221,7 +221,7 @@ View function that returns a token template address based on the ID.
 
 ### getTemplateId
 
-```
+```solidity
 function getTemplateId(address _tokenTemplate) external view returns (uint256)
 ```
 

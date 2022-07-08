@@ -8,7 +8,7 @@ Listed below are all of the interfaces used in the aforementioned Kashi contract
 
 ## IKashiPair
 
-```
+```solidity
 interface IKashiPair {
     event Approval(address indexed _owner, address indexed _spender, uint256 _value);
     event LogAccrue(uint256 accruedAmount, uint256 feeFraction, uint64 rate, uint256 utilization);
@@ -174,7 +174,7 @@ Interface for the Kashi contract; source code can be found [here](https://github
 
 ## IOracle
 
-```
+```solidity
 interface IOracle {
     function get(bytes calldata data) external returns (bool success, uint256 rate);
 
@@ -192,7 +192,7 @@ Interface for the Oracle; source code can be found [here](https://github.com/sus
 
 ## ISwapper
 
-```
+```solidity
 interface ISwapper {
 
     function swap(

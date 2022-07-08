@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/furo/blob/mas
 
 ### tokenURI
 
-```
+```solidity
 function tokenURI(uint256 id)
         public
         view
@@ -30,7 +30,7 @@ View function that returns the token URI.
 
 ### setBentoBoxApproval
 
-```
+```solidity
 function setBentoBoxApproval(
         address user,
         bool approved,
@@ -54,7 +54,7 @@ Approves this contract for BentoBox.
 
 ### createStream
 
-```
+```solidity
 function createStream(
         address recipient,
         address token,
@@ -91,7 +91,7 @@ Creates a new token stream.
 
 ### withdrawFromStream
 
-```
+```solidity
 function withdrawFromStream(
         uint256 streamId,
         uint256 sharesToWithdraw,
@@ -122,7 +122,7 @@ Withdraws token shares from the stream.
 
 ### cancelStream
 
-```
+```solidity
 function cancelStream(uint256 streamId, bool toBentoBox)
         external
         override
@@ -147,7 +147,7 @@ Cancels a token stream with the given ID and returns the sender and recipient ba
 
 ### getStream
 
-```
+```solidity
 function getStream(uint256 streamId)
         external
         view
@@ -190,7 +190,7 @@ View function that calls `_balanceOf`, which returns the balances (sender and re
 
 ### \_balanceOf
 
-```
+```solidity
 function _balanceOf(Stream memory stream)
         internal
         view
@@ -214,7 +214,7 @@ Internal function called by `balanceOf`, it returns the balances (sender and rec
 
 ### updateSender
 
-```
+```solidity
 function updateSender(uint256 streamId, address sender) external override
 ```
 
@@ -229,7 +229,7 @@ Updates the sender of a stream. Must be the current sender to update.
 
 ### updateStream
 
-```
+```solidity
 function updateStream(
         uint256 streamId,
         uint128 topUpAmount,
@@ -257,7 +257,7 @@ Updates an entire stream and returns the total amount of shares currently deposi
 
 ### \_depositToken
 
-```
+```solidity
 function _depositToken(
         address token,
         address from,
@@ -287,7 +287,7 @@ Internal function that deposits a token into a stream.
 
 ### \_transferToken
 
-```
+```solidity
 function _transferToken(
         address token,
         address from,

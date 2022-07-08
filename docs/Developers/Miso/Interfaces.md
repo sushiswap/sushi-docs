@@ -8,7 +8,7 @@ Listed below are all of the interfaces used in the aforementioned MISO contracts
 
 ## IBentoBoxFactory
 
-```
+```solidity
 interface IBentoBoxFactory {
     function deploy(address masterContract, bytes calldata data, bool useCreate2) external payable returns (address cloneAddress) ;
     function masterContractApproved(address, address) external view returns (bool);
@@ -21,20 +21,14 @@ Interface for BentoBoxFactory contract; source code can be found [here](https://
 
 ## IERC20
 
-```
+```solidity
 interface IERC20 {
   function totalSupply() external view returns (uint256);
-
   function balanceOf(address account) external view returns (uint256);
-
   function allowance(address owner, address spender) external view returns (uint256);
-
   function approve(address spender, uint256 amount) external returns (bool);
-
   function name() external view returns (string memory);
-
   function symbol() external view returns (string memory);
-
   function decimals() external view returns (uint8);
 
   event Transfer(address indexed from, address indexed to, uint256 value);
@@ -62,7 +56,7 @@ Standard ERC20 interface; source code can be found [here](https://github.com/sus
 
 ## IGnosisProxyFactory
 
-```
+```solidity
 interface IGnosisProxyFactory {
     function createProxy(
         ISafeGnosis masterCopy, bytes memory data) external returns(ISafeGnosis proxy);
@@ -73,7 +67,7 @@ Interface for GnosisProxyFactory contract; source code can be found [here](https
 
 ## IMasterChef
 
-```
+```solidity
 interface IMasterChef {
     using BoringERC20 for IERC20;
     struct UserInfo {
@@ -98,7 +92,7 @@ Interface for the MasterChef contract; source code can be found [here](https://g
 
 ## IMasterContract
 
-```
+```solidity
 interface IMasterContract {
     /// @notice Init function that gets called from `BoringFactory.deploy`.
     /// Also known as the constructor for cloned contracts.
@@ -112,7 +106,7 @@ Interface for the MasterContract that contains the `init` function called by the
 
 ## IMisoAuction
 
-```
+```solidity
 interface IMisoAuction {
     function initAuction(
         address _funder,
@@ -143,7 +137,7 @@ Interface for the MisoAuction contract; source code can be found [here](https://
 
 ## IMisoCrowdsale
 
-```
+```solidity
 interface IMisoCrowdsale {
     function initCrowdsale(
         address _funder,
@@ -164,7 +158,7 @@ Interface for the MisoCrowdsale contract; source code can be found [here](https:
 
 ## IMisoFarm
 
-```
+```solidity
 interface IMisoFarm {
     function initFarm(
         bytes calldata data
@@ -178,7 +172,7 @@ Interface for the MisoFarm contract; source code can be found [here](https://git
 
 ## IMisoFermenter
 
-```
+```solidity
 interface IMisoFermenter {
     function initERC20Vault() external;
 }
@@ -188,7 +182,7 @@ Interface for the MisoFermenter contract; source code can be found [here](https:
 
 ## IMisoLauncher
 
-```
+```solidity
 interface IMisoLauncher {
     function createLauncher(
         uint256 _templateId,
@@ -207,7 +201,7 @@ Interface for the MisoLauncher contract; source code can be found [here](https:/
 
 ## IMisoLiquidity
 
-```
+```solidity
 interface IMisoLiquidity {
     function initLauncher(
         bytes calldata data
@@ -222,7 +216,7 @@ Interface for the MisoLiquidity contract; source code can be found [here](https:
 
 ### IMisoMarket
 
-```
+```solidity
 interface IMisoMarket {
     function init(bytes calldata data) external payable;
     function initMarket( bytes calldata data ) external;
@@ -234,7 +228,7 @@ Interface for the MisoMarket contract; source code can be found [here](https://g
 
 ### IMisoTemplate
 
-```
+```solidity
 interface IMisoTemplate {
     function initData(
         bytes calldata data
@@ -246,7 +240,7 @@ Interface for the MisoTemplate contract; source code can be found [here](https:/
 
 ## IMisoToken
 
-```
+```solidity
 interface IMisoToken {
     function init(bytes calldata data) external payable;
     function initToken( bytes calldata data ) external;
@@ -258,7 +252,7 @@ Interface for the MisoToken contract; source code can be found [here](https://gi
 
 ## IMisoTokenFactory
 
-```
+```solidity
 interface IMisoTokenFactory {
     function numberOfTokens() external view returns (uint256);
     function getTokens() external view returns (address[] memory);
@@ -269,7 +263,7 @@ Interface for the MisoTokenFactory contract; source code can be found [here](htt
 
 ## IPointList
 
-```
+```solidity
 interface IPointList {
     function isInList(address account) external view returns (bool);
     function hasPoints(address account, uint256 amount) external view  returns (bool);
@@ -284,7 +278,7 @@ Interface for the PointList contract; source code can be found [here](https://gi
 
 ## IRewarder
 
-```
+```solidity
 interface IRewarder {
     using BoringERC20 for IERC20;
     function onSushiReward (uint256 pid, address user, uint256 sushiAmount) external;
@@ -296,7 +290,7 @@ Interface for the Rewarder contract; source code can be found [here](https://git
 
 ## ISafeGnosis
 
-```
+```solidity
 interface ISafeGnosis{
      function setup(
         address[] calldata _owners,
@@ -314,7 +308,6 @@ interface ISafeGnosis{
         address to,
         uint256 value,
         bytes calldata data,
-       //ENUM.Operation?
         uint256 operation,
         uint256 safeTxGas,
         uint256 baseGas,
@@ -333,7 +326,7 @@ Interface for the SafeGnosis contract; source code can be found [here](https://g
 
 ## ISushiToken
 
-```
+```solidity
 interface ISushiToken  {
     function mint(address owner, uint256 amount) external;
     function name() external view returns (string memory);
@@ -355,7 +348,7 @@ Interface for the SushiToken; source code can be found [here](https://github.com
 
 ## IWETH9
 
-```
+```solidity
 interface IWETH is IERC20 {
     function deposit() external payable;
     function withdraw(uint) external;
@@ -367,7 +360,7 @@ Standard interface for wrapped ETH; source code can be found [here](https://gith
 
 ## IWhitelist
 
-```
+```solidity
 interface IWhiteList {
     function isInWhiteList(address account) external view returns (bool);
     function addWhiteList(address[] calldata accounts) external ;

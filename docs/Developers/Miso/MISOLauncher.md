@@ -12,7 +12,7 @@ The full contract can be found [here](https://github.com/sushiswap/miso/blob/can
 
 ### initMISOLauncher
 
-```
+```solidity
 function initMISOLauncher(address _accessControls, address _bentoBox) external
 ```
 
@@ -27,7 +27,7 @@ Single gateway to initialize the MISO Launcher with the proper addresses. Can on
 
 ### setMinimumFee
 
-```
+```solidity
 function setMinimumFee(uint256 _amount) external
 ```
 
@@ -41,7 +41,7 @@ Sets the minimum fee. Must have operator access.
 
 ### setIntegratorFeePct
 
-```
+```solidity
 function setIntegratorFeePct(uint256 _amount) external
 ```
 
@@ -55,7 +55,7 @@ Sets the integrator fee percentage. Must have operator access.
 
 ### setDividends
 
-```
+```solidity
 function setDividends(address payable _divaddr) external
 ```
 
@@ -69,7 +69,7 @@ Sets the dividend address. Must have operator access.
 
 ### setLocked
 
-```
+```solidity
 function setLocked(bool _locked) external
 ```
 
@@ -83,7 +83,7 @@ Sets the factory to be locked or unlocked.
 
 ### setCurrentTemplateId
 
-```
+```solidity
 function setCurrentTemplateId(uint256 _templateType, uint256 _templateId) external
 ```
 
@@ -98,7 +98,7 @@ Sets the current template ID for any type. Must have operator access.
 
 ### hasLauncherMinterRole
 
-```
+```solidity
 function hasLauncherMinterRole(address _address) public view returns (bool)
 ```
 
@@ -112,7 +112,7 @@ Used to check whether an address has the minter role, returns a boolean.
 
 ### deployLauncher
 
-```
+```solidity
 function deployLauncher(
         uint256 _templateId,
         address payable _integratorFeeAccount
@@ -137,7 +137,7 @@ Deploys a launcher corresponding to the `_templateId`.
 
 ### createLauncher
 
-```
+```solidity
 function createLauncher(
         uint256 _templateId,
         address _token,
@@ -168,7 +168,7 @@ Creates a new MISOLauncher using the \_templateId.
 
 ### addLiquidityLauncherTemplate
 
-```
+```solidity
 function addLiquidityLauncherTemplate(address _template) external
 ```
 
@@ -182,7 +182,7 @@ Adds a launcher template to create through factory. Must have operator access.
 
 ### removeLiquidityLauncherTemplate
 
-```
+```solidity
 function removeLiquidityLauncherTemplate(uint256 _templateId) external
 ```
 
@@ -196,7 +196,7 @@ Removes a launcher template from factory. Must have operator access.
 
 ### getLiquidityLauncherTemplate
 
-```
+```solidity
 function getLiquidityLauncherTemplate(uint256 _templateId) external view returns (address)
 ```
 
@@ -210,7 +210,7 @@ Returns the address of the launcher template given its ID.
 
 ### getTemplateId
 
-```
+```solidity
 getTemplateId(address _launcherTemplate) external view returns (uint256)
 ```
 
@@ -224,7 +224,7 @@ Returns the template ID of a launcher template given its address.
 
 ### numberOfLiquidityLauncherContracts
 
-```
+```solidity
 function numberOfLiquidityLauncherContracts() external view returns (uint256)
 ```
 
@@ -232,7 +232,7 @@ View function that returns the total number of launchers in the contract.
 
 ### minimumFee
 
-```
+```solidity
 function minimumFee() external view returns(uint128)
 ```
 
@@ -240,7 +240,7 @@ View function that returns the minimumFee of the launchers in the contract.
 
 ### getLauncherTemplateId
 
-```
+```solidity
 function getLauncherTemplateId(address _launcher) external view returns(uint64)
 ```
 
@@ -254,7 +254,7 @@ View function that returns the launcher template ID from the launcher address.
 
 ### getLaunchers
 
-```
+```solidity
 function getLaunchers() external view returns(address[] memory)
 ```
 

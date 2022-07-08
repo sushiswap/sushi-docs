@@ -8,7 +8,7 @@ Listed below are all of the interfaces used in the aforementioned Furo contracts
 
 ## IBentoBoxMinimal
 
-```
+```solidity
 interface IBentoBoxMinimal {
     function balanceOf(address, address) external view returns (uint256);
 
@@ -64,7 +64,7 @@ Interface for a minimal version of the BentoBox contract; source code can be fou
 
 ## IERC20
 
-```
+```solidity
 interface IERC20 {
     function totalSupply() external view returns (uint256);
 
@@ -101,7 +101,7 @@ Standard ERC20 interface; source code can be found [here](https://github.com/sus
 
 ## IFuroStream
 
-```
+```solidity
 interface IFuroStream {
     function setBentoBoxApproval(
         address user,
@@ -197,7 +197,7 @@ Interface for the FuroStream contract; source code can be found [here](https://g
 
 ## IFuroVesting
 
-```
+```solidity
 interface IFuroVesting {
     function setBentoBoxApproval(
         address user,
@@ -280,7 +280,7 @@ Interface for the FuroVesting contract; source code can be found [here](https://
 
 ## ITasker
 
-```
+```solidity
 interface ITasker {
     function onTaskReceived(
         bytes calldata data

@@ -8,7 +8,7 @@ Listed below are all of the interfaces used in the aforementioned core contracts
 
 ## IERC20
 
-```
+```solidity
 interface IERC20 {
     event Approval(address indexed owner, address indexed spender, uint value);
     event Transfer(address indexed from, address indexed to, uint value);
@@ -30,7 +30,7 @@ Standard ERC20 interface; source code can be found [here](https://github.com/sus
 
 ## IMasterChef
 
-```
+```solidity
 interface IMasterChef {
     using BoringERC20 for IERC20;
     struct UserInfo {
@@ -46,12 +46,13 @@ interface IMasterChef {
     }
 
     function poolInfo(uint256 pid) external view returns (IMasterChef.PoolInfo memory);
-    function totalAllocPoint() external view returns (uint256);
+    function pendingSushi(uint256 _pid, address _user) external view returns (uint256);
     function deposit(uint256 _pid, uint256 _amount) external;
+    function withdraw(uint256 _pid, uint256 _amount) external;
 }
 ```
 
-MasterChef contract interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/interfaces/IMasterChef.sol).
+MasterChef contract interface; source code can be found [here](https://github.com/sushiswap/contracts/blob/71bad1225ba4b36f0ca6e68e9c653a445cf81c1e/contracts/interface/IMasterChef.sol).
 
 ## IMiniChefV2
 
@@ -79,7 +80,7 @@ interface IMiniChefV2 {
 }
 ```
 
-MiniChef contract interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/interfaces/IMiniChefV2.sol).
+MiniChef contract interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/interfaces/IMiniChefV2.sol).
 
 ## IRewarder
 
@@ -91,4 +92,4 @@ interface IRewarder {
 }
 ```
 
-Rewarder contract interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/canary/contracts/interfaces/IRewarder.sol).
+Rewarder contract interface; source code can be found [here](https://github.com/sushiswap/sushiswap/blob/archieve/canary/contracts/interfaces/IRewarder.sol).
