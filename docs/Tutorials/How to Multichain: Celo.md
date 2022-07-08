@@ -8,9 +8,9 @@ To start earning rewards, you’ll need to access a wallet, add $CELO, and conne
 
 ### Connect Your MetaMask to Celo
 
-**Step 1.** Navigate to [metamask.io](https://metamask.io/) and download a wallet.
+**Step 1.** Navigate to [metamask.io](https://metamask.io/) and download a wallet. If you need assistance in doing this, please see this article [here](/docs/Tutorials/How%20to%20Get%20Started%20on%20Sushi/Setting%20Up%20Your%20Wallet.md).
 
-<img src='/img/tutimg/htmc/htmc1.gif' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc1.png' alt="" width="75%" />
 
 **Step 2.** Follow each of the steps provided by MetaMask to set up your wallet.
 
@@ -18,13 +18,13 @@ To start earning rewards, you’ll need to access a wallet, add $CELO, and conne
 
 **Step 4.** Follow [these steps](https://metamask.zendesk.com/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC) to add the Celo network to your MetaMask wallet.
 
-<img src='/img/tutimg/htmc/htmc2.gif' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc2.png' alt="" width="75%" />
 
 ### Network Configuration for Celo Mainnet
 
 **Network Name:** Celo (Mainnet)
 
-**New RPC URL:** [need new link](adsad)
+**New RPC URL:** [https://forno.celo.org](https://forno.celo.org)
 
 **Chain ID:** 42220
 
@@ -36,15 +36,15 @@ To start earning rewards, you’ll need to access a wallet, add $CELO, and conne
 
 ### How to Add CELO Tokens to MetaMask
 
-**Step 1.** Copy your Celo Mainnet account.
+**Step 1.** Copy your Celo Mainnet account address by selecting your account and choosing _Copy to clipboard_.
 
 <img src='/img/tutimg/htmc/htmc3.png' alt="" width="75%" />
 
 **Step 2.** Purchase $CELO from any available exchange (hint: we have it!)
 
-**Step 3.** Send $CELO to your MetaMask wallet.
+**Step 3.** Send $CELO to your MetaMask wallet address you copied earlier.
 
-<img src='/img/tutimg/htmc/htmc5.png' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc4.png' alt="" width="75%" />
 
 ### How to use the Celo Chain on Sushi with MetaMask
 
@@ -56,11 +56,11 @@ When using Sushi on the Celo Network, it will look and feel like your regular Su
 
 **Step 2.** Switch your network to Celo.
 
-<img src='/img/tutimg/htmc/htmc6.gif' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc5.png' alt="" width="75%" />
 
 **Step 3.** Select the token you wish to swap _from_ and _to_.
 
-<img src='/img/tutimg/htmc/htmc7.jpeg' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc6.jpeg' alt="" width="75%" />
 
 **Step 4.** Input the amount you wish to swap or click _MAX_.
 
@@ -100,7 +100,7 @@ The Onsen program also takes this a step further and adds more liquidity providi
 
 **Step 8.** Click _Supply_, then _Confirm Supply_ in the popup.
 
-<img src='/img/tutimg/htmc/htmc8.gif' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc7.png' alt="" width="75%" />
 
 **Step 9.** Approve the transaction and relevant fees from your wallet and you will now receive your liquidity pair or LP tokens!
 
@@ -116,21 +116,11 @@ The Onsen program also takes this a step further and adds more liquidity providi
 
 **Step 15.** Confirm the transaction and the relevant fees from your wallet.
 
-<img src='/img/tutimg/htmc/htmc9.gif' alt="" width="75%" />
-
-Once the transaction completes, you will now be a $SUSHI farmer on the Celo network! When you refresh the _Yield_ tab on [app.sushi.com](https://app.sushi.com/), you will see your assets farming away 24/7 under the subheading: _Your Yields_.
-
-### Harvest
-
-Click _Harvest_ whenever you want to withdraw your $SUSHI to your wallet.
-
-<img src='/img/tutimg/htmc/htmc10.gif' alt="" width="75%" />
+Once the transaction completes, you will now be a $SUSHI farmer on the Celo network! When you refresh the _Yield_ tab on [app.sushi.com](https://app.sushi.com/), you will see your assets farming away 24/7 under the subheading: _Your Yields_. If you want to harvest your $SUSHI, simply select the _Harvest_ button (if you withdraw or add more liquidity at any point in the future, it will automatically harvest for you as well - save on gas!)
 
 ### How to Remove Liquidity & Exit Onsen
 
-So what if you want to hang up your hat and call it a day from being a farmer? Well, follow these simple steps to reverse what we just did above.
-
-<img src='/img/tutimg/htmc/htmc11.gif' alt="" width="75%" />
+So what if you want to hang up your hat and call it a day from being a farmer? Well, follow these simple steps to reverse what we just did above!
 
 **Step 1.** Go to [app.sushi.com](https://app.sushi)
 
@@ -156,6 +146,8 @@ So what if you want to hang up your hat and call it a day from being a farmer? W
 
 **Step 12.** Slide the cursor to the amount you wish to remove or click MAX to remove your position entirely, then click _Approve._
 
+<img src='/img/tutimg/htmc/htmc8.png' alt="" width="75%" />
+
 **Step 13.** Sign the transaction in your wallet.
 
 **Step 14.** After signing processes, click _Remove_, then _Confirm_ in the popup.
@@ -166,6 +158,6 @@ Your assets should appear back in your wallet shortly.
 
 We hope you found this tutorial helpful and we hope you enjoy taking advantage of Sushi benefits through the Celo network!
 
-<img src='/img/tutimg/htmc/htmc12.png' alt="" width="75%" />
+<img src='/img/tutimg/htmc/htmc9.png' alt="" width="75%" />
 
 Sushi is building a comprehensive DeFi ecosystem with AMM, leverage & margin trading platform, token launchpad and NFT artist platform. Follow our socials to keep up with our product launches and find out more on how you can make the most of your cryptocurrency assets with Sushi’s secure and powerful DeFi tools!

@@ -4,7 +4,7 @@ Any member of the community is welcome to post a proposal on our forums, but ple
 
 Your proposal can gain enough traction to be brought up for voting on our Snapshot voting platform by the core team, where the community will vote with **SUSHIPOWAH** to decide the outcome.
 
-Our Snapshot voting platform can be found at [https://snapshot.page/#/sushi](https://snapshot.page/#/sushi) and you can also read our archived Snapshot (with older proposals) at [https://snapshot.page/#/sushipowah](https://snapshot.page/#/sushipowah).
+Our Snapshot voting platform can be found [here](https://snapshot.org/#/sushigov.eth), where all Sushi proposals are housed.
 
 **SUSHIPOWAH** is our voting metric, and is decided as follows:
 

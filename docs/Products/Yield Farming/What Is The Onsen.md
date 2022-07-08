@@ -8,4 +8,4 @@ To receive $SUSHI rewards, users should deposit the token received for providing
 
 ## Apply for the Onsen Program
 
-To apply for the Onsen program, please follow this link: [Onsen Sign Up](https://docs.google.com/document/d/1VcdrqAn1sR8Wa0BSSU-jAl68CfoECR62LCzIyzUpZ_U/edit)
+To apply for the Onsen program, please follow this link: [Onsen Application](https://docs.google.com/forms/d/e/1FAIpQLScdc7iovZ5TMOstRHQCfXbj2WwscRBiF8kHRgsrmbN26QE0kw/viewform?usp=sf_link)

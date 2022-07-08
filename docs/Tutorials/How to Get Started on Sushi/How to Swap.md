@@ -26,9 +26,9 @@ In order to allow SushiSwap access to the tokens in your wallet, you will be pro
 
 ### Finding Tokens to Swap
 
-If you cannot find the token you are looking for, you can search for the token in [Etherscan](www.etherscan.io), copying its “Token Contract Address” and pasting it into the search bar on SushiSwap’s exchange. If it still does not show up, you may need to find the token by selecting a different token list.
+If you cannot find the token you are looking for, you can search for the token in [Etherscan](https://etherscan.io/), copying its “Token Contract Address” and pasting it into the search bar on SushiSwap’s exchange. If it still does not show up, you may need to find the token by selecting a different token list.
 
-After selecting your desired tokens, input the number of tokens you wish to sell. You will see how many new tokens you will receive, the price impact, which we will discuss a little further on, and the total fee. After approving SushiSwap’s access to use your tokens and clicking “Swap” then “Confirm Swap,” you will receive a prompt from your wallet, asking you to approve the trade and the gas fees associated with the trade. Once you approve the trade again from your wallet, the transaction will execute and you just have to wait for the process to complete! You can see the status of your transaction in your wallet or by copying the transaction hash and checking it on [Etherscan](www.etherscan.io).
+After selecting your desired tokens, input the number of tokens you wish to sell. You will see how many new tokens you will receive, the price impact, which we will discuss a little further on, and the total fee. After approving SushiSwap’s access to use your tokens and clicking “Swap” then “Confirm Swap,” you will receive a prompt from your wallet, asking you to approve the trade and the gas fees associated with the trade. Once you approve the trade again from your wallet, the transaction will execute and you just have to wait for the process to complete! You can see the status of your transaction in your wallet or by copying the transaction hash and checking it on [Etherscan](https://etherscan.io/).
 
 ### Cancelling / Reversing a Trade
 

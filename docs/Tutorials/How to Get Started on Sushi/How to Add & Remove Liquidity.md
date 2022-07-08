@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # How to Add & Remove Liquidity
 
-An exchange is a place to buy/sell tokens, but in order to do that, it needs one basic thing: tokens (otherwise known as liquidity). Traditionally, centralized exchanges, like Coinbase, provide and manage this liquidity. On SushiSwap, the liquidity is provided voluntarily by its users. In return, SushiSwap rewards those who provide temporary access to their tokens with a share of the 0.25% fee charged to traders of the respective token pair, proportional to the amount of liquidity they added to the pool. This option could be a great opportunity to earn extra yields on tokens that are just sitting in your wallet.
+An exchange is a place to buy/sell tokens, but in order to do that, it needs one basic thing: _tokens_ (otherwise known as liquidity). Traditionally, centralized exchanges, like Coinbase, provide and manage this liquidity. On SushiSwap, the liquidity is provided voluntarily by its users. In return, SushiSwap rewards those who provide temporary access to their tokens with a share of the 0.25% fee charged to traders of the respective token pair, proportional to the amount of liquidity they added to the pool. This option could be a great opportunity to earn extra yields on tokens that are just sitting in your wallet.
 
 ![](/img/tutimg/htarl/htarl1.png)
 
