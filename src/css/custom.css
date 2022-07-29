@@ -42,11 +42,6 @@
   --ifm-global-spacing: 1.5rem;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
   display: block;
