@@ -14,9 +14,9 @@ Earning yield on SushiSwap is connected to being a liquidity provider, but it is
 
 **Step 2.** Connect your wallet to SushiSwap (make sure you have some Ethereum to cover gas fees!)
 
-**Step 3.** You need to add liquidity to the yield farming pair first. You can do so by following the steps in the [How to Add & Remove Liquidity](/docs/Tutorials/How%20to%20Get%20Started%20on%20Sushi/How%20to%20Add%20&%20Remove%20Liquidity) section or by supplying directly on the _Yield_ page.
+**Step 3.** You need to add liquidity to the yield farming pair first. You can do so by following the steps in the [How to Add & Remove Liquidity](/docs/Tutorials/How%20to%20Get%20Started%20on%20Sushi/How%20to%20Add%20&%20Remove%20Liquidity) section or by supplying directly on the _Onsen Menu_ page in the _Farm_ tab.
 
-**Step 4.** Select the farm or Onsen pair you wish to join and deposit your SLP (Sushi Liquidity Provider) tokens into the farm by entering the amount you wish to add or by clicking “Max” and click “Deposit”
+**Step 4.** Select the farm or Onsen pair you wish to join and deposit your SLP (Sushi Liquidity Provider) tokens into the farm by entering the amount you wish to add or by clicking _Max_ and click _Deposit_
 
 **Step 5.** Approve the relevant fees and start growing your $SUSHI! Farming will happen immediately once the transaction completes.
 
@@ -36,8 +36,8 @@ Once a temporary Onsen pair is no longer bearing yield, you will probably want t
 
 **Step 2.** Connect your wallet to SushiSwap (make sure you have some Ethereum to cover gas fees!)
 
-**Step 3.** Click the Yield tab and wait for _Your Yields_ to load
+**Step 3.** Click the _Farm_ tab and wait for _My Farms_ to load with your current positions.
 
-**Step 4.** Select the farm or Onsen pair you wish to no longer participate in and click “Harvest x.xx SUSHI”
+**Step 4.** Select the farm or Onsen pair you wish to no longer participate in and click the toggle under Staking to the minus sign (the percentages will turn pink if done correctly). Select the percentage you would like to remove (or select _MAX_ for all of it) and then _Confirm Withdraw_
 
-**Step 5.** Approve the transaction from your wallet and you’re all set! _Note: You can also remove the liquidity position entirely on this page as well_
+**Step 5.** Approve the transaction from your wallet and you’re all set!

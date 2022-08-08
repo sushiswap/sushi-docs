@@ -14,11 +14,11 @@ An exchange is a place to buy/sell tokens, but in order to do that, it needs one
 
 **Step 2.** Connect your wallet to SushiSwap (make sure you have some Ethereum to cover gas fees!)
 
-**Step 3.** Click the _Liquidity_ tab and select the input tokens to create your pool (please note that the two token amounts need to match each other in monetary value, e.g. SUSHI $100 – ETH $100)
+**Step 3.** Click the _Liquidity_ tab and then hit _Add_, which will bring you to the screen above. Then, simply select the input tokens to create your pool (please note that the two token amounts need to match each other in monetary value, e.g. SUSHI $100 – ETH $100)
 
 **Step 4.** Approve SushiSwap to access the tokens.
 
-**Step 5.** Click “Confirm Adding Liquidity” and you’re all set!
+**Step 5.** Click _Confirm Adding Liquidity_ and you’re all set!
 
 ### Impermanent Loss (IL) Risk
 
@@ -32,11 +32,11 @@ The best-case scenario for an LP is when there are many transactions in the pool
 
 **Step 2.** Connect your wallet to SushiSwap (Make sure you have some Ethereum to cover gas fees!)
 
-**Step 3.** Click the _Liquidity_ tab and click "Your Liquidity Positions."
+**Step 3.** Click the _Liquidity_ tab and then click _Pool_, which will bring you to an overview of your current positions
 
-**Step 4.** Select the liquidity pair you wish to withdraw from SushiSwap by clicking “Manage”
+**Step 4.** Select the liquidity pair you wish to withdraw from SushiSwap from the list.
 
-**Step 5.** Click "Remove," enter the percentage of your position that you want to withdraw and click "Approve"
+**Step 5.** Click _Remove_, enter the percentage of your position that you want to withdraw and click _Approve_
 
 **Step 6.** Approve the transaction fee in your wallet and you're all set!
 
