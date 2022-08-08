@@ -16,7 +16,9 @@ At the top you can find the current state of the auction, the auction type, if i
 
 <img src='/img/tutimg/htpiama/htpiama2.png' alt="" width="75%" />
 
-\_State of the auction_There is currently 3 type of auctions available on MISO, you can find more info about their specificities [here](/docs/Products/MISO/Marketplace%20for%20Tokens).
+_State of the Auction_
+
+There are currently 3 type of auctions available on MISO, you can find more info about their specificities [here](/docs/Products/MISO/Marketplace%20for%20Tokens).
 
 On the bottom half of the page you can find more details relating to the auction, the project and its commit history. The _Auction Details_, _Commitments_ and _About Project_ tabs can all be toggled through here.
 
