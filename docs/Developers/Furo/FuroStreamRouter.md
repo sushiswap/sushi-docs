@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # FuroStreamRouter
 
 FuroStreamRouter contract is the contract that is directly used to create and update token streams, complete with full deposit / withdraw functionality - all on BentoBox!

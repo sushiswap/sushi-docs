@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # FuroVestingRouter
 
 FuroVestingRouter is the contract that is actually utilized directly for vesting tokens.
