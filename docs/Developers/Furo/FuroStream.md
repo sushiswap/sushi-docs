@@ -4,11 +4,27 @@ sidebar_position: 2
 
 # FuroStream
 
-FuroStream allows you to create and update token streams, complete with full deposit / withdraw functionality - all on BentoBox!
+FuroStream is the base contract for creating and updating token streams; it is not called directly, but instead utilized via the router.
 
-The full contract can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/base/FuroStream.sol).
+**_Important:_** Use the `FuroStreamRouter` to create streams; do **NOT** create streams directly.
+
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroStream.sol).
 
 ## Functions
+
+### setTokenURIFetcher
+
+```solidity
+function setTokenURIFetcher(address _fetcher) external onlyOwner
+```
+
+Sets the TokenURI fetcher address to the one given. Can only be called by the owner of the contract.
+
+#### Parameters
+
+| Name       | Type    | Description                         |
+| :--------- | :------ | :---------------------------------- |
+| `_fetcher` | address | address to set token URI fetcher to |
 
 ### tokenURI
 
@@ -37,7 +53,7 @@ function setBentoBoxApproval(
         uint8 v,
         bytes32 r,
         bytes32 s
-    ) external override
+    ) external payable override
 ```
 
 Approves this contract for BentoBox.

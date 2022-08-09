@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 6
 ---
 
 # Interfaces
@@ -207,17 +207,15 @@ interface IFuroVesting {
         bytes32 s
     ) external;
 
-    function createVesting(
-        IERC20 token,
-        address recipient,
-        uint32 start,
-        uint32 cliffDuration,
-        uint32 stepDuration,
-        uint32 steps,
-        uint128 cliffAmount,
-        uint128 stepAmount,
-        bool fromBentoBox
-    ) external payable returns (uint256 depositedShares, uint256 vestId);
+    function createVesting(VestParams calldata vestParams)
+        external
+        payable
+        returns (
+            uint256 depositedShares,
+            uint256 vestId,
+            uint128 stepShares,
+            uint128 cliffShares
+        );
 
     function withdraw(
         uint256 vestId,
@@ -230,6 +228,18 @@ interface IFuroVesting {
     function vestBalance(uint256 vestId) external view returns (uint256);
 
     function updateOwner(uint256 vestId, address newOwner) external;
+
+    struct VestParams {
+        IERC20 token;
+        address recipient;
+        uint32 start;
+        uint32 cliffDuration;
+        uint32 stepDuration;
+        uint32 steps;
+        uint128 stepPercentage;
+        uint128 amount;
+        bool fromBentoBox;
+    }
 
     struct Vest {
         address owner;
@@ -278,6 +288,59 @@ interface IFuroVesting {
 
 Interface for the FuroVesting contract; source code can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/interfaces/IFuroVesting.sol).
 
+## IPool
+
+```solidity
+interface IPool {
+    function swap(bytes calldata data)
+        external
+        returns (uint256 finalAmountOut);
+
+    function flashSwap(bytes calldata data)
+        external
+        returns (uint256 finalAmountOut);
+
+    function mint(bytes calldata data) external returns (uint256 liquidity);
+
+    function burn(bytes calldata data)
+        external
+        returns (TokenAmount[] memory withdrawnAmounts);
+
+    function burnSingle(bytes calldata data)
+        external
+        returns (uint256 amountOut);
+
+    function poolIdentifier() external pure returns (bytes32);
+
+    function getAssets() external view returns (address[] memory);
+
+    function getAmountOut(bytes calldata data)
+        external
+        view
+        returns (uint256 finalAmountOut);
+
+    function getAmountIn(bytes calldata data)
+        external
+        view
+        returns (uint256 finalAmountIn);
+
+    event Swap(
+        address indexed recipient,
+        address indexed tokenIn,
+        address indexed tokenOut,
+        uint256 amountIn,
+        uint256 amountOut
+    );
+
+    struct TokenAmount {
+        address token;
+        uint256 amount;
+    }
+}
+```
+
+Interface for a Trident pool; source code can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/interfaces/IPool.sol).
+
 ## ITasker
 
 ```solidity
@@ -289,3 +352,78 @@ interface ITasker {
 ```
 
 Interface for the Tasker contract; source code can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/interfaces/ITasker.sol).
+
+## ITokenURIFetcher
+
+```solidity
+interface ITokenURIFetcher {
+    function fetchTokenURIData(uint256 id)
+        external
+        view
+        returns (string memory);
+}
+```
+
+Interface for the TokenURIFetcher contract; source code can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/interfaces/ITokenURIFetcher.sol).
+
+## ITridentRouter
+
+```solidity
+interface ITridentRouter {
+    struct Path {
+        address pool;
+        bytes data;
+    }
+
+    struct ExactInputSingleParams {
+        uint256 amountIn;
+        uint256 amountOutMinimum;
+        address pool;
+        address tokenIn;
+        bytes data;
+    }
+
+    struct ExactInputParams {
+        address tokenIn;
+        uint256 amountIn;
+        uint256 amountOutMinimum;
+        Path[] path;
+    }
+
+    struct TokenInput {
+        address token;
+        bool native;
+        uint256 amount;
+    }
+
+    struct InitialPath {
+        address tokenIn;
+        address pool;
+        bool native;
+        uint256 amount;
+        bytes data;
+    }
+
+    struct PercentagePath {
+        address tokenIn;
+        address pool;
+        uint64 balancePercentage; // Multiplied by 10^6. 100% = 100_000_000
+        bytes data;
+    }
+
+    struct Output {
+        address token;
+        address to;
+        bool unwrapBento;
+        uint256 minAmount;
+    }
+
+    struct ComplexPathParams {
+        InitialPath[] initialPath;
+        PercentagePath[] percentagePath;
+        Output[] output;
+    }
+}
+```
+
+Interface for the Trident pool router; source code can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/interfaces/ITridentRouter.sol).
