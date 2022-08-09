@@ -8,4 +8,4 @@ As an example, using Furo token streams could allow entire companies and organiz
 
 And not only that... it's all on top of the BentoBox as well!
 
-Below you will find additional details on the two core contracts used in Furo, `FuroStream` and `FuroVesting`, as well as the interfaces used in each. As always, if you still have any further comments / questions - hit our Samurais up in the Discord and they'll be glad to help out!
+Below you will find additional details on the two core contracts used in Furo, `FuroStream` and `FuroVesting` and their routers (streams and vestings are made directly through their respective routers as opposed to directly through the base contracts), as well as the interfaces used in each. As always, if you still have any further comments / questions - hit our Samurais up in the Discord and they'll be glad to help out!

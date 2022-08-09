@@ -4,47 +4,92 @@ sidebar_position: 3
 
 # FuroVesting
 
-FuroVesting is the contract for vesting tokens.
+FuroVesting is the base contract for vesting tokens; it is not called directly, but instead utilized via the router.
 
-The full contract can be found [here](https://github.com/sushiswap/furo/blob/master/contracts/base/FuroVesting.sol).
+**_Important:_** Use the `FuroVestingRouter` to create vestings; do **NOT** create vestings directly.
+
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroVesting.sol).
 
 ## Functions
+
+### setTokenURIFetcher
+
+```solidity
+function setTokenURIFetcher(address _fetcher) external onlyOwner
+```
+
+Sets the TokenURI fetcher address to the one given. Can only be called by the owner of the contract.
+
+#### Parameters
+
+| Name       | Type    | Description                         |
+| :--------- | :------ | :---------------------------------- |
+| `_fetcher` | address | address to set token URI fetcher to |
+
+### tokenURI
+
+```solidity
+function tokenURI(uint256 id)
+        public
+        view
+        override
+        returns (string memory)
+```
+
+View function that returns the token URI.
+
+#### Parameters
+
+| Name | Type    | Description                     |
+| :--- | :------ | :------------------------------ |
+| `id` | uint256 | token ID to return the URI from |
+
+### setBentoBoxApproval
+
+```solidity
+function setBentoBoxApproval(
+        address user,
+        bool approved,
+        uint8 v,
+        bytes32 r,
+        bytes32 s
+    ) external payable override
+```
+
+Approves this contract for BentoBox.
+
+#### Parameters
+
+| Name       | Type    | Description                              |
+| :--------- | :------ | :--------------------------------------- |
+| `user`     | address | user address to set as owner in BentoBox |
+| `approved` | bool    | boolean if approved or not by BentoBox   |
+| `v`        | uint8   | recovery byte of the signature           |
+| `r`        | bytes32 | half of the ECDSA signature pair         |
+| `s`        | bytes32 | half of the ECDSA signature pair         |
 
 ### createVesting
 
 ```solidity
-function createVesting(
-        IERC20 token,
-        address recipient,
-        uint32 start,
-        uint32 cliffDuration,
-        uint32 stepDuration,
-        uint32 steps,
-        uint128 cliffAmount,
-        uint128 stepAmount,
-        bool fromBentoBox
-    )
+function createVesting(VestParams calldata vestParams)
         external
         payable
         override
-        returns (uint256 depositedShares, uint256 vestId)
+        returns (
+            uint256 depositedShares,
+            uint256 vestId,
+            uint128 stepShares,
+            uint128 cliffShares
+        )
 ```
 
-Creates a vesting schedule for the token stream.
+Creates a vesting.
 
 #### Parameters
 
-| Name            | Type    | Description                                |
-| :-------------- | :------ | :----------------------------------------- |
-| `token`         | IERC20  | the token to vest                          |
-| `recipient`     | address | address of recipient                       |
-| `start`         | uint32  | when vesting starts                        |
-| `cliffDuration` | uint32  | length of vesting cliff                    |
-| `stepDuration`  | uint32  | length of steps                            |
-| `steps`         | uint32  | amount of steps                            |
-| `cliffAmount`   | uint128 | amount to set for cliff                    |
-| `stepAmount`    | uint128 | amount to set for each step                |
-| `fromBentoBox`  | bool    | boolean for if coming from BentoBox or not |
+| Name         | Type       | Description                                                        |
+| :----------- | :--------- | :----------------------------------------------------------------- |
+| `vestParams` | VestParams | info necessary to create a new vesting (start, cliff, steps, etc.) |
 
 #### Returns
 
@@ -52,6 +97,8 @@ Creates a vesting schedule for the token stream.
 | :---------------- | :------ | :------------------------- |
 | `depositedShares` | uint256 | amount of shares deposited |
 | `vestId`          | uint256 | new vesting ID             |
+| `stepShares`      | uint128 | amount of step shares      |
+| `cliffShares`     | uint128 | amount of cliff shares     |
 
 ### withdraw
 
@@ -156,7 +203,7 @@ function _depositToken(
     ) internal returns (uint256 depositedShares)
 ```
 
-Internal function that deposits a token into a stream.
+Internal function that deposits a token into a vesting.
 
 #### Parameters
 
@@ -170,9 +217,9 @@ Internal function that deposits a token into a stream.
 
 #### Returns
 
-| Name              | Type    | Description                          |
-| :---------------- | :------ | :----------------------------------- |
-| `depositedShares` | uint256 | amount of shares deposited in stream |
+| Name              | Type    | Description                           |
+| :---------------- | :------ | :------------------------------------ |
+| `depositedShares` | uint256 | amount of shares deposited in vesting |
 
 ### \_transferToken
 
