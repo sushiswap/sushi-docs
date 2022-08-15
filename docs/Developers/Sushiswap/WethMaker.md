@@ -16,6 +16,15 @@ The full contract can be found [here](https://github.com/sushiswap/unwindooor/bl
 function setBridge(address token, address bridge) external onlyOwner
 ```
 
+Sets the correct bridge and token for the Weth swap. Can only be called by the owner of the contract.
+
+#### Parameters
+
+| Name     | Type    | Description              |
+| :------- | :------ | :----------------------- |
+| `token`  | address | address of token to use  |
+| `bridge` | address | address of bridge to use |
+
 ## buyWeth
 
 ```solidity
