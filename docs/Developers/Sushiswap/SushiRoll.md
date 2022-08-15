@@ -81,7 +81,7 @@ function removeLiquidity(
     ) internal returns (uint256 amountA, uint256 amountB)
 ```
 
-Removes liquidity from old router. !!
+Removes liquidity from old router.
 
 #### Parameters
 
