@@ -8,14 +8,14 @@ You can test any of the queries, or write your own, on the [SushiSwap SushiBar s
 
 This query returns the ID (contract address), decimal count and name of the SushiBar, as well as the contract address of SUSHI.
 
-```
+```graphql
 {
-  bars(first: 5) {
-    id
-    decimals
-    name
-    sushi
-  }
+	bars(first: 5) {
+		id
+		decimals
+		name
+		sushi
+	}
 }
 ```
 
@@ -23,15 +23,15 @@ This query returns the ID (contract address), decimal count and name of the Sush
 
 This query grabs the first 15 users of the SushiBar and returns the user ID (user's address), the SushiBar address, the user's total amount of xSUSHI and how much (if any) xSUSHI they deposited.
 
-```
+```graphql
 {
-  users(first: 5) {
-    id
-    bar {
-      id
-    }
-    xSushi
-    xSushiIn
-  }
+	users(first: 5) {
+		id
+		bar {
+			id
+		}
+		xSushi
+		xSushiIn
+	}
 }
 ```

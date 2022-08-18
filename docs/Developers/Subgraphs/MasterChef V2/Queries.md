@@ -8,15 +8,15 @@ You can test any of the queries, or write your own, on the [SushiSwap MasterChef
 
 This query gets the first 10 MasterChefs and returns their ID, total allocation point, and the pools within in them and their IDs.
 
-```
+```graphql
 {
-  masterChefs(first: 10) {
-    id
-    totalAllocPoint
-    pools {
-      id
-    }
-  }
+	masterChefs(first: 10) {
+		id
+		totalAllocPoint
+		pools {
+			id
+		}
+	}
 }
 ```
 
@@ -24,17 +24,17 @@ This query gets the first 10 MasterChefs and returns their ID, total allocation 
 
 This query gets the first 5 pools deployed and returns their ID, the MasterChef that launched them and its ID, the pair in the pool, and the rewarder and its ID.
 
-```
+```graphql
 {
-  pools(first: 5) {
-    id
-    masterChef {
-      id
-    }
-    pair
-    rewarder {
-      id
-    }
-  }
+	pools(first: 5) {
+		id
+		masterChef {
+			id
+		}
+		pair
+		rewarder {
+			id
+		}
+	}
 }
 ```

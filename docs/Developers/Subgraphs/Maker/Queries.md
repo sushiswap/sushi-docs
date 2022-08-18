@@ -6,51 +6,51 @@ You can test any of the queries, or write your own, on the [SushiSwap Maker subg
 
 ## Maker
 
-This query grabs the first 25 makers and returns their ID, amount of SUSHI served, total amount of SUSHI served, and the servers along with their IDs (user addresses).
+This query grabs the first 25 makers and returns their ID, amount of $SUSHI served, total amount of $SUSHI served, and the servers along with their IDs (user addresses).
 
-```
+```graphql
 {
-  makers(first: 25) {
-    id
-    sushiServed
-    totalServings
-    servers {
-      id
-    }
-  }
+	makers(first: 25) {
+		id
+		sushiServed
+		totalServings
+		servers {
+			id
+		}
+	}
 }
 ```
 
 ## Server
 
-This query grabs the first 50 servers and returns their ID (address) as well as the Maker's ID (address), amount of SUSHI they've served and the total amount of SUSHI they've served.
+This query grabs the first 50 servers and returns their ID (address) as well as the Maker's ID (address), amount of $SUSHI they've served and the total amount of $SUSHI they've served.
 
-```
+```graphql
 {
-  servers(first: 50) {
-    id
-    maker {
-      id
-    }
-    sushiServed
-    totalServings
-  }
+	servers(first: 50) {
+		id
+		maker {
+			id
+		}
+		sushiServed
+		totalServings
+	}
 }
 ```
 
 ## Serving
 
-This query grabs the first 100 servings and returns their ID, amount of SUSHI, the txn data and the server who served that specific serving and their ID (address).
+This query grabs the first 100 servings and returns their ID, amount of $SUSHI, the txn data and the server who served that specific serving and their ID (address).
 
-```
+```graphql
 {
-  servings(first: 100) {
-    id
-    amountSushi
-    tx
-    server {
-      id
-    }
-  }
+	servings(first: 100) {
+		id
+		amountSushi
+		tx
+		server {
+			id
+		}
+	}
 }
 ```

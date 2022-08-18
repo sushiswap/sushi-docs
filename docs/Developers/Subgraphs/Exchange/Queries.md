@@ -10,15 +10,13 @@ You can test any of the queries, or write your own, on the [SushiSwap Exchange s
 
 This query gets a factory by its id (factory address), which in this case is the SushiSwap Factory contract address.
 
-```
+```graphql
 {
- factory(
-  id: "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac"
- ) {
-  volumeUSD
-  liquidityUSD
-  txCount
- }
+	factory(id: "0xC0AEe478e3658e2610c5F7A4A2E1777cE9e4f2Ac") {
+		volumeUSD
+		liquidityUSD
+		txCount
+	}
 }
 ```
 
@@ -28,13 +26,11 @@ This query gets a factory by its id (factory address), which in this case is the
 
 This query gets a bundle by its id, which in this case is simply "1".
 
-```
+```graphql
 {
- bundle(
-  id: "1"
- ) {
-  ethPrice
- }
+	bundle(id: "1") {
+		ethPrice
+	}
 }
 ```
 
@@ -44,21 +40,19 @@ This query gets a bundle by its id, which in this case is simply "1".
 
 This query gets a pair by its id (contract address), which in this case is the SUSHI/ETH pair contract address.
 
-```
+```graphql
 {
- pair(
-  id: "0x795065dcc9f64b5614c407a6efdc400da6221fb0"
- ) {
-  id
-  token0 {
-   id
-   symbol
-  }
-  token1 {
-   id
-   symbol
-  }
- }
+	pair(id: "0x795065dcc9f64b5614c407a6efdc400da6221fb0") {
+		id
+		token0 {
+			id
+			symbol
+		}
+		token1 {
+			id
+			symbol
+		}
+	}
 }
 ```
 
@@ -66,13 +60,11 @@ This query gets a pair by its id (contract address), which in this case is the S
 
 This query lists the first 1,000 pairs.
 
-```
+```graphql
 {
- pairs(
-  first: 1000
- ) {
-  id
- }
+	pairs(first: 1000) {
+		id
+	}
 }
 ```
 
@@ -80,15 +72,11 @@ This query lists the first 1,000 pairs.
 
 This query lists the first 1,000 pairs, ordered by liquidity in descending order.
 
-```
+```graphql
 {
- pairs(
-  first: 1000,
-  orderBy: reserveUSD,
-  orderDirection: desc
- ) {
-  id
- }
+	pairs(first: 1000, orderBy: reserveUSD, orderDirection: desc) {
+		id
+	}
 }
 ```
 
@@ -96,26 +84,21 @@ This query lists the first 1,000 pairs, ordered by liquidity in descending order
 
 This query gets a subset of pairs where ID is in an array of ID's (pair contract addresses), which in this case is the addresses of the SUSHI/ETH and SUSHI/USDT pairs.
 
-```
+```graphql
 {
- pairs(
-  where: {
-   id_in: [
-    "0x795065dcc9f64b5614c407a6efdc400da6221fb0",
-    "0x680a025da7b1be2c204d7745e809919bce074026"
-   ]
-  }
- ) {
-  id
-  token0 {
-   id
-   symbol
-  }
-  token1 {
-   id
-   symbol
-  }
- }
+	pairs(
+		where: { id_in: ["0x795065dcc9f64b5614c407a6efdc400da6221fb0", "0x680a025da7b1be2c204d7745e809919bce074026"] }
+	) {
+		id
+		token0 {
+			id
+			symbol
+		}
+		token1 {
+			id
+			symbol
+		}
+	}
 }
 ```
 
@@ -123,7 +106,7 @@ This query gets a subset of pairs where ID is in an array of ID's (pair contract
 
 This query lists pair day data, where the pairAddress is the SUSHI/ETH pair contract address, ordered by date in ascending direction.
 
-```
+```graphql
 {
  pairDayDatas(
   orderBy: date,
@@ -144,18 +127,16 @@ This query lists pair day data, where the pairAddress is the SUSHI/ETH pair cont
 
 This query gets a token by its ID (contract address), which in this case is the SUSHI token contract address.
 
-```
+```graphql
 {
- token(
-  id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
- ) {
-  name
-  symbol
-  decimals
-  derivedETH
-  volumeUSD
-  liquidity
- }
+	token(id: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2") {
+		name
+		symbol
+		decimals
+		derivedETH
+		volumeUSD
+		liquidity
+	}
 }
 ```
 
@@ -163,13 +144,11 @@ This query gets a token by its ID (contract address), which in this case is the 
 
 This query lists the first 1,000 tokens.
 
-```
+```graphql
 {
- tokens(
-  first: 1000
- ) {
-  id
- }
+	tokens(first: 1000) {
+		id
+	}
 }
 ```
 
@@ -177,15 +156,11 @@ This query lists the first 1,000 tokens.
 
 This query lusts the first 1,000 tokens, order by volume in descending order.
 
-```
+```graphql
 {
- tokens(
-  first: 1000,
-  orderBy: tradeVolumeUSD,
-  orderDirection: desc
- ) {
-  id
- }
+	tokens(first: 1000, orderBy: tradeVolumeUSD, orderDirection: desc) {
+		id
+	}
 }
 ```
 
@@ -193,19 +168,14 @@ This query lusts the first 1,000 tokens, order by volume in descending order.
 
 This query gets a subset of tokens where ID is an array of IDs (token contract addresses), which in this case is the addresses of the Sushi and Ethereum tokens.
 
-```
+```graphql
 {
- tokens(
-  where: {
-   id_in: [
-    "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2",
-    "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
-   ]
-  }
- ) {
-  id
-  symbol
- }
+	tokens(
+		where: { id_in: ["0x6b3595068778dd592e39a122f4f5a5cf09c90fe2", "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"] }
+	) {
+		id
+		symbol
+	}
 }
 ```
 
@@ -213,26 +183,20 @@ This query gets a subset of tokens where ID is an array of IDs (token contract a
 
 This query lists token day data, where the token is the SUSHI token cotract address, ordered by date in ascending direction.
 
-```
+```graphql
 {
- tokenDayDatas(
-  orderBy: date,
-  orderDirection: asc,
-  where: {
-   token: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2"
-  }
- ) {
-  id
-  date
-  volumeToken
-  volumeETH
-  volumeUSD
-  txCount
-  liquidityToken
-  liquidityETH
-  liquidityUSD
-  priceUSD
- }
+	tokenDayDatas(orderBy: date, orderDirection: asc, where: { token: "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2" }) {
+		id
+		date
+		volumeToken
+		volumeETH
+		volumeUSD
+		txCount
+		liquidityToken
+		liquidityETH
+		liquidityUSD
+		priceUSD
+	}
 }
 ```
 
@@ -242,13 +206,11 @@ This query lists token day data, where the token is the SUSHI token cotract addr
 
 This query gets a user by their ID (user address).
 
-```
+```graphql
 {
- user(
-  id: "..."
- ) {
-  id
- }
+	user(id: "...") {
+		id
+	}
 }
 ```
 
@@ -256,13 +218,11 @@ This query gets a user by their ID (user address).
 
 This query lists the first 1,000 users.
 
-```
+```graphql
 {
- users(
-  first: 1000
- ) {
-  id
- }
+	users(first: 1000) {
+		id
+	}
 }
 ```
 
@@ -270,12 +230,10 @@ This query lists the first 1,000 users.
 
 This query gets a subset of users where ID is an array of IDs (user addresses).
 
-```
+```graphql
 {
- users(
-  where: { id_in: [ "one", "two", "three" ] }
- ) {
-  id
- }
+	users(where: { id_in: ["one", "two", "three"] }) {
+		id
+	}
 }
 ```

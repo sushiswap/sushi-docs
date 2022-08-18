@@ -8,7 +8,7 @@ You can test any of the queries, or write your own, on the [SushiSwap MasterChef
 
 This query gets the first 5 MasterChefs that were deployed and returns their ID, bonus multiplier, end block for the multiplier, and the address of the user who deployed the pool.
 
-```
+```graphql
 {
   masterChefs(first: 5) {
     id
@@ -22,16 +22,16 @@ This query gets the first 5 MasterChefs that were deployed and returns their ID,
 
 This query returns the first 100 history instances, with the ID (address of history) and owner ID (deployer address) as well as te SLP balances and age for each.
 
-```
+```graphql
 {
-  histories(first: 100) {
-    id
-    owner {
-      id
-    }
-    slpBalance
-    slpAge
-  }
+	histories(first: 100) {
+		id
+		owner {
+			id
+		}
+		slpBalance
+		slpAge
+	}
 }
 ```
 
@@ -39,7 +39,7 @@ This query returns the first 100 history instances, with the ID (address of hist
 
 This query gets the first 100 pool instances and returns the ID, allocation point, and users of the pool along with their IDs (user addresses) for each pool.
 
-```
+```graphql
 {
   pools(first: 100) {
     id
@@ -54,15 +54,15 @@ This query gets the first 100 pool instances and returns the ID, allocation poin
 
 This query returns the pool histories ordered by their SLP balance and returns the history ID (address), the pool's ID and the address of the token pair in the pool, and the block at which the history was created.
 
-```
+```graphql
 {
-  poolHistories(orderBy: slpBalance) {
-    id
-    pool {
-      id
-      pair
-    }
-    block
+	poolHistories(orderBy: slpBalance) {
+		id
+		pool {
+			id
+			pair
+		}
+		block
 	}
 }
 ```
