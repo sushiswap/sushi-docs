@@ -6,7 +6,7 @@ sidebar_position: 1
 
 The following pages contain everything you need to know about the SushiSwap suite of subgraphs. SushiSwap subgraphs are powered by [The Graph](https://thegraph.com/en/), a protocol for building decentralized applications (dApps) quickly on Ethereum and IPFS using GraphQL.
 
-If you are unfamiliar with GraphQL, we recommend taking a quick look through their docs first [here](https://graphql.org/learn/).
+If you are unfamiliar with GraphQL, we recommend taking a quick look through their documentation first [here](https://graphql.org/learn/).
 
 The SushiSwap subgraph works by listening for events emitted by one or more data sources (Smart Contracts) on the various chains. It handles the indexing and caching of data which can later be queried using an exposed GraphQL API, providing an excellent developer experience.
 

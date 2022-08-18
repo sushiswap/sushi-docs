@@ -22,7 +22,7 @@ Then you may use the entity any way you like - that's it!
 
 Here is how we use it in our codebase to type the parameters of a call to an oracle:
 
-```
+```typescript
 const getOracleData = useCallback(
     async (asset: Currency, collateral: Currency) => {
       const oracleData = ''
@@ -52,7 +52,7 @@ If you would like to take a look at all of the constants we currently have inclu
 
 There are a good bit of handy helper functions located in the Core SDK as well. Developers use these as a sort of middleman for everything from computing a pair address to converting variable types. Let's take a look at an example on the former from our own codebase; this is actually a simplified method from the `Router` class, also in the Core SDK!
 
-```
+```typescript
 public static swapCallParameters(
     trade: Trade<Currency, Currency, TradeType>,
     options: TradeOptions | TradeOptionsDeadline

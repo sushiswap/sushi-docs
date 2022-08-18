@@ -6,20 +6,20 @@ You can test any of the queries, or write your own, on the [SushiSwap BentoBox s
 
 ## BentoBox
 
-```
+```graphql
 {
-  bentoBoxes(first: 10) {
-    id
-    users {
-      id
-    }
-    tokens {
-      id
-    }
-    kashiPairs {
-      id
-    }
-  }
+	bentoBoxes(first: 10) {
+		id
+		users {
+			id
+		}
+		tokens {
+			id
+		}
+		kashiPairs {
+			id
+		}
+	}
 }
 ```
 
@@ -27,17 +27,17 @@ This query grabs the first 10 BentoBoxes and returns each of their IDs as well a
 
 ## FlashLoan
 
-```
+```graphql
 {
-  flashLoans(first: 25) {
-    id
-    borrower
-    receiver
-    token {
-      id
-    }
-    block
-  }
+	flashLoans(first: 25) {
+		id
+		borrower
+		receiver
+		token {
+			id
+		}
+		block
+	}
 }
 ```
 
@@ -45,15 +45,15 @@ This query grabs the first 25 Flash Loans and returns the ID for each, the addre
 
 ## KashiPairHourData
 
-```
+```graphql
 {
-  kashiPairHourDatas(first: 5) {
-    id
-    totalAssetElastic
-    totalCollateralShare
-    avgUtilization
-    avgExchangeRate
-  }
+	kashiPairHourDatas(first: 5) {
+		id
+		totalAssetElastic
+		totalCollateralShare
+		avgUtilization
+		avgExchangeRate
+	}
 }
 ```
 
@@ -61,15 +61,15 @@ This query grabs the first 5 Kashi Pair Hour Datas and returns each of their IDs
 
 ## KashiPairDayData
 
-```
+```graphql
 {
-  kashiPairDayDatas(orderDirection: desc) {
-    id
-    totalAssetElastic
-    totalCollateralShare
-    avgUtilization
-    avgExchangeRate
-  }
+	kashiPairDayDatas(orderDirection: desc) {
+		id
+		totalAssetElastic
+		totalCollateralShare
+		avgUtilization
+		avgExchangeRate
+	}
 }
 ```
 

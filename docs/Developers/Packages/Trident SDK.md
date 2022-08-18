@@ -14,16 +14,16 @@ A Constant Product Pool is one of the many types of pools that can be launched w
 
 Then, let's instantiate a new pool with some help from the Core SDK:
 
-```
-const tokenA = new Token(ChainId.KOVAN, USDC_ADDRESS[ChainId.KOVAN], 6, 'USDC', 'USD Coin')
-const tokenB = new Token(ChainId.KOVAN, WETH9_ADDRESS[ChainId.KOVAN], 18, 'WETH', 'Wrapped Ether')
+```typescript
+const tokenA = new Token(ChainId.KOVAN, USDC_ADDRESS[ChainId.KOVAN], 6, "USDC", "USD Coin");
+const tokenB = new Token(ChainId.KOVAN, WETH9_ADDRESS[ChainId.KOVAN], 18, "WETH", "Wrapped Ether");
 
 const pool = new ConstantProductPool(
-    CurrencyAmount.fromRawAmount(tokenA, '100'),
-    CurrencyAmount.fromRawAmount(tokenB, '100')
-)
+	CurrencyAmount.fromRawAmount(tokenA, "100"),
+	CurrencyAmount.fromRawAmount(tokenB, "100"),
+);
 
-const tokenAPrice = pool.token0Price()
+const tokenAPrice = pool.token0Price();
 ```
 
 Above, we instantiate two `Token` instances and then simply create the Constant Product Pool by passing them into its constructor. Once our pool is deployed, we can do all kinds of things with it, such as query for the current price of the first token (`tokenA` above) in the pool.
