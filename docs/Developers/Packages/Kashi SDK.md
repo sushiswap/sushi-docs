@@ -14,23 +14,23 @@ First, we need to import the function using `import { computePairAddress } from 
 
 Next, let's use it to compute a new pair address (using the `Token` entity from the Core SDK):
 
-```
-const collateral = new Token(ChainId.ETHEREUM, WETH9_ADDRESS[ChainId.ETHEREUM], 18, 'WETH', 'Wrapped Ether')
-const asset = new Token(ChainId.ETHEREUM, USDC_ADDRESS[ChainId.ETHEREUM], 6, 'USDC', 'USD Coin')
+```typescript
+const collateral = new Token(ChainId.ETHEREUM, WETH9_ADDRESS[ChainId.ETHEREUM], 18, "WETH", "Wrapped Ether");
+const asset = new Token(ChainId.ETHEREUM, USDC_ADDRESS[ChainId.ETHEREUM], 6, "USDC", "USD Coin");
 
 const address = computePairAddress({
-    collateral,
-    asset,
-    oracle: CHAINLINK_ORACLE_ADDRESS[ChainId.ETHEREUM],
-    oracleData:
-        '0x000000000000000000000000986b5e1e1755e3c2440e960477f25201b0a8bbd4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d3c21bcecceda1000000',
-    })
+	collateral,
+	asset,
+	oracle: CHAINLINK_ORACLE_ADDRESS[ChainId.ETHEREUM],
+	oracleData:
+		"0x000000000000000000000000986b5e1e1755e3c2440e960477f25201b0a8bbd4000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000d3c21bcecceda1000000",
+});
 
-    console.log({
-      collateral: collateral.address,
-      asset: asset.address,
-      address,
-    })
+console.log({
+	collateral: collateral.address,
+	asset: asset.address,
+	address,
+});
 ```
 
 Above, we are using the `Token` entity from the Core SDK to create new instances of an asset and a collateral token. We then pass all the necessary data (including the Chainlink oracle address - also stored in the Core SDK!) to compute the pair address, then logging it out to ensure everything worked correctly. Easy!
