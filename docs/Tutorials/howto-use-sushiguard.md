@@ -2,15 +2,31 @@
 
 > MEV, Front running, and arbitrage Protection for Sushi users
 
+
+## Quickstart
+
+You can enjoy these protections on more than just the Sushiswap DApp! They are for Ethereum mainnet only for now.
+
+- Primary
+```
+https://api.sushirealy.com/v1
+```
+
+- Backup
+```
+https://api.securerpc.com/v1
+```
+
+
 Sushi Guard protects you from ‘MEV’ - Maximal Extractable Value.
 
-It is built using a service called OpenMEV from Manifold Finance.
+It is built using Sushiswap's RPC Infrastructure managed by Manifold Finance. 
 
 MEV is the crypto-version of arbitrage trading / high-frequency trading that you typically see on Wall Street. Arbitrage bots are used to monitor the network, and when you submit a transaction, they will submit a transaction of their own and "bribe" the miner to place their transaction before yours and ten after your transaction. **This is called "Sandwiching"**. This has the effect of manipulating price and volume and is used to make a profit from your trades.
 
-Sushi Guard mitigates this type of malicious MEV by leveraging the power of Flashbots, Eden Network, and Manifold Finance's OpenMEV network.
+Sushi Guard mitigates this type of malicious MEV by leveraging the power of the OpenMEV network.
 
-[OpenMEV](https://docs.openmev.org) [Flashbots](https://docs.flashbots.net) [Eden Network](https://edennetwork.io)
+[OpenMEV docs ](https://kb.manifoldfinance.org) and [Flashbots](https://docs.flashbots.net)
 
 > ✅ Sushi Guard protects traders from MEV: Maximal Extracted Value. MEV occurs when arbitrage bots see your transaction and use it to arbitrage against other users to _extract_ value from it.
 
