@@ -26,7 +26,7 @@ MEV is the crypto-version of arbitrage trading / high-frequency trading that you
 
 Sushi Guard mitigates this type of malicious MEV by leveraging the power of the OpenMEV network.
 
-[OpenMEV docs ](https://kb.manifoldfinance.org) and [Flashbots](https://docs.flashbots.net)
+[OpenMEV docs ](https://kb.manifoldfinance.com) and [Flashbots](https://docs.flashbots.net)
 
 > ✅ Sushi Guard protects traders from MEV: Maximal Extracted Value. MEV occurs when arbitrage bots see your transaction and use it to arbitrage against other users to _extract_ value from it.
 
@@ -184,7 +184,7 @@ Block Explorer: `https://etherscan.io`
 
 **Links**
 
--   [OpenMEV Documentation](https://docs.openmev.org)
+-   [OpenMEV Documentation](https://kb.manifoldfinance.com)
 -   [SushiSwap Documentation](https://github.com/sushiswap/sushi-docs)
 -   [Sushi Samurai Help](https://toshokan.samurais.io/)
 -   [Manifold Finance Helpdesk](https://github.com/manifoldfinance/support)
