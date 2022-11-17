@@ -6,9 +6,9 @@ Major structural changes and use of the devfund wallet are voted on by the commu
 
 [https://forum.sushi.com/t/governance-reorg-pre-proposal/28](https://forum.sushi.com/t/governance-reorg-pre-proposal/28)
 
-Any use of the devfund wallet requires that the **Multisig** sign it, which they will only do if it is clearly by the will of the community and has had a passing vote by quorum. There must be at least 3 out of 6 signatures for a transaction to be approved.
+Any use of the devfund wallet requires that the **Multisig** sign it, which they will only do if it is clearly by the will of the community and has had a passing vote by quorum. There must be at least 4 out of 7 signatures for a transaction to be approved.
 
-The **Multisig** members are trusted members of the DeFi & Ethereum ecosystem: @MatthewLilley, @0xGasper, @0xJiro, @LufyCZ, @sarangprikh22, @chillichelli
+The **Multisig** members are trusted members of the DeFi & Ethereum ecosystem: [@Mable_Jiang](https://twitter.com/Mable_Jiang), [@0xSami\_](https://twitter.com/0xSami_), [@nickjrishwain](https://twitter.com/nickjrishwain), [@0xChop](https://twitter.com/0xChop), [0xMaki](https://twitter.com/0xMaki), [@tomlombardi](https://twitter.com/tomlombardi), [@DeFi_Ted](https://twitter.com/DeFi_Ted)
 
 Any changes that are within the purview of the core team, such as rebalancing and administration of farming pools and use of the growth fund, must pass the **Operations Multisig** with at least 3 signatures.
 
