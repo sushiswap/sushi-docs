@@ -12,6 +12,6 @@ The **Multisig** members are trusted members of the DeFi & Ethereum ecosystem: [
 
 Any changes that are within the purview of the core team, such as rebalancing and administration of farming pools and use of the growth fund, must pass the **Operations Multisig** with at least 3 signatures.
 
-The **Ops Multisig** members are: @MatthewLilley, @0xGasper, @0xJiro, @LufyCZ, @sarangprikh22, @chillichelli
+The **Ops Multisig** members are: @MatthewLilley, @0xJiro, @LufyCZ, @sarangprikh22, @chillichelli, @OlaStenberg\_\_
 
 Our goal is to establish a DAO with working, trustless governance. This is not an easy task by any measure, and is not something that will be rushed. All are welcome to discuss how the future DAO should work, as well as how the current governance model works, by participating on our forums and in the #governance channel of our Discord server.
