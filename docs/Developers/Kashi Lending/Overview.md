@@ -54,7 +54,9 @@ When a pool is created an oracle can be selected. We will provide 2 basic oracle
 
 -   [Open Oracle Price Feeds](https://compound.finance/docs/prices#price) — these are the feeds Compound uses
 
-Anyone can create a new oracle! The lenders themselves are responsible for keeping the market prices up to date and in line with oracle prices.
+Anyone can create a new oracle!
+
+**Important:** The lenders themselves are responsible for keeping the market prices up to date and in line with oracle prices.
 
 ## Elastic Interest Rates
 

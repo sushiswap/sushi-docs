@@ -10,7 +10,7 @@ An isolated risk market is a market in which risk is not shared collectively. Wh
 
 ### How do I lend in a market and earn interest?
 
-If you add liquidity to the BentoBox, other users can use that liquidity for flash lending, strategies and fixed, low-gas transfers among integrated dapps, like Kashi markets, which you earn interest from when they do.
+If you add liquidity to the BentoBox, other users can use that liquidity for flash lending, strategies and fixed, low-gas transfers among integrated dapps, like Kashi markets, which you earn interest from when they do. **Lenders are responsible for calling price updates to keep the market prices up to date.**
 
 ### How do I borrow?
 
