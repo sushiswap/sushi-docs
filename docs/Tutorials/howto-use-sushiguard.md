@@ -70,9 +70,9 @@ _Check the settings by clicking the toggle button in the top right corner_
 
 </aside>
 
-![001.png](/img/tutimg/sushiguard/001.png)
+![001.png](/static/img/tutimg/sushiguard/001.png)
 
-![002.png](/img/tutimg/sushiguard/002.png)
+![002.png](/static/img/tutimg/sushiguard/002.pngg)
 
 <aside>
 
@@ -84,7 +84,7 @@ _Check the settings by clicking the toggle button in the top right corner_
 
 ### Toggle to disable or enable Sushi Guard
 
-![003.png](/img/tutimg/sushiguard/003.png)
+![003.png](/static/img/tutimg/sushiguard/003.png)
 
 <aside>
 
@@ -108,9 +108,9 @@ When you click to ‘Confirm Swap’ you can also open up a more detailed view o
 
 </aside>
 
-![](/img/tutimg/sushiguard/swap.png)
+![](/static/img/tutimg/sushiguard/swap.png)
 
-![Sushiswap - Confirm Swap Detailed View](/img/tutimg/sushiguard/004.png)
+![Sushiswap - Confirm Swap Detailed View](/static/img/tutimg/sushiguard/004.png)
 
 _SushiSwap - Confirm Swap Detailed View_
 
@@ -142,7 +142,7 @@ _You can also verify that you are signing the transaction by comparing the messa
 
 </aside>
 
-![Signature Request Confirmation](/img/tutimg/sushiguard/005.png)
+![Signature Request Confirmation](/static/img/tutimg/sushiguard/005.png)
 
 _Signature Request Confirmation_
 
@@ -156,7 +156,7 @@ _Signature Request Confirmation_
 
 </aside>
 
-![questions.png](/img/tutimg/sushiguard/questions.png)
+![questions.png](/static/img/tutimg/sushiguard/questions.png)
 
 <aside>
 
@@ -199,9 +199,6 @@ Block Explorer: `https://etherscan.io`
 
 ```ini
 **Contact**: mailto:sam@manifoldfinance.com
-Expires: 2024-02-15T08:01:00.000Z
-Encryption: https://manifoldfinance.com/.well-known/pgp-key.txt
-Encryption: https://manifoldfinance.com/.well-known/pgp-key.asc
 ```
 
 <aside>
