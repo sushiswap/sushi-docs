@@ -114,6 +114,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/docs/Multichain/Canonical%20Sushi%20Tokens',
+            label: 'Multichain',
+            position: 'left',
+          },
+          {
             to: '/docs/FAQ/General%20FAQ',
             label: 'FAQ',
             position: 'right',

@@ -1,0 +1,38 @@
+import Tab from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Canonical Sushi Tokens
+
+List of Sushi Tokens and supporting bridge for farm rewards on the various alternate chains.
+
+| Chain | Chain Id | Bridge | Address |
+| :-- | :-- | :-- | :-- |
+| Arbitrum | 42161 | [bridge.arbitrum.io](https://bridge.arbitrum.io/) [app.multichain.org](https://app.multichain.org/#/router) | [0xd4d42F0b6DEF4CE0383636770eF773390d85c61A](https://arbiscan.io/token/0xd4d42f0b6def4ce0383636770ef773390d85c61a) |
+| Arbitrum Nova | 42170 | [bridge.arbitrum.io](https://bridge.arbitrum.io/) | [0xfe60A48a0bCf4636aFEcC9642a145D2F241A7011](https://nova.arbiscan.io/token/0xfe60a48a0bcf4636afecc9642a145d2f241a7011) |
+| Avalanche | 43114 | [core.app](https://core.app/bridge/) | [0x37B608519F91f70F2EeB0e5Ed9AF4061722e4F76](https://snowtrace.io/token/0x37b608519f91f70f2eeb0e5ed9af4061722e4f76) |
+| BitTorrent | 199 | [bttc.bittorrent.com](https://bttc.bittorrent.com/bridge) | [0x53C56ece35f8CaB135e13D6d00499Dfc7c07A92e](https://bttcscan.com/token/0x53c56ece35f8cab135e13d6d00499dfc7c07a92e) |
+| Boba | 288 | [gateway.boba.network](https://gateway.boba.network/) | [0x5fFccc55C0d2fd6D3AC32C26C020B3267e933F1b](https://bobascan.com/token/0x5ffccc55c0d2fd6d3ac32c26c020b3267e933f1b) |
+| Boba Avax | 43288 | [gateway.avax.boba.network](https://gateway.avax.boba.network/) | |
+| Boba BNB | 56288 | [gateway.bnb.boba.network](https://gateway.bnb.boba.network/) | [0xa84D7c48602C898EC84C4cCA78651107B3625943](https://blockexplorer.bnb.boba.network/token/0xa84D7c48602C898EC84C4cCA78651107B3625943)
+| Binance Smart Chain | 56 | [multichain.org](https://app.multichain.org/#/router) | [0x986cdF0fd180b40c4D6aEAA01Ab740B996D8b782](https://bscscan.com/token/0x986cdf0fd180b40c4d6aeaa01ab740b996d8b782) |
+| Celo | 42220 | [optics.app](https://optics.app/) | [0x29dFce9c22003A4999930382Fd00f9Fd6133Acd1](https://celoscan.io/token/0x29dfce9c22003a4999930382fd00f9fd6133acd1) |
+| Fantom | 250 | [app.multichain.org](https://app.multichain.org/#/router) | [0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC](https://ftmscan.com/token/0xae75A438b2E0cB8Bb01Ec1E1e376De11D44477CC) |
+| Fuse | 122 | [app.voltage.finance](https://app.voltage.finance/#/bridge) | [0x90708b20ccC1eb95a4FA7C8b18Fd2C22a0Ff9E78](https://explorer.fuse.io/token/0x90708b20ccC1eb95a4FA7C8b18Fd2C22a0Ff9E78) |
+| Gnosis | 100 | [omni.gnosischain.com](https://omni.gnosischain.com/bridge) | [0x2995D1317DcD4f0aB89f4AE60F3f020A4F17C7CE](https://gnosisscan.io/token/0x2995d1317dcd4f0ab89f4ae60f3f020a4f17c7ce) |
+| Kava | 2222 | [app.multichain.org](https://app.multichain.org/#/router) | [0x7C598c96D02398d89FbCb9d41Eab3DF0C16F227D](https://explorer.kava.io/token/0x7C598c96D02398d89FbCb9d41Eab3DF0C16F227D) |
+| Metis | 1088 | [bridge.metis.io](https://bridge.metis.io/home) | [0x17Ee7E4dA37B01FC1bcc908fA63DF343F23B4B7C](https://andromeda-explorer.metis.io/token/0x17Ee7E4dA37B01FC1bcc908fA63DF343F23B4B7C) |
+| Moonriver | 1285 | [app.multichain.org](https://app.multichain.org/#/router) | [0xf390830DF829cf22c53c8840554B98eafC5dCBc2](https://moonriver.moonscan.io/address/0xf390830df829cf22c53c8840554b98eafc5dcbc2) |
+| Optimism | 10 | [app.optimism.io](https://app.optimism.io/bridge) | [0x3eaEb77b03dBc0F6321AE1b72b2E9aDb0F60112B](https://optimistic.etherscan.io/token/0x3eaeb77b03dbc0f6321ae1b72b2e9adb0f60112b) |
+| Polygon | 137 | [wallet.polygon.technology](https://wallet.polygon.technology/polygon/bridge/deposit) | [0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a](https://polygonscan.com/token/0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a) |
+
+# Additional Notes
+
+## Boba BNB & Boba Avax Details
+To get SUSHI from ethereum to either boba bnb or boba avax, users will need to 
+bridge to bnb or avalanche first using bridge in above list. Then use boba gateway to move the sushi from specific chain to Boba's rollup for that chain.
+
+## Sushi on BSC
+Sushi has two tokens on BNB, one that is minted through multichain.org and the other
+that comes when withdrawing directly from Binance. The multichain.org version is the one
+used for Sushi Farms, and there is a stable pool supported on Sushi to swap between the 
+two versions.
