@@ -175,7 +175,7 @@ const config = {
               },
               {
                 label: 'Press Kit',
-                href: 'https://drive.google.com/file/d/1zka0SDli7cNnOtRTmxZWiW8xE2d1-VK_/view',
+                href: 'https://drive.google.com/drive/folders/1MOCy3IOtLKQD39ox0mgeLsuEhckCg_Tm',
               },
             ],
           },
