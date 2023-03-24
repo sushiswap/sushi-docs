@@ -28,7 +28,7 @@ The most accurate source for yield percentage is currently our main website [sus
 
 ### What is the fee breakdown?
 
-0.25% for LPs + 0.05% for xSUSHI holders.
+0.25% for LPs + 0.05% for xSUSHI. (Note: Until Dec 2023, xSushi fees are directed to treasury as per the passed [Kanpai 2.0 proposal](https://snapshot.org/#/sushigov.eth/proposal/0x64c5c6cdb74a1ebafe8e808ba69bd51ff70938b7db791ca8a05b37736541d147))
 
 ### When will the $SUSHI rewards end?
 
