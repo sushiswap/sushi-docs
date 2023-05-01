@@ -14,7 +14,37 @@ Each subgraph is broken down into its own section and documented in two forms: b
 
 ## Current Subgraph Locations
 
-### Exchange
+### Exchange V3
+
+Includes all SushiSwap V3 Exchange data with Price, Volume, Users, etc.
+
+-   [Arbitrum Nova](https://subgraphs.sushi.com/subgraphs/name/sushi-v3/v3-arbitrum-nova)
+
+-   [Arbitrum](https://thegraph.com/explorer/subgraph/sushi-v3/v3-arbitrum)
+
+-   [Avalanche](https://thegraph.com/explorer/subgraph/sushi-v3/v3-avalanche)
+
+-   [Binance Smart Chain](https://thegraph.com/explorer/subgraph/sushi-v3/v3-bsc)
+
+-   [Boba](https://thegraph.com/explorer/subgraph/sushi-v3/v3-boba)
+
+-   [Ethereum](https://thegraph.com/explorer/subgraph/sushi-v3/v3-ethereum)
+
+-   [Fantom](https://thegraph.com/explorer/subgraph/sushi-v3/v3-fantom)
+
+-   [Fuse](https://thegraph.com/explorer/subgraph/sushi-v3/v3-fuse)
+
+-   [Gnosis](https://thegraph.com/explorer/subgraph/sushi-v3/v3-gnosis)
+
+-   [MoonRiver](https://thegraph.com/explorer/subgraph/sushi-v3/v3-moonriver)
+
+-   [Optimism](https://thegraph.com/explorer/subgraph/sushi-v3/v3-optimism)
+
+-   [Polygon](https://thegraph.com/explorer/subgraph/sushi-v3/v3-polygon)
+
+-   [Polygon ZkEVM](https://api.studio.thegraph.com/query/32073/v3-polygon-zkevm/v0.0.2)
+
+### Exchange V2
 
 Includes all SushiSwap Exchange data with Price Data, Volume, Users, etc.
 
