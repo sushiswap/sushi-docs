@@ -6,7 +6,7 @@ At the heart of Sushi is a permission-less DEX, thus anyone can create pools and
 
 ## So what gives, how can I get my project’s token on the default list?
 
-Though it isn’t requirement for users to swap and supply liquidity in the protocol, our default list makes it easier for users finding tokens. Thus projects that wish to have their token show in the default swap list will need to submit their information via our [partner portal](https://partner.sushi.com/partner).
+Though it isn’t requirement for users to swap and supply liquidity in the protocol, our default list makes it easier for users finding tokens. Thus projects that wish to have their token show in the default swap list will need to submit their information via our [partner portal](https://www.sushi.com/partner).
 
 Sushi generally approves most tokens that submit a request through the partner portal that have liquidity & swap volume. Also being listed on coin gecko will improve chances, and speed of listing in most cases.
 
