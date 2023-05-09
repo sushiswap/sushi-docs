@@ -1,5 +1,7 @@
 # TickLens
 
+The full contract can be found [here](https://github.com/sushiswap/v3-periphery/blob/master/contracts/lens/TickLens.sol)
+
 ## Read-Only Functions
 
 ### getPopulatedTicksInWord
