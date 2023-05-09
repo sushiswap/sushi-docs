@@ -16,7 +16,7 @@ The full contract can be found [here](https://github.com/sushiswap/sushiswap/blo
 function factory() external pure returns (address);
 ```
 
-Returns [factory address](../smart-contracts/factory#address).
+Returns [factory address](./V2Factory#address).
 
 ### WETH
 
@@ -28,15 +28,15 @@ Returns the [canonical WETH address](https://blog.0xproject.com/canonical-weth-a
 
 ### quote
 
-See [quote](../smart-contracts/library#quote).
+See [quote](./V2Library#quote).
 
 ### getAmountOut
 
-See [getAmountOut](../smart-contracts/library#getamountout).
+See [getAmountOut](./V2Library#getamountout).
 
 ### getAmountIn
 
-See [getAmountIn](../smart-contracts/library#getamountin).
+See [getAmountIn](./V2Library#getamountin).
 
 ### getAmountsOut
 
@@ -44,7 +44,7 @@ See [getAmountIn](../smart-contracts/library#getamountin).
 function getAmountsOut(uint amountIn, address[] memory path) public view returns (uint[] memory amounts);
 ```
 
-See [getAmountsOut](../smart-contracts/library#getamountsout).
+See [getAmountsOut](./V2Library#getamountsout).
 
 ### getAmountsIn
 
@@ -52,7 +52,7 @@ See [getAmountsOut](../smart-contracts/library#getamountsout).
 function getAmountsIn(uint amountOut, address[] memory path) public view returns (uint[] memory amounts);
 ```
 
-See [getAmountsIn](../smart-contracts/library#getamountsin).
+See [getAmountsIn](./V2Library#getamountsin).
 
 ## State-Changing Functions
 

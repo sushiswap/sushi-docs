@@ -133,7 +133,7 @@ function mint(address to) external returns (uint liquidity);
 
 Creates pool tokens.
 
--   Emits [Mint](#mint), [Sync](#sync), [Transfer](../smart-contracts/pair-erc-20#transfer).
+-   Emits [Mint](#mint), [Sync](#sync), Transfer
 
 #### Parameters
 
@@ -155,7 +155,7 @@ function burn(address to) external returns (uint amount0, uint amount1);
 
 Destroys pool tokens.
 
--   Emits [Burn](#burn), [Sync](#sync), [Transfer](../smart-contracts/pair-erc-20#transfer).
+-   Emits [Burn](#burn), [Sync](#sync), Transfer
 
 #### Parameters
 
