@@ -51,18 +51,13 @@ export const Guides = [
 
 export const github = [
   {
-    title: 'sushiswap-contracts',
+    title: 'sushiswap',
     href: 'https://github.com/sushiswap',
     icon: CodeIcon,
   },
   {
-    title: 'sushiswap-interface',
-    href: 'https://github.com/sushiswap/sushiswap-interface',
-    icon: CodeIcon,
-  },
-  {
-    title: 'sushiswap-sdk',
-    href: 'https://github.com/sushiswap/sdk',
+    title: 'sushiswap apps',
+    href: 'https://github.com/sushiswap/sushiswap',
     icon: CodeIcon,
   },
   {
