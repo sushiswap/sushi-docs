@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # FuroStream
 
-Base contract for creating Furo Streams.
+FuroStream is the base contract for creating and updating token streams; it is not called directly, but instead utilized via the router.
+
+**_Important:_** Use the `FuroStreamRouter` to create streams; do NOT create streams directly.
 
 The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroStream.sol).
 

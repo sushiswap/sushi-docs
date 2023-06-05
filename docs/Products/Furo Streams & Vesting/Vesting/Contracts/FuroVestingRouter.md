@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # FuroVestingRouter
 
-All vesting creation should be done through the FuroVestingRouter.
+FuroVestingRouter is the contract that is actually utilized directly for vesting tokens.
 
 The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroVestingRouter.sol).
 

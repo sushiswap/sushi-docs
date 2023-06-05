@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # FuroStreamRouter
 
-All stream creation should be done through the FuroStreamRouter.
+FuroStreamRouter contract is the contract that is directly used to create and update token streams, complete with full deposit / withdraw functionality - all on BentoBox.
 
 The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroStreamRouter.sol).
 

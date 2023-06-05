@@ -4,7 +4,9 @@ sidebar_position: 1
 
 # FuroVesting
 
-Base contract for creating Furo Vests.
+FuroVesting is the base contract for vesting tokens; it is not called directly, but instead utilized via the router.
+
+**_Important:_** Use the `FuroVestingRouter` to create vestings; do NOT create vestings directly.
 
 The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroVesting.sol).
 
