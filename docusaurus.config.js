@@ -89,7 +89,7 @@ const config = {
             ],
           },
           {
-            to: '/docs/Developers/Overview',
+            to: '/docs/Developers/Deployment%20Addresses',
             label: 'Contracts',
             position: 'left',
           },

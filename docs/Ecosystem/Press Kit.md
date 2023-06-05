@@ -5,10 +5,7 @@ The SushiSwap press kit contains all of the assets used across our UI, including
 -   SushiSwap primary logos + logotypes
 -   Main site illustrations
 -   Logo GIFs
--   MISO assets (logos, gradients, etc.)
--   Kashi assets
 -   Onsen assets
--   Shoyu assets
 
 ...and so much more!
 
