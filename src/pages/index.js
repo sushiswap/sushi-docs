@@ -4,13 +4,12 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-import SearchBar from '@theme-original/SearchBar';
 import { InformationCircleIcon, CodeIcon } from '@heroicons/react/outline';
 import styled from '@emotion/styled';
 
 export const quickLinks = [
   {
-    title: 'What is SushiSwap',
+    title: 'What Is SushiSwap',
     href: '#',
     icon: InformationCircleIcon,
     to: './docs/intro',
@@ -27,7 +26,7 @@ export const quickLinks = [
     title: 'Tutorials',
     href: '#',
     icon: InformationCircleIcon,
-    to: './docs/Tutorials/Overview',
+    to: './docs/Developers/Overview',
     text: `Learn step by step how to use the SushiSwap suite of services and how to leverage them to your advantage.`,
   },
 ];
@@ -36,16 +35,16 @@ export const Guides = [
   {
     title: 'AMM Quick Start',
     text: 'Learn how to interact with the SushiSwap AMM',
-    to: './docs/Tutorials/How%20to%20Get%20Started%20on%20Sushi/How%20to%20Swap',
+    to: './docs/Products/Classic%20AMM/Overview',
   },
   {
-    title: 'MISO Quick Start',
-    text: 'Learn how to create and participate in auctions on MISO',
-    to: './docs/Tutorials/How%20to%20create%20a%20Miso%20auction',
+    title: 'Furo Quick Start',
+    text: 'Learn how to create token vestings and streams',
+    to: './docs/Products/Furo%20Streams%20&%20Vesting/Overview',
   },
   {
     title: 'Subgraph Quick Start',
-    text: 'Learn how to interact with the SushiSwap suite of subgraphs',
+    text: 'Learn how to interact with the Sushi suite of subgraphs',
     to: './docs/Developers/Subgraphs/Overview',
   },
 ];

@@ -6,17 +6,15 @@ sidebar_position: 2
 
 **Official Landing Page:** [https://www.sushi.com/](https://www.sushi.com/)
 
+**Legacy (V1) App:** [https://app.sushi.com/swap](https://app.sushi.com/swap)
+
 **See the proposals being discussed:** [https://forum.sushi.com/](https://forum.sushi.com/)
 
 **Vote on key proposals:** [https://forum.sushi.com/](https://forum.sushi.com/)
 
 **Keep track of upcoming updates and features the core Sushi is working on:** [https://trello.com/b/ZpcRUpis/main-projects](https://trello.com/b/ZpcRUpis/main-projects)
 
-**Track your accumulated xSUSHI:** [https://app.boring.finance/#/](https://app.boring.finance/#/)
-
-**SushiBar APY:** [https://analytics.sushi.com/bar](https://analytics.sushi.com/bar)
-
-**Submit token / logo to SushiSwap (Partner Portal):** [https://partner.sushi.com/](https://partner.sushi.com/)
+**Submit token / logo to SushiSwap (Partner Portal):** [https://sushi.com/partner](https://sushi.com/partner)
 
 **Track history of transactions + more:** [https://app.zerion.io/](https://app.zerion.io/)
 
@@ -31,6 +29,8 @@ sidebar_position: 2
 [Medium](https://medium.com/sushiswap-org)
 
 [Twitter](https://twitter.com/sushiswap)
+
+[Discord](https://discord.com/invite/NVPXN4e)
 
 **Check your portfolio and manage your investments:**
 
