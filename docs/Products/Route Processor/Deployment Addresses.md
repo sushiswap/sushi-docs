@@ -158,4 +158,14 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='thundercore' label='ThunderCore' default>
+
+### ThunderCore
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor3` | `0x1b9d177CcdeA3c79B6c8F40761fc8Dc9d0500EAa` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor3.sol) | [Link](https://viewblock.io/thundercore/address/0x1b9d177ccdea3c79b6c8f40761fc8dc9d0500eaa) |
+
+</TabItem>
+
 </Tabs>
