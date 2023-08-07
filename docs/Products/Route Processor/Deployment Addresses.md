@@ -61,6 +61,16 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='core' label='Core' default>
+
+### Core
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor3` | `0x0BE808376Ecb75a5CF9bB6D237d16cd37893d904` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor3.sol) | [Link](https://scan.coredao.org/address/0x0BE808376Ecb75a5CF9bB6D237d16cd37893d904) |
+
+</TabItem>
+
 <TabItem value='ethereum' label='Ethereum' default>
 
 ### Ethereum
