@@ -6,7 +6,7 @@ sidebar_position: 4
 
 V2Router02 is used as a intermediate contract to interact with liquidity pools, or the lower level V2Pair contract. The contract can be used to swap, add liquidity, withdraw liquidity. The contract also contains many variations of these three tasks that can be used for each unique situation like using native gas tokens (i.e. ETH), and Fee-On-Transfer tokens with a tax when transfers happen.
 
-The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/sushiswap/contracts/UniswapV2Router02.sol).
+The full contract can be found [here](https://github.com/sushiswap/v2-core/blob/master/contracts/UniswapV2Router02.sol).
 
 ## Read-Only Functions
 
