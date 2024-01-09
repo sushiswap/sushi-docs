@@ -6,7 +6,7 @@ New ERC20s or pools are added/updated by the owner of the contract with allocati
 
 MasterChef is the only contract with minting rights for the SUSHI token.
 
-The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/masterchef/contracts/MasterChef.sol).
+The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/271458b558afa6fdfd3e46b8eef5ee6618b60f9d/contracts/MasterChef.sol).
 
 ## Functions
 
