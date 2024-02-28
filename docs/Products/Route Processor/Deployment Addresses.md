@@ -39,6 +39,16 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='base' label='Base' default>
+
+### Base
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0x0389879e0156033202c44bf784ac18fc02edee4f` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://basescan.org/address/0x0389879e0156033202c44bf784ac18fc02edee4f) |
+
+</TabItem>
+
 <TabItem value='boba' label='Boba' default>
 
 ### Boba
@@ -101,6 +111,16 @@ Below is a list of all Route Processor related contracts deployed.
 | :-- | :-- | :-- | :-- |
 | `RouteProcessor` | `0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor.sol) | [Link](https://explorer.fuse.io/address/0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c) |
 | `RouteProcessor3` | `0xaa26771d497814E81D305c511Efbb3ceD90BF5bd` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor3.sol) | [Link](https://explorer.fuse.io/address/0xaa26771d497814E81D305c511Efbb3ceD90BF5bd) |
+
+</TabItem>
+
+<TabItem value='filecoin' label='Filecoin' default>
+
+### Filecoin
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0x1f2fcf1d036b375b384012e61d3aa33f8c256bbe` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://filfox.info/en/address/0x1f2fcf1d036b375b384012e61d3aa33f8c256bbe?t=3) |
 
 </TabItem>
 
@@ -168,6 +188,16 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='scroll' label='Scroll' default>
+
+### Scroll
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0x734583f62Bb6ACe3c9bA9bd5A53143CA2Ce8C55A` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://scrollscan.com/address/0x734583f62bb6ace3c9ba9bd5a53143ca2ce8c55a) |
+
+</TabItem>
+
 <TabItem value='thundercore' label='ThunderCore' default>
 
 ### ThunderCore
@@ -175,6 +205,16 @@ Below is a list of all Route Processor related contracts deployed.
 | Name | Address | Source Code | Explorer |
 | :-- | :-- | :-- | :-- |
 | `RouteProcessor3` | `0x1b9d177CcdeA3c79B6c8F40761fc8Dc9d0500EAa` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor3.sol) | [Link](https://viewblock.io/thundercore/address/0x1b9d177ccdea3c79b6c8f40761fc8dc9d0500eaa) |
+
+</TabItem>
+
+<TabItem value='zetachain' label='Zetachain' default>
+
+### Zetachain
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0x640129e6b5C31B3b12640A5b39FECdCa9F81C640` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://explorer.zetachain.com/address/0x640129e6b5C31B3b12640A5b39FECdCa9F81C640) |
 
 </TabItem>
 
