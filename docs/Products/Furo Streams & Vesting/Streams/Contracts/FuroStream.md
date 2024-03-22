@@ -8,8 +8,6 @@ FuroStream is the base contract for creating and updating token streams; it is n
 
 **_Important:_** Use the `FuroStreamRouter` to create streams; do NOT create streams directly.
 
-The full contract can be found [here](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroStream.sol).
-
 ## Read-Only Functions
 
 ### getStream
