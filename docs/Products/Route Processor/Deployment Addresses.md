@@ -119,6 +119,7 @@ Below is a list of all Route Processor related contracts deployed.
 | :-- | :-- | :-- | :-- |
 | `RouteProcessor` | `0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor.sol) | [Link](https://explorer.fuse.io/address/0x1be211D8DA40BC0ae8719c6663307Bfc987b1d6c) |
 | `RouteProcessor3` | `0xaa26771d497814E81D305c511Efbb3ceD90BF5bd` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor3.sol) | [Link](https://explorer.fuse.io/address/0xaa26771d497814E81D305c511Efbb3ceD90BF5bd) |
+| `RouteProcessor4` | `0x46B3fDF7b5CDe91Ac049936bF0bDb12c5d22202e` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://explorer.fuse.io/address/0x46B3fDF7b5CDe91Ac049936bF0bDb12c5d22202e) |
 
 </TabItem>
 
