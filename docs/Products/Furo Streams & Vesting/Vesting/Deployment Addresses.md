@@ -50,6 +50,17 @@ Below is a list of all Furo Streaming related contracts.
 
 </TabItem>
 
+<TabItem value='core' label='Core' default>
+
+### Core
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `FuroVesting` | `0xBda8a8423B7F02Cd935412FB9F13CB88f7875991` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroVesting.sol) | [Link](https://scan.coredao.org/address/0xBda8a8423B7F02Cd935412FB9F13CB88f7875991) |
+| `FuroVestingRouter` | `0x544bA588efD839d2692Fc31EA991cD39993c135F` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroVestingRouter.sol) | [Link](https://scan.coredao.org/address/0x544bA588efD839d2692Fc31EA991cD39993c135F) |
+
+</TabItem>
+
 <TabItem value='ethereum' label='Ethereum' default>
 
 ### Ethereum
@@ -145,6 +156,17 @@ Below is a list of all Furo Streaming related contracts.
 | :-- | :-- | :-- | :-- |
 | `FuroVesting` | `0x0689640d190b10765f09310fCfE9C670eDe4E25B` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroVesting.sol) | [Link](https://polygonscan.com/address/0x0689640d190b10765f09310fCfE9C670eDe4E25B) |
 | `FuroVestingRouter` | `0x312A8E33d78d3Ab79E62971E86e5e8c9c5E28D64` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroVestingRouter.sol) | [Link](https://polygonscan.com/address/0x312A8E33d78d3Ab79E62971E86e5e8c9c5E28D64) |
+
+</TabItem>
+
+<TabItem value='thundercore' label='Thundercore' default>
+
+### Thundercore
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `FuroVesting` | `0xBda8a8423B7F02Cd935412FB9F13CB88f7875991` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroVesting.sol) | [Link](https://explorer-mainnet.thundercore.com/address/0xBda8a8423B7F02Cd935412FB9F13CB88f7875991) |
+| `FuroVestingRouter` | `0x039e87AB90205F9d87c5b40d4B28e2Be45dA4a20` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroVestingRouter.sol) | [Link](https://explorer-mainnet.thundercore.com/address/0x039e87AB90205F9d87c5b40d4B28e2Be45dA4a20) |
 
 </TabItem>
 
