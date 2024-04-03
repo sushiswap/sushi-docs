@@ -115,6 +115,17 @@ Below is a list of all Furo Streaming related contracts.
 
 </TabItem>
 
+<TabItem value='haqq' label='Haqq' default>
+
+### Haqq
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `FuroVesting` | `0x1400feFD6F9b897970f00Df6237Ff2B8b27Dc82C` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroVesting.sol) | [Link](https://explorer.haqq.network/address/0x1400feFD6F9b897970f00Df6237Ff2B8b27Dc82C) |
+| `FuroVestingRouter` | `0x1f2FCf1d036b375b384012e61D3AA33F8C256bbE` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroVestingRouter.sol) | [Link](https://explorer.haqq.network/address/0x1f2FCf1d036b375b384012e61D3AA33F8C256bbE) |
+
+</TabItem>
+
 <TabItem value='moonbeam' label='MoonBeam' default>
 
 ### MoonBeam

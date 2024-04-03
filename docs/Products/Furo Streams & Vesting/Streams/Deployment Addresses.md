@@ -115,6 +115,17 @@ Below is a list of all Furo Streaming related contracts.
 
 </TabItem>
 
+<TabItem value='haqq' label='Haqq' default>
+
+### Haqq
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `FuroStream` | `0x57bfFa72db682f7eb6C132DAE03FF36bBEB0c459` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/base/FuroStream.sol) | [Link](https://explorer.haqq.network/address/0x57bfFa72db682f7eb6C132DAE03FF36bBEB0c459) |
+| `FuroStreamRouter` | `0xe43ca1Dee3F0fc1e2df73A0745674545F11A59F5` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/furo/contracts/FuroStreamRouter.sol) | [Link](https://explorer.haqq.network/address/0xe43ca1Dee3F0fc1e2df73A0745674545F11A59F5) |
+
+</TabItem>
+
 <TabItem value='moonbeam' label='MoonBeam' default>
 
 ### MoonBeam
