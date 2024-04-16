@@ -241,7 +241,7 @@ Below is a list of all Route Processor related contracts deployed.
 
 | Name | Address | Source Code | Explorer |
 | :-- | :-- | :-- | :-- |
-| `RouteProcessor4` | `0x640129e6b5C31B3b12640A5b39FECdCa9F81C640` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://explorer.zetachain.com/address/0x640129e6b5C31B3b12640A5b39FECdCa9F81C640) |
+| `RouteProcessor4` | `0x640129e6b5C31B3b12640A5b39FECdCa9F81C640` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://zetachain.blockscout.com/address/0x640129e6b5C31B3b12640A5b39FECdCa9F81C640) |
 
 </TabItem>
 
