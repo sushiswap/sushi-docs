@@ -145,6 +145,17 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='haqq' label='Haqq' default>
+
+### Haqq
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0xc3Ec4e1511c6935ed2F92b9A61881a1B95bB1566` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://explorer.haqq.network/address/0xc3Ec4e1511c6935ed2F92b9A61881a1B95bB1566) |
+
+</TabItem>
+
+
 <TabItem value='moonbeam' label='MoonBeam' default>
 
 ### MoonBeam
