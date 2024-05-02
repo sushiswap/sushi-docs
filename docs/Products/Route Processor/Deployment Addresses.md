@@ -224,6 +224,16 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='skale-europa' label='Skale Europa' default>
+
+### Skale Europa
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0xbA61F775730C0a3E3361717195ee86785ee33055` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://elated-tan-skat.explorer.mainnet.skalenodes.com/address/0xbA61F775730C0a3E3361717195ee86785ee33055) |
+
+</TabItem>
+
 <TabItem value='thundercore' label='ThunderCore' default>
 
 ### ThunderCore
