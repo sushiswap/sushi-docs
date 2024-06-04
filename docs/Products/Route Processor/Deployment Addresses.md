@@ -214,6 +214,16 @@ Below is a list of all Route Processor related contracts deployed.
 
 </TabItem>
 
+<TabItem value='rootstock' label='Rootstock' default>
+
+### Rootstock
+
+| Name | Address | Source Code | Explorer |
+| :-- | :-- | :-- | :-- |
+| `RouteProcessor4` | `0xb46e319390De313B8cc95EA5aa30C7bBFD79Da94` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://rootstock.blockscout.com/address/0xb46e319390De313B8cc95EA5aa30C7bBFD79Da94) |
+
+</TabItem>
+
 <TabItem value='scroll' label='Scroll' default>
 
 ### Scroll
