@@ -58,7 +58,7 @@ On some chains, Sushi tokens are considered insolvent due to the bridges that th
 
 </TabItem>
 
-<TabItem value='bsc' label='Bsc' default>
+<TabItem value='bsc' label='BSC' default>
 
 ### Binance Smart Chain
 
@@ -68,7 +68,7 @@ On some chains, Sushi tokens are considered insolvent due to the bridges that th
 
 </TabItem>
 
-<TabItem value='bsc' label='Bsc' default>
+<TabItem value='bttc' label='BitTorrentChain' default>
 
 ### BitTorrent Chain
 
