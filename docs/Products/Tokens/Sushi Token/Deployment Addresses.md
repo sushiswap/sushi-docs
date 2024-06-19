@@ -16,6 +16,8 @@ On some chains, Sushi tokens are considered insolvent due to the bridges that th
 | :-- | :-- | :-- | :-- |
 | `SushiToken (SUSHI)` | `0x6B3595068778DD592e39A122f4f5a5cF09C90fE2` | [Code](https://github.com/sushiswap/sushiswap/blob/archieve/master/contracts/SushiToken.sol) | [Link](https://etherscan.io/token/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2) |
 
+</TabItem>
+
 <TabItem value='nova' label='Arbitrum Nova' default>
 
 ### Arbitrum Nova
