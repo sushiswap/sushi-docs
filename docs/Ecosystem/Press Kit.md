@@ -2,13 +2,12 @@
 
 The SushiSwap press kit contains all of the assets used across our UI, including but not limited to:
 
--   SushiSwap primary logos + logotypes
--   Main site illustrations
--   Logo GIFs
--   Onsen assets
+-  SushiSwap primary logos + logotypes
+-  Main site illustrations
+-  Onsen assets
+-  Font
+-  Color Palettes
 
-...and so much more!
+The linked Notion page below contains links to zipped versions of all of the assets, denominated in separate folders by the format they are in, allowing you to pick and choose which assets you need for added flexibility.
 
-The linked folder below contains zipped versions of all of the assets, denominated in separate folders by the service they belong to, allowing you to pick and choose which assets you need for added flexibility.
-
-[SushiSwap Press Kit Download](https://drive.google.com/drive/folders/1MOCy3IOtLKQD39ox0mgeLsuEhckCg_Tm)
+[SushiSwap Press Kit Download](https://sushiswap.notion.site/Sushi-2-0-Media-Kit-da7d46dec1bc461e82f1efe47e3efd97)
