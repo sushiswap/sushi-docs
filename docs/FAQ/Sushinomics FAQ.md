@@ -1,35 +1,32 @@
 ---
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 # Sushinomics FAQ
 
 ### What is $SUSHI's hard cap?
 
-250 million $SUSHI, to be reached in November 2023.
+Current max on supply is 277M.
 
-### What's the current block reward?
+The inital minting of 250 million $SUSHI which was reached in November 2023. A [DAO vote authorized a minting of 25M tokens](https://snapshot.org/#/sushigov.eth/proposal/0x526c07c7c4631bc2f8844a1b7ff23156e192767563b016408f9066a1188bf004) towards SushiLabs with an additional 2M towards the Treasury for Sushi DAO.
 
-You can view our projected emissions curve and supply totals here:
+### What were metrics for the initial distribution of Sushi tokens?
 
+Below is a graph showing historical Sushi emissions over time:
 <img src='/img/faqimg/nomics1.png' alt="" width="75%" />
 
-### I see different APY/APR % on other sites. What's accurate?
+### How much Sushi went to the development fund?
 
-The most accurate source for yield percentage is currently our main website [sushi.com](https://www.sushi.com/). The APY displayed does not include fees you earn as a liquidity provider (0.25% of trade fees in the pool you supply liquidity to). We are working to ensure the numbers displayed are consistent everywhere.
-
-### How much goes to the dev fund?
-
-10% of $SUSHI / block
+10% of $SUSHI / block mintedd
 
 ### Where can I check the dev fund balance?
 
 [https://etherscan.io/address/0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3](https://etherscan.io/address/0xe94b5eec1fa96ceecbd33ef5baa8d00e4493f4f3)
 
-### What is the fee breakdown?
+### What is the fee breakdown for liquidity provision?
 
-0.25% for LPs + 0.05% for xSUSHI. (Note: Until Dec 2023, xSushi fees are directed to treasury as per the passed [Kanpai 2.0 proposal](https://snapshot.org/#/sushigov.eth/proposal/0x64c5c6cdb74a1ebafe8e808ba69bd51ff70938b7db791ca8a05b37736541d147))
+0.25% for LPs + 0.05% for xSUSHI
 
-### When will the $SUSHI rewards end?
+### Is there a way to farm Sushi tokens currently?
 
-The 250M cap will be reached in November 2023.
+Sushi tokens are currently not being distributed or minted as farming rewards for liquidity provisioon. You can still farm Sushi tokens by swapping for them and staking them into [xSushi](https://sushi.com/stake).

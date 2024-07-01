@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# SushiToken (xSushi)
+# SushiToken (Sushi)
 
 The SushiToken contract implements all the ERC20 token functions. Governance is also baked into the token. ** Though there is a known vulnerability related to vote delegation, and it is advised not to use the governance in production / on-chain. **
 
