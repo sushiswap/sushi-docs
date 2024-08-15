@@ -36,9 +36,9 @@ Below is a list of all SushiXSwap related contracts.
 
 | Name | Address | Source Code | Explorer |
 | :-- | :-- | :-- | :-- |
-| `SushiXSwapV2` | `0x804b526e5bf4349819fe2db65349d0825870f8ee` | [Code](https://github.com/sushiswap/sushixswap-v2/blob/master/src/SushiXSwapV2.sol) | [Link](0x804b526e5bf4349819fe2db65349d0825870f8ee) |
-| `StargateAdapter` | `0xD408a20f1213286fB3158a2bfBf5bFfAca8bF269` | [Code](https://github.com/sushiswap/sushixswap-v2/blob/master/src/adapters/StargateAdapter.sol) | [Link](0xD408a20f1213286fB3158a2bfBf5bFfAca8bF269) |
-| `SquidAdapter` | `0xFF51a7C624Eb866917102707F3dA8bFb99Db8692` | [Code](https://github.com/sushiswap/sushixswap-v2/blob/master/src/adapters/SquidAdapter.sol) | [Link](0xFF51a7C624Eb866917102707F3dA8bFb99Db8692) |
+| `SushiXSwapV2` | `0x804b526e5bf4349819fe2db65349d0825870f8ee` | [Code](https://github.com/sushiswap/sushixswap-v2/blob/master/src/SushiXSwapV2.sol) | [Link](https://basescan.org/address/0x804b526e5bf4349819fe2db65349d0825870f8ee) |
+| `StargateAdapter` | `0xD408a20f1213286fB3158a2bfBf5bFfAca8bF269` | [Code](https://github.com/sushiswap/sushixswap-v2/blob/master/src/adapters/StargateAdapter.sol) | [Link](https://basescan.org/address/0xD408a20f1213286fB3158a2bfBf5bFfAca8bF269) |
+| `SquidAdapter` | `0xFF51a7C624Eb866917102707F3dA8bFb99Db8692` | [Code](https://github.com/sushiswap/sushixswap-v2/blob/master/src/adapters/SquidAdapter.sol) | [Link](https://basescan.org/address/0xFF51a7C624Eb866917102707F3dA8bFb99Db8692) |
 
 
 </TabItem>
