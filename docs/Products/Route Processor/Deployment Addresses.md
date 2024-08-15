@@ -15,7 +15,7 @@ Below is a list of all Route Processor related contracts deployed.
 | `RouteProcessor` | `0xaB235da7f52d35fb4551AfBa11BFB56e18774A65` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor.sol) | [Link](https://nova.arbiscan.io/address/0xaB235da7f52d35fb4551AfBa11BFB56e18774A65) |
 | `RouteProcessor3` | `0x05689fCfeE31FCe4a67FbC7Cab13E74F80A4E288` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor3.sol) | [Link](https://nova.arbiscan.io/address/0x05689fCfeE31FCe4a67FbC7Cab13E74F80A4E288) |
 | `RouteProcessor4` | `0xCdBCd51a5E8728E0AF4895ce5771b7d17fF71959` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://nova.arbiscan.io/address/0xCdBCd51a5E8728E0AF4895ce5771b7d17fF71959) |
-| `RouteProcessor5` | `0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor5.sol) | [Link](https://nova.arbiscan.io/address/0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55)) |
+| `RouteProcessor5` | `0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor5.sol) | [Link](https://nova.arbiscan.io/address/0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55) |
 
 </TabItem>
 
@@ -52,7 +52,7 @@ Below is a list of all Route Processor related contracts deployed.
 | Name | Address | Source Code | Explorer |
 | :-- | :-- | :-- | :-- |
 | `RouteProcessor4` | `0x0389879e0156033202c44bf784ac18fc02edee4f` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor4.sol) | [Link](https://basescan.org/address/0x0389879e0156033202c44bf784ac18fc02edee4f) |
-| `RouteProcessor5` | `0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor5.sol) | [Link](ttps://basescan.org/address/0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55) |
+| `RouteProcessor5` | `0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55` | [Code](https://github.com/sushiswap/sushiswap/blob/master/protocols/route-processor/contracts/RouteProcessor5.sol) | [Link](https://basescan.org/address/0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55) |
 
 </TabItem>
 
